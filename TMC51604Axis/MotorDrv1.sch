@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L 2019-09-25_19-26-57:TMC5160-TA U?
+L TMC51604Axis-rescue:TMC5160-TA-2019-09-25_19-26-57 U?
 U 1 1 5D9A2E40
 P 5100 4450
 AR Path="/5D9A2E40" Ref="U?"  Part="1" 
@@ -52,7 +52,7 @@ AR Path="/5DD6E95D/5D9A2E4C" Ref="C?"  Part="1"
 AR Path="/5DD6E98C/5D9A2E4C" Ref="C?"  Part="1" 
 F 0 "C8" V 2550 3000 50  0000 C CNN
 F 1 "10uF" V 2800 3000 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2700 3000 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2700 3000 50  0001 C CNN
 F 3 "~" H 2700 3000 50  0001 C CNN
 	1    2700 3000
 	1    0    0    -1  
@@ -66,7 +66,7 @@ AR Path="/5DD6E95D/5D9A2E52" Ref="R?"  Part="1"
 AR Path="/5DD6E98C/5D9A2E52" Ref="R?"  Part="1" 
 F 0 "R6" H 3600 3250 50  0000 L CNN
 F 1 "2R2" H 3600 3350 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3550 3300 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3550 3300 50  0001 C CNN
 F 3 "~" H 3550 3300 50  0001 C CNN
 	1    3550 3300
 	1    0    0    -1  
@@ -80,7 +80,7 @@ AR Path="/5DD6E95D/5D9A2E5A" Ref="C?"  Part="1"
 AR Path="/5DD6E98C/5D9A2E5A" Ref="C?"  Part="1" 
 F 0 "C11" V 3050 3500 50  0000 C CNN
 F 1 "470n" V 2900 3400 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3000 3400 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3000 3400 50  0001 C CNN
 F 3 "~" H 3000 3400 50  0001 C CNN
 	1    3000 3400
 	0    1    1    0   
@@ -109,7 +109,7 @@ AR Path="/5DD6E95D/5D9A2E8A" Ref="C?"  Part="1"
 AR Path="/5DD6E98C/5D9A2E8A" Ref="C?"  Part="1" 
 F 0 "C5" V 6371 2750 50  0000 C CNN
 F 1 "470n" V 6462 2750 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6600 2750 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6600 2750 50  0001 C CNN
 F 3 "~" H 6600 2750 50  0001 C CNN
 	1    6600 2750
 	0    1    1    0   
@@ -123,7 +123,7 @@ AR Path="/5DD6E95D/5D9A2E90" Ref="C?"  Part="1"
 AR Path="/5DD6E98C/5D9A2E90" Ref="C?"  Part="1" 
 F 0 "C2" V 4321 2350 50  0000 C CNN
 F 1 "22n/100v" V 4412 2350 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4550 2350 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4550 2350 50  0001 C CNN
 F 3 "~" H 4550 2350 50  0001 C CNN
 	1    4550 2350
 	0    1    1    0   
@@ -153,7 +153,7 @@ AR Path="/5DD6E95D/5D9A2EA1" Ref="C?"  Part="1"
 AR Path="/5DD6E98C/5D9A2EA1" Ref="C?"  Part="1" 
 F 0 "C4" V 5650 2200 50  0000 L CNN
 F 1 "220n" V 5550 2100 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5500 2350 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5500 2350 50  0001 C CNN
 F 3 "~" H 5500 2350 50  0001 C CNN
 	1    5500 2350
 	0    -1   -1   0   
@@ -182,7 +182,7 @@ AR Path="/5DD6E95D/5D9A2ED0" Ref="R?"  Part="1"
 AR Path="/5DD6E98C/5D9A2ED0" Ref="R?"  Part="1" 
 F 0 "R9" V 8750 4200 50  0000 C CNN
 F 1 "47R" V 8850 4200 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8780 4200 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 8780 4200 50  0001 C CNN
 F 3 "~" H 8850 4200 50  0001 C CNN
 	1    8850 4200
 	0    1    1    0   
@@ -197,7 +197,7 @@ AR Path="/5DD6E95D/5D9A2ED6" Ref="R?"  Part="1"
 AR Path="/5DD6E98C/5D9A2ED6" Ref="R?"  Part="1" 
 F 0 "R11" V 8950 4500 50  0000 C CNN
 F 1 "47R" V 8850 4500 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8780 4500 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 8780 4500 50  0001 C CNN
 F 3 "~" H 8850 4500 50  0001 C CNN
 	1    8850 4500
 	0    1    1    0   
@@ -219,7 +219,7 @@ AR Path="/5DD6E95D/5D9AE531" Ref="R?"  Part="1"
 AR Path="/5DD6E98C/5D9AE531" Ref="R?"  Part="1" 
 F 0 "R3" V 9850 3400 50  0000 C CNN
 F 1 "12R" V 9750 3400 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9750 3400 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9750 3400 50  0001 C CNN
 F 3 "~" H 9750 3400 50  0001 C CNN
 	1    9750 3400
 	0    -1   -1   0   
@@ -236,7 +236,7 @@ AR Path="/5DD6E95D/5D9A2EB2" Ref="C?"  Part="1"
 AR Path="/5DD6E98C/5D9A2EB2" Ref="C?"  Part="1" 
 F 0 "C9" V 6371 3050 50  0000 C CNN
 F 1 "470n" V 6462 3050 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6600 3050 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6600 3050 50  0001 C CNN
 F 3 "~" H 6600 3050 50  0001 C CNN
 	1    6600 3050
 	0    1    1    0   
@@ -306,7 +306,7 @@ AR Path="/5DD6E95D/5D9EA5CF" Ref="R?"  Part="1"
 AR Path="/5DD6E98C/5D9EA5CF" Ref="R?"  Part="1" 
 F 0 "R10" V 9100 4250 50  0000 L CNN
 F 1 "0R1" V 9200 4250 50  0000 L CNN
-F 2 "Resistor_SMD:R_2512_6332Metric_Pad1.52x3.35mm_HandSolder" V 9130 4350 50  0001 C CNN
+F 2 "Resistor_SMD:R_2512_6332Metric" V 9130 4350 50  0001 C CNN
 F 3 "~" H 9200 4350 50  0001 C CNN
 	1    9200 4350
 	1    0    0    -1  
@@ -336,7 +336,7 @@ AR Path="/5DD6E95D/5D9A73AF" Ref="C?"  Part="1"
 AR Path="/5DD6E98C/5D9A73AF" Ref="C?"  Part="1" 
 F 0 "C6" H 10365 3346 50  0000 L CNN
 F 1 "470n/100V" H 10365 3255 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 10288 3150 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 10288 3150 50  0001 C CNN
 F 3 "~" H 10250 3300 50  0001 C CNN
 	1    10250 3300
 	1    0    0    -1  
@@ -400,7 +400,7 @@ AR Path="/5DD6E95D/5DA80BF6" Ref="R?"  Part="1"
 AR Path="/5DD6E98C/5DA80BF6" Ref="R?"  Part="1" 
 F 0 "R5" V 9850 3850 50  0000 C CNN
 F 1 "12R" V 9750 3800 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9750 3800 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9750 3800 50  0001 C CNN
 F 3 "~" H 9750 3800 50  0001 C CNN
 	1    9750 3800
 	0    -1   -1   0   
@@ -414,7 +414,7 @@ AR Path="/5DD6E95D/5DA811E9" Ref="R?"  Part="1"
 AR Path="/5DD6E98C/5DA811E9" Ref="R?"  Part="1" 
 F 0 "R4" V 8750 3800 50  0000 C CNN
 F 1 "12R" V 8650 3800 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8650 3800 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8650 3800 50  0001 C CNN
 F 3 "~" H 8650 3800 50  0001 C CNN
 	1    8650 3800
 	0    -1   -1   0   
@@ -428,7 +428,7 @@ AR Path="/5DD6E95D/5DA81DAD" Ref="R?"  Part="1"
 AR Path="/5DD6E98C/5DA81DAD" Ref="R?"  Part="1" 
 F 0 "R2" V 8750 3400 50  0000 C CNN
 F 1 "12R" V 8650 3400 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8650 3400 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8650 3400 50  0001 C CNN
 F 3 "~" H 8650 3400 50  0001 C CNN
 	1    8650 3400
 	0    -1   -1   0   
@@ -444,7 +444,7 @@ AR Path="/5DD6E95D/5DB7B572" Ref="C?"  Part="1"
 AR Path="/5DD6E98C/5DB7B572" Ref="C?"  Part="1" 
 F 0 "C15" H 13265 4146 50  0000 L CNN
 F 1 "1n/100V" V 13000 3950 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 13188 3950 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 13188 3950 50  0001 C CNN
 F 3 "~" H 13150 4100 50  0001 C CNN
 	1    13150 4100
 	1    0    0    -1  
@@ -458,7 +458,7 @@ AR Path="/5DD6E95D/5DB7BEC6" Ref="C?"  Part="1"
 AR Path="/5DD6E98C/5DB7BEC6" Ref="C?"  Part="1" 
 F 0 "C16" H 13665 4146 50  0000 L CNN
 F 1 "1n/100V" V 13400 3950 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 13588 3950 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 13588 3950 50  0001 C CNN
 F 3 "~" H 13550 4100 50  0001 C CNN
 	1    13550 4100
 	1    0    0    -1  
@@ -472,7 +472,7 @@ AR Path="/5DD6E95D/5DB81DDB" Ref="C?"  Part="1"
 AR Path="/5DD6E98C/5DB81DDB" Ref="C?"  Part="1" 
 F 0 "C17" H 14065 4146 50  0000 L CNN
 F 1 "1n/100V" V 13800 3950 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 13988 3950 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 13988 3950 50  0001 C CNN
 F 3 "~" H 13950 4100 50  0001 C CNN
 	1    13950 4100
 	1    0    0    -1  
@@ -486,7 +486,7 @@ AR Path="/5DD6E95D/5DB81DE1" Ref="C?"  Part="1"
 AR Path="/5DD6E98C/5DB81DE1" Ref="C?"  Part="1" 
 F 0 "C18" H 14465 4146 50  0000 L CNN
 F 1 "1n/100V" V 14200 3950 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 14388 3950 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 14388 3950 50  0001 C CNN
 F 3 "~" H 14350 4100 50  0001 C CNN
 	1    14350 4100
 	1    0    0    -1  
@@ -516,7 +516,7 @@ AR Path="/5DD6E95D/5DBAFC35" Ref="R?"  Part="1"
 AR Path="/5DD6E98C/5DBAFC35" Ref="R?"  Part="1" 
 F 0 "R7" V 6700 3350 50  0000 C CNN
 F 1 "0R" V 6600 3350 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6600 3350 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6600 3350 50  0001 C CNN
 F 3 "~" H 6600 3350 50  0001 C CNN
 	1    6600 3350
 	0    -1   -1   0   
@@ -530,7 +530,7 @@ AR Path="/5DD6E95D/5DBB0C87" Ref="R?"  Part="1"
 AR Path="/5DD6E98C/5DBB0C87" Ref="R?"  Part="1" 
 F 0 "R8" V 6500 3500 50  0000 C CNN
 F 1 "0R" V 6600 3500 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6600 3500 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6600 3500 50  0001 C CNN
 F 3 "~" H 6600 3500 50  0001 C CNN
 	1    6600 3500
 	0    -1   -1   0   
@@ -545,7 +545,7 @@ AR Path="/5DD6E95D/5DBDEE21" Ref="C?"  Part="1"
 AR Path="/5DD6E98C/5DBDEE21" Ref="C?"  Part="1" 
 F 0 "C13" V 8750 4350 50  0000 C CNN
 F 1 "2n2" V 8512 4350 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8650 4350 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 8650 4350 50  0001 C CNN
 F 3 "~" H 8650 4350 50  0001 C CNN
 	1    8650 4350
 	-1   0    0    1   
@@ -560,7 +560,7 @@ AR Path="/5DD6E95D/5DBF5220" Ref="C?"  Part="1"
 AR Path="/5DD6E98C/5DBF5220" Ref="C?"  Part="1" 
 F 0 "C14" V 9600 4350 50  0000 C CNN
 F 1 "100n" V 9362 4350 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9500 4350 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 9500 4350 50  0001 C CNN
 F 3 "~" H 9500 4350 50  0001 C CNN
 	1    9500 4350
 	-1   0    0    1   
@@ -582,7 +582,7 @@ AR Path="/5DD6E95D/5DCBAE75" Ref="R?"  Part="1"
 AR Path="/5DD6E98C/5DCBAE75" Ref="R?"  Part="1" 
 F 0 "R1" V 5500 2100 50  0000 C CNN
 F 1 "1R" V 5400 2100 50  0000 C CNN
-F 2 "Resistor_SMD:R_1210_3225Metric_Pad1.42x2.65mm_HandSolder" H 5400 2100 50  0001 C CNN
+F 2 "Resistor_SMD:R_1210_3225Metric" H 5400 2100 50  0001 C CNN
 F 3 "~" H 5400 2100 50  0001 C CNN
 	1    5400 2100
 	1    0    0    -1  
@@ -605,7 +605,7 @@ AR Path="/5DD6E95D/5DD2A5A5" Ref="C?"  Part="1"
 AR Path="/5DD6E98C/5DD2A5A5" Ref="C?"  Part="1" 
 F 0 "C19" V 6371 4600 50  0000 C CNN
 F 1 "470n" V 6462 4600 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6600 4600 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6600 4600 50  0001 C CNN
 F 3 "~" H 6600 4600 50  0001 C CNN
 	1    6600 4600
 	0    1    1    0   
@@ -620,7 +620,7 @@ AR Path="/5DD6E95D/5DD2A5AB" Ref="R?"  Part="1"
 AR Path="/5DD6E98C/5DD2A5AB" Ref="R?"  Part="1" 
 F 0 "R18" V 8700 6350 50  0000 C CNN
 F 1 "47R" V 8800 6350 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8730 6350 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 8730 6350 50  0001 C CNN
 F 3 "~" H 8800 6350 50  0001 C CNN
 	1    8800 6350
 	0    1    1    0   
@@ -635,7 +635,7 @@ AR Path="/5DD6E95D/5DD2A5B1" Ref="R?"  Part="1"
 AR Path="/5DD6E98C/5DD2A5B1" Ref="R?"  Part="1" 
 F 0 "R20" V 8900 6650 50  0000 C CNN
 F 1 "47R" V 8800 6650 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8730 6650 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 8730 6650 50  0001 C CNN
 F 3 "~" H 8800 6650 50  0001 C CNN
 	1    8800 6650
 	0    1    1    0   
@@ -643,18 +643,18 @@ $EndComp
 $Comp
 L Device:R_Small R13
 U 1 1 5DD2A5B7
-P 9700 5550
+P 9700 5400
 AR Path="/5D9949FC/5DD2A5B7" Ref="R13"  Part="1" 
 AR Path="/5DD6E95D/5DD2A5B7" Ref="R?"  Part="1" 
 AR Path="/5DD6E98C/5DD2A5B7" Ref="R?"  Part="1" 
-F 0 "R13" V 9800 5550 50  0000 C CNN
-F 1 "12R" V 9700 5550 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9700 5550 50  0001 C CNN
-F 3 "~" H 9700 5550 50  0001 C CNN
-	1    9700 5550
+F 0 "R13" V 9800 5400 50  0000 C CNN
+F 1 "12R" V 9700 5400 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9700 5400 50  0001 C CNN
+F 3 "~" H 9700 5400 50  0001 C CNN
+	1    9700 5400
 	0    -1   -1   0   
 $EndComp
-Text GLabel 9150 5150 2    50   Input ~ 0
+Text GLabel 9150 5000 2    50   Input ~ 0
 +VMotor
 $Comp
 L Device:C_Small C?
@@ -666,7 +666,7 @@ AR Path="/5DD6E95D/5DD2A5BF" Ref="C?"  Part="1"
 AR Path="/5DD6E98C/5DD2A5BF" Ref="C?"  Part="1" 
 F 0 "C22" V 6371 4900 50  0000 C CNN
 F 1 "470n" V 6462 4900 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6600 4900 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6600 4900 50  0001 C CNN
 F 3 "~" H 6600 4900 50  0001 C CNN
 	1    6600 4900
 	0    1    1    0   
@@ -674,26 +674,26 @@ $EndComp
 $Comp
 L power:GND #PWR0111
 U 1 1 5DD2A5CD
-P 11000 5700
+P 11000 5550
 AR Path="/5D9949FC/5DD2A5CD" Ref="#PWR0111"  Part="1" 
 AR Path="/5DD6E95D/5DD2A5CD" Ref="#PWR?"  Part="1" 
 AR Path="/5DD6E98C/5DD2A5CD" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0111" H 11000 5450 50  0001 C CNN
-F 1 "GND" H 11005 5527 50  0000 C CNN
-F 2 "" H 11000 5700 50  0001 C CNN
-F 3 "" H 11000 5700 50  0001 C CNN
-	1    11000 5700
+F 0 "#PWR0111" H 11000 5300 50  0001 C CNN
+F 1 "GND" H 11005 5377 50  0000 C CNN
+F 2 "" H 11000 5550 50  0001 C CNN
+F 3 "" H 11000 5550 50  0001 C CNN
+	1    11000 5550
 	1    0    0    -1  
 $EndComp
-Text Label 8300 5550 0    50   ~ 0
+Text Label 8300 5400 0    50   ~ 0
 HA1
 Text Label 6450 5050 2    50   ~ 0
 HA1
-Text Label 10000 5550 2    50   ~ 0
+Text Label 10000 5400 2    50   ~ 0
 HA2
 Text Label 7350 5350 2    50   ~ 0
 BMA2
-Text Label 8550 5750 0    50   ~ 0
+Text Label 8550 5600 0    50   ~ 0
 StepperC
 $Comp
 L Device:R R19
@@ -704,39 +704,39 @@ AR Path="/5DD6E95D/5DD2A5DD" Ref="R?"  Part="1"
 AR Path="/5DD6E98C/5DD2A5DD" Ref="R?"  Part="1" 
 F 0 "R19" V 9050 6400 50  0000 L CNN
 F 1 "0R1" V 9150 6400 50  0000 L CNN
-F 2 "Resistor_SMD:R_2512_6332Metric_Pad1.52x3.35mm_HandSolder" V 9080 6500 50  0001 C CNN
+F 2 "Resistor_SMD:R_2512_6332Metric" V 9080 6500 50  0001 C CNN
 F 3 "~" H 9150 6500 50  0001 C CNN
 	1    9150 6500
 	1    0    0    -1  
 $EndComp
-Text Label 9750 5750 2    50   ~ 0
+Text Label 9750 5600 2    50   ~ 0
 StepperD
 $Comp
 L power:GND #PWR0112
 U 1 1 5DD2A5E6
-P 10250 5700
+P 10250 5550
 AR Path="/5D9949FC/5DD2A5E6" Ref="#PWR0112"  Part="1" 
 AR Path="/5DD6E95D/5DD2A5E6" Ref="#PWR?"  Part="1" 
 AR Path="/5DD6E98C/5DD2A5E6" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0112" H 10250 5450 50  0001 C CNN
-F 1 "GND" H 10255 5527 50  0000 C CNN
-F 2 "" H 10250 5700 50  0001 C CNN
-F 3 "" H 10250 5700 50  0001 C CNN
-	1    10250 5700
+F 0 "#PWR0112" H 10250 5300 50  0001 C CNN
+F 1 "GND" H 10255 5377 50  0000 C CNN
+F 2 "" H 10250 5550 50  0001 C CNN
+F 3 "" H 10250 5550 50  0001 C CNN
+	1    10250 5550
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C20
 U 1 1 5DD2A5EC
-P 10250 5550
+P 10250 5400
 AR Path="/5D9949FC/5DD2A5EC" Ref="C20"  Part="1" 
 AR Path="/5DD6E95D/5DD2A5EC" Ref="C?"  Part="1" 
 AR Path="/5DD6E98C/5DD2A5EC" Ref="C?"  Part="1" 
-F 0 "C20" H 10365 5596 50  0000 L CNN
-F 1 "470n/100V" H 10365 5505 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 10288 5400 50  0001 C CNN
-F 3 "~" H 10250 5550 50  0001 C CNN
-	1    10250 5550
+F 0 "C20" H 10365 5446 50  0000 L CNN
+F 1 "470n/100V" H 10365 5355 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 10288 5250 50  0001 C CNN
+F 3 "~" H 10250 5400 50  0001 C CNN
+	1    10250 5400
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -757,53 +757,53 @@ Text Label 6450 5500 2    50   ~ 0
 LA1
 Text Label 6450 5650 2    50   ~ 0
 LA2
-Text Label 8300 5950 0    50   ~ 0
+Text Label 8300 5800 0    50   ~ 0
 LA1
-Text Label 10000 5950 2    50   ~ 0
+Text Label 10000 5800 2    50   ~ 0
 LA2
 $Comp
 L Device:R_Small R15
 U 1 1 5DD2A612
-P 9700 5950
+P 9700 5800
 AR Path="/5D9949FC/5DD2A612" Ref="R15"  Part="1" 
 AR Path="/5DD6E95D/5DD2A612" Ref="R?"  Part="1" 
 AR Path="/5DD6E98C/5DD2A612" Ref="R?"  Part="1" 
-F 0 "R15" V 9800 6000 50  0000 C CNN
-F 1 "12R" V 9700 5950 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9700 5950 50  0001 C CNN
-F 3 "~" H 9700 5950 50  0001 C CNN
-	1    9700 5950
+F 0 "R15" V 9800 5850 50  0000 C CNN
+F 1 "12R" V 9700 5800 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9700 5800 50  0001 C CNN
+F 3 "~" H 9700 5800 50  0001 C CNN
+	1    9700 5800
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:R_Small R14
 U 1 1 5DD2A618
-P 8600 5950
+P 8600 5800
 AR Path="/5D9949FC/5DD2A618" Ref="R14"  Part="1" 
 AR Path="/5DD6E95D/5DD2A618" Ref="R?"  Part="1" 
 AR Path="/5DD6E98C/5DD2A618" Ref="R?"  Part="1" 
-F 0 "R14" V 8700 5950 50  0000 C CNN
-F 1 "12R" V 8600 5950 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8600 5950 50  0001 C CNN
-F 3 "~" H 8600 5950 50  0001 C CNN
-	1    8600 5950
+F 0 "R14" V 8700 5800 50  0000 C CNN
+F 1 "12R" V 8600 5800 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8600 5800 50  0001 C CNN
+F 3 "~" H 8600 5800 50  0001 C CNN
+	1    8600 5800
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:R_Small R12
 U 1 1 5DD2A61E
-P 8600 5550
+P 8600 5400
 AR Path="/5D9949FC/5DD2A61E" Ref="R12"  Part="1" 
 AR Path="/5DD6E95D/5DD2A61E" Ref="R?"  Part="1" 
 AR Path="/5DD6E98C/5DD2A61E" Ref="R?"  Part="1" 
-F 0 "R12" V 8700 5550 50  0000 C CNN
-F 1 "12R" V 8600 5550 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8600 5550 50  0001 C CNN
-F 3 "~" H 8600 5550 50  0001 C CNN
-	1    8600 5550
+F 0 "R12" V 8700 5400 50  0000 C CNN
+F 1 "12R" V 8600 5400 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8600 5400 50  0001 C CNN
+F 3 "~" H 8600 5400 50  0001 C CNN
+	1    8600 5400
 	0    -1   -1   0   
 $EndComp
-Text Label 10000 5750 2    50   ~ 0
+Text Label 10000 5600 2    50   ~ 0
 BMA2
 $Comp
 L Device:R_Small R16
@@ -814,7 +814,7 @@ AR Path="/5DD6E95D/5DD2A631" Ref="R?"  Part="1"
 AR Path="/5DD6E98C/5DD2A631" Ref="R?"  Part="1" 
 F 0 "R16" V 6700 5200 50  0000 C CNN
 F 1 "0R" V 6600 5200 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6600 5200 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6600 5200 50  0001 C CNN
 F 3 "~" H 6600 5200 50  0001 C CNN
 	1    6600 5200
 	0    -1   -1   0   
@@ -828,7 +828,7 @@ AR Path="/5DD6E95D/5DD2A637" Ref="R?"  Part="1"
 AR Path="/5DD6E98C/5DD2A637" Ref="R?"  Part="1" 
 F 0 "R17" V 6500 5350 50  0000 C CNN
 F 1 "0R" V 6600 5350 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6600 5350 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6600 5350 50  0001 C CNN
 F 3 "~" H 6600 5350 50  0001 C CNN
 	1    6600 5350
 	0    -1   -1   0   
@@ -857,7 +857,7 @@ AR Path="/5DD6E95D/5DD2A655" Ref="C?"  Part="1"
 AR Path="/5DD6E98C/5DD2A655" Ref="C?"  Part="1" 
 F 0 "C23" V 8700 6500 50  0000 C CNN
 F 1 "2n2" V 8462 6500 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8600 6500 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 8600 6500 50  0001 C CNN
 F 3 "~" H 8600 6500 50  0001 C CNN
 	1    8600 6500
 	-1   0    0    1   
@@ -872,16 +872,16 @@ AR Path="/5DD6E95D/5DD2A663" Ref="C?"  Part="1"
 AR Path="/5DD6E98C/5DD2A663" Ref="C?"  Part="1" 
 F 0 "C24" V 9550 6500 50  0000 C CNN
 F 1 "100n" V 9312 6500 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9450 6500 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 9450 6500 50  0001 C CNN
 F 3 "~" H 9450 6500 50  0001 C CNN
 	1    9450 6500
 	-1   0    0    1   
 $EndComp
-Text Label 8300 5750 0    50   ~ 0
+Text Label 8300 5600 0    50   ~ 0
 BMA1
 Text Label 7150 5200 0    50   ~ 0
 BMA1
-Text GLabel 10500 5350 1    50   Input ~ 0
+Text GLabel 10500 5200 1    50   Input ~ 0
 +VMotor
 Text Label 6450 4750 2    50   ~ 0
 HA2
@@ -896,7 +896,7 @@ AR Path="/5DD6E95D/5DD81983" Ref="C?"  Part="1"
 AR Path="/5DD6E98C/5DD81983" Ref="C?"  Part="1" 
 F 0 "C12" V 3250 3800 50  0000 C CNN
 F 1 "100n" V 3350 3750 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3450 3750 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3450 3750 50  0001 C CNN
 F 3 "~" H 3450 3750 50  0001 C CNN
 	1    3450 3750
 	-1   0    0    1   
@@ -924,7 +924,7 @@ AR Path="/5DD6E95D/5DE1C6A1" Ref="C?"  Part="1"
 AR Path="/5DD6E98C/5DE1C6A1" Ref="C?"  Part="1" 
 F 0 "C10" V 3150 3200 50  0000 C CNN
 F 1 "2.2u" V 3400 3200 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3300 3200 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3300 3200 50  0001 C CNN
 F 3 "~" H 3300 3200 50  0001 C CNN
 	1    3300 3200
 	0    1    1    0   
@@ -1308,7 +1308,7 @@ U 1 1 5DF016F3
 P 2950 5900
 F 0 "R21" H 2892 5854 50  0000 R CNN
 F 1 "100K" H 2892 5945 50  0000 R CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2950 5900 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2950 5900 50  0001 C CNN
 F 3 "~" H 2950 5900 50  0001 C CNN
 	1    2950 5900
 	1    0    0    1   
@@ -1333,7 +1333,7 @@ U 1 1 5DF3F1E4
 P 2550 6500
 F 0 "R22" H 2492 6454 50  0000 R CNN
 F 1 "100K" H 2492 6545 50  0000 R CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2550 6500 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2550 6500 50  0001 C CNN
 F 3 "~" H 2550 6500 50  0001 C CNN
 	1    2550 6500
 	1    0    0    1   
@@ -1424,7 +1424,7 @@ U 1 1 5D9AF44B
 P 7550 5550
 F 0 "D10" H 7550 5775 50  0000 C CNN
 F 1 "ZHCS1006TA" H 7550 5684 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 7350 5950 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 7350 5950 50  0001 C CNN
 F 3 "http://192.168.0.101/api/part_attachments/635/getFile" H 7450 6050 50  0001 C CNN
 	1    7550 5550
 	0    1    1    0   
@@ -1447,8 +1447,6 @@ Wire Wire Line
 Wire Wire Line
 	6700 2750 6850 2750
 Wire Wire Line
-	9850 3400 10050 3400
-Wire Wire Line
 	6300 3500 6500 3500
 Wire Wire Line
 	6300 3350 6500 3350
@@ -1457,10 +1455,6 @@ Wire Wire Line
 Wire Wire Line
 	9000 4500 9200 4500
 Connection ~ 9200 4500
-Wire Wire Line
-	8550 3800 8350 3800
-Wire Wire Line
-	9850 3800 10050 3800
 Wire Wire Line
 	5200 6700 5200 6800
 Wire Wire Line
@@ -1499,19 +1493,11 @@ Wire Wire Line
 	9200 4100 9200 4200
 Connection ~ 9200 4200
 Wire Wire Line
-	9650 3400 9550 3400
-Wire Wire Line
 	6300 3650 6450 3650
 Wire Wire Line
 	6300 3800 6450 3800
 Wire Wire Line
 	6300 3200 6450 3200
-Wire Wire Line
-	9650 3800 9550 3800
-Wire Wire Line
-	8850 3800 8750 3800
-Wire Wire Line
-	8850 3400 8750 3400
 Connection ~ 5400 2350
 Wire Wire Line
 	5600 2400 5600 2350
@@ -1573,30 +1559,6 @@ Wire Wire Line
 Wire Wire Line
 	9500 4500 9200 4500
 Wire Wire Line
-	9650 3900 9650 3800
-Connection ~ 9650 3800
-Wire Wire Line
-	9850 3900 9850 3800
-Connection ~ 9850 3800
-Wire Wire Line
-	9850 3200 9850 3400
-Connection ~ 9850 3400
-Wire Wire Line
-	9650 3200 9650 3400
-Connection ~ 9650 3400
-Wire Wire Line
-	8750 3200 8750 3400
-Connection ~ 8750 3400
-Wire Wire Line
-	8550 3200 8550 3400
-Connection ~ 8550 3400
-Wire Wire Line
-	8750 3900 8750 3800
-Connection ~ 8750 3800
-Wire Wire Line
-	8550 3900 8550 3800
-Connection ~ 8550 3800
-Wire Wire Line
 	6850 2750 6850 3500
 Wire Wire Line
 	6850 3500 6700 3500
@@ -1631,10 +1593,6 @@ Wire Wire Line
 Wire Wire Line
 	6700 4600 6850 4600
 Wire Wire Line
-	8500 5550 8300 5550
-Wire Wire Line
-	9800 5550 10000 5550
-Wire Wire Line
 	6300 5350 6500 5350
 Wire Wire Line
 	6300 5200 6500 5200
@@ -1646,22 +1604,14 @@ Wire Wire Line
 	9150 6750 9150 6650
 Connection ~ 9150 6650
 Wire Wire Line
-	8500 5950 8300 5950
+	9250 5100 9150 5100
 Wire Wire Line
-	9800 5950 10000 5950
+	9150 5100 9150 5000
+Connection ~ 9150 5100
 Wire Wire Line
-	9250 5250 9150 5250
-Wire Wire Line
-	9150 5250 9150 5150
-Connection ~ 9150 5250
-Wire Wire Line
-	9150 5250 9050 5250
-Wire Wire Line
-	9250 6200 9250 6250
+	9150 5100 9050 5100
 Wire Wire Line
 	9250 6250 9150 6250
-Wire Wire Line
-	9000 6250 9000 6200
 Connection ~ 9150 6250
 Wire Wire Line
 	9150 6250 9000 6250
@@ -1669,19 +1619,11 @@ Wire Wire Line
 	9150 6250 9150 6350
 Connection ~ 9150 6350
 Wire Wire Line
-	9600 5550 9500 5550
-Wire Wire Line
 	6300 5500 6450 5500
 Wire Wire Line
 	6300 5650 6450 5650
 Wire Wire Line
 	6300 5050 6450 5050
-Wire Wire Line
-	9600 5950 9500 5950
-Wire Wire Line
-	8800 5950 8700 5950
-Wire Wire Line
-	8800 5550 8700 5550
 Wire Wire Line
 	6700 4900 6950 4900
 Wire Wire Line
@@ -1713,30 +1655,6 @@ Wire Wire Line
 Wire Wire Line
 	9450 6650 9150 6650
 Wire Wire Line
-	9600 6050 9600 5950
-Connection ~ 9600 5950
-Wire Wire Line
-	9800 6050 9800 5950
-Connection ~ 9800 5950
-Wire Wire Line
-	9800 5350 9800 5550
-Connection ~ 9800 5550
-Wire Wire Line
-	9600 5350 9600 5550
-Connection ~ 9600 5550
-Wire Wire Line
-	8700 5350 8700 5550
-Connection ~ 8700 5550
-Wire Wire Line
-	8500 5350 8500 5550
-Connection ~ 8500 5550
-Wire Wire Line
-	8700 6050 8700 5950
-Connection ~ 8700 5950
-Wire Wire Line
-	8500 6050 8500 5950
-Connection ~ 8500 5950
-Wire Wire Line
 	6850 4600 6850 5350
 Connection ~ 6850 5350
 Wire Wire Line
@@ -1746,16 +1664,16 @@ Wire Wire Line
 Wire Wire Line
 	6950 5200 7550 5200
 Wire Wire Line
-	9550 5750 10000 5750
+	9550 5600 10000 5600
 Wire Wire Line
-	8750 5750 8300 5750
+	8750 5600 8300 5600
 Wire Wire Line
-	11000 5400 10500 5400
+	11000 5250 10500 5250
 Wire Wire Line
-	10500 5350 10500 5400
-Connection ~ 10500 5400
+	10500 5200 10500 5250
+Connection ~ 10500 5250
 Wire Wire Line
-	10500 5400 10250 5400
+	10500 5250 10250 5250
 Wire Wire Line
 	3750 3200 3550 3200
 Wire Wire Line
@@ -1846,8 +1764,6 @@ Wire Wire Line
 Wire Wire Line
 	6650 6650 8600 6650
 Wire Wire Line
-	8550 3400 8350 3400
-Wire Wire Line
 	7500 3350 7500 3650
 Wire Wire Line
 	6950 3350 7500 3350
@@ -1876,7 +1792,7 @@ U 1 1 5DB47EEF
 P 7350 5550
 F 0 "D9" H 7350 5450 50  0000 C CNN
 F 1 "ZHCS1006TA" H 7450 5350 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 7150 5950 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 7150 5950 50  0001 C CNN
 F 3 "http://192.168.0.101/api/part_attachments/635/getFile" H 7250 6050 50  0001 C CNN
 	1    7350 5550
 	0    1    1    0   
@@ -1901,7 +1817,7 @@ U 1 1 5DB48BED
 P 7500 3750
 F 0 "D4" H 7500 3975 50  0000 C CNN
 F 1 "ZHCS1006TA" H 7500 3884 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 7300 4150 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 7300 4150 50  0001 C CNN
 F 3 "http://192.168.0.101/api/part_attachments/635/getFile" H 7400 4250 50  0001 C CNN
 	1    7500 3750
 	0    1    1    0   
@@ -1917,191 +1833,67 @@ U 1 1 5DB48BFA
 P 7300 3750
 F 0 "D3" H 7300 3650 50  0000 C CNN
 F 1 "ZHCS1006TA" H 7400 3550 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 7100 4150 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 7100 4150 50  0001 C CNN
 F 3 "http://192.168.0.101/api/part_attachments/635/getFile" H 7200 4250 50  0001 C CNN
 	1    7300 3750
 	0    1    1    0   
 $EndComp
 $Comp
-L dk_Diodes-Rectifiers-Single:BAT54 D6
-U 1 1 5D9AFD2B
-P 9750 3900
-F 0 "D6" H 9800 4100 60  0000 C CNN
-F 1 "BAT54" H 9750 4000 60  0000 C CNN
-F 2 "digikey-footprints:SOT-23-3" H 9950 4100 60  0001 L CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/ON%20Semiconductor%20PDFs/BAT54(A,C,S).pdf" H 9950 4200 60  0001 L CNN
-F 4 "BAT54FSCT-ND" H 9950 4300 60  0001 L CNN "Digi-Key_PN"
-F 5 "BAT54" H 9950 4400 60  0001 L CNN "MPN"
-F 6 "Discrete Semiconductor Products" H 9950 4500 60  0001 L CNN "Category"
-F 7 "Diodes - Rectifiers - Single" H 9950 4600 60  0001 L CNN "Family"
-F 8 "https://media.digikey.com/pdf/Data%20Sheets/ON%20Semiconductor%20PDFs/BAT54(A,C,S).pdf" H 9950 4700 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/on-semiconductor/BAT54/BAT54FSCT-ND/458928" H 9950 4800 60  0001 L CNN "DK_Detail_Page"
-F 10 "DIODE SCHOTTKY 30V 200MA SOT23-3" H 9950 4900 60  0001 L CNN "Description"
-F 11 "ON Semiconductor" H 9950 5000 60  0001 L CNN "Manufacturer"
-F 12 "Obsolete NonStock" H 9950 5100 60  0001 L CNN "Status"
-	1    9750 3900
-	-1   0    0    1   
-$EndComp
-$Comp
-L dk_Diodes-Rectifiers-Single:BAT54 D1
-U 1 1 5D9B6574
-P 8650 3200
-F 0 "D1" H 8600 3400 60  0000 C CNN
-F 1 "BAT54" H 8650 3300 60  0000 C CNN
-F 2 "digikey-footprints:SOT-23-3" H 8850 3400 60  0001 L CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/ON%20Semiconductor%20PDFs/BAT54(A,C,S).pdf" H 8850 3500 60  0001 L CNN
-F 4 "BAT54FSCT-ND" H 8850 3600 60  0001 L CNN "Digi-Key_PN"
-F 5 "BAT54" H 8850 3700 60  0001 L CNN "MPN"
-F 6 "Discrete Semiconductor Products" H 8850 3800 60  0001 L CNN "Category"
-F 7 "Diodes - Rectifiers - Single" H 8850 3900 60  0001 L CNN "Family"
-F 8 "https://media.digikey.com/pdf/Data%20Sheets/ON%20Semiconductor%20PDFs/BAT54(A,C,S).pdf" H 8850 4000 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/on-semiconductor/BAT54/BAT54FSCT-ND/458928" H 8850 4100 60  0001 L CNN "DK_Detail_Page"
-F 10 "DIODE SCHOTTKY 30V 200MA SOT23-3" H 8850 4200 60  0001 L CNN "Description"
-F 11 "ON Semiconductor" H 8850 4300 60  0001 L CNN "Manufacturer"
-F 12 "Obsolete NonStock" H 8850 4400 60  0001 L CNN "Status"
-	1    8650 3200
-	1    0    0    -1  
-$EndComp
-$Comp
-L dk_Diodes-Rectifiers-Single:BAT54 D2
-U 1 1 5D9B9ABB
-P 9750 3200
-F 0 "D2" H 9800 3000 60  0000 C CNN
-F 1 "BAT54" H 9750 3100 60  0000 C CNN
-F 2 "digikey-footprints:SOT-23-3" H 9950 3400 60  0001 L CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/ON%20Semiconductor%20PDFs/BAT54(A,C,S).pdf" H 9950 3500 60  0001 L CNN
-F 4 "BAT54FSCT-ND" H 9950 3600 60  0001 L CNN "Digi-Key_PN"
-F 5 "BAT54" H 9950 3700 60  0001 L CNN "MPN"
-F 6 "Discrete Semiconductor Products" H 9950 3800 60  0001 L CNN "Category"
-F 7 "Diodes - Rectifiers - Single" H 9950 3900 60  0001 L CNN "Family"
-F 8 "https://media.digikey.com/pdf/Data%20Sheets/ON%20Semiconductor%20PDFs/BAT54(A,C,S).pdf" H 9950 4000 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/on-semiconductor/BAT54/BAT54FSCT-ND/458928" H 9950 4100 60  0001 L CNN "DK_Detail_Page"
-F 10 "DIODE SCHOTTKY 30V 200MA SOT23-3" H 9950 4200 60  0001 L CNN "Description"
-F 11 "ON Semiconductor" H 9950 4300 60  0001 L CNN "Manufacturer"
-F 12 "Obsolete NonStock" H 9950 4400 60  0001 L CNN "Status"
-	1    9750 3200
-	-1   0    0    1   
-$EndComp
-$Comp
-L dk_Diodes-Rectifiers-Single:BAT54 D5
-U 1 1 5D9BFA10
-P 8650 3900
-F 0 "D5" H 8600 3700 60  0000 C CNN
-F 1 "BAT54" H 8650 3800 60  0000 C CNN
-F 2 "digikey-footprints:SOT-23-3" H 8850 4100 60  0001 L CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/ON%20Semiconductor%20PDFs/BAT54(A,C,S).pdf" H 8850 4200 60  0001 L CNN
-F 4 "BAT54FSCT-ND" H 8850 4300 60  0001 L CNN "Digi-Key_PN"
-F 5 "BAT54" H 8850 4400 60  0001 L CNN "MPN"
-F 6 "Discrete Semiconductor Products" H 8850 4500 60  0001 L CNN "Category"
-F 7 "Diodes - Rectifiers - Single" H 8850 4600 60  0001 L CNN "Family"
-F 8 "https://media.digikey.com/pdf/Data%20Sheets/ON%20Semiconductor%20PDFs/BAT54(A,C,S).pdf" H 8850 4700 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/on-semiconductor/BAT54/BAT54FSCT-ND/458928" H 8850 4800 60  0001 L CNN "DK_Detail_Page"
-F 10 "DIODE SCHOTTKY 30V 200MA SOT23-3" H 8850 4900 60  0001 L CNN "Description"
-F 11 "ON Semiconductor" H 8850 5000 60  0001 L CNN "Manufacturer"
-F 12 "Obsolete NonStock" H 8850 5100 60  0001 L CNN "Status"
-	1    8650 3900
-	1    0    0    -1  
-$EndComp
-$Comp
-L dk_Diodes-Rectifiers-Single:BAT54 D12
-U 1 1 5D9C19F3
-P 9700 6050
-F 0 "D12" H 9750 6250 60  0000 C CNN
-F 1 "BAT54" H 9700 6150 60  0000 C CNN
-F 2 "digikey-footprints:SOT-23-3" H 9900 6250 60  0001 L CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/ON%20Semiconductor%20PDFs/BAT54(A,C,S).pdf" H 9900 6350 60  0001 L CNN
-F 4 "BAT54FSCT-ND" H 9900 6450 60  0001 L CNN "Digi-Key_PN"
-F 5 "BAT54" H 9900 6550 60  0001 L CNN "MPN"
-F 6 "Discrete Semiconductor Products" H 9900 6650 60  0001 L CNN "Category"
-F 7 "Diodes - Rectifiers - Single" H 9900 6750 60  0001 L CNN "Family"
-F 8 "https://media.digikey.com/pdf/Data%20Sheets/ON%20Semiconductor%20PDFs/BAT54(A,C,S).pdf" H 9900 6850 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/on-semiconductor/BAT54/BAT54FSCT-ND/458928" H 9900 6950 60  0001 L CNN "DK_Detail_Page"
-F 10 "DIODE SCHOTTKY 30V 200MA SOT23-3" H 9900 7050 60  0001 L CNN "Description"
-F 11 "ON Semiconductor" H 9900 7150 60  0001 L CNN "Manufacturer"
-F 12 "Obsolete NonStock" H 9900 7250 60  0001 L CNN "Status"
-	1    9700 6050
-	-1   0    0    1   
-$EndComp
-$Comp
-L dk_Diodes-Rectifiers-Single:BAT54 D7
-U 1 1 5D9C6622
-P 8600 5350
-F 0 "D7" H 8650 5550 60  0000 C CNN
-F 1 "BAT54" H 8600 5450 60  0000 C CNN
-F 2 "digikey-footprints:SOT-23-3" H 8800 5550 60  0001 L CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/ON%20Semiconductor%20PDFs/BAT54(A,C,S).pdf" H 8800 5650 60  0001 L CNN
-F 4 "BAT54FSCT-ND" H 8800 5750 60  0001 L CNN "Digi-Key_PN"
-F 5 "BAT54" H 8800 5850 60  0001 L CNN "MPN"
-F 6 "Discrete Semiconductor Products" H 8800 5950 60  0001 L CNN "Category"
-F 7 "Diodes - Rectifiers - Single" H 8800 6050 60  0001 L CNN "Family"
-F 8 "https://media.digikey.com/pdf/Data%20Sheets/ON%20Semiconductor%20PDFs/BAT54(A,C,S).pdf" H 8800 6150 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/on-semiconductor/BAT54/BAT54FSCT-ND/458928" H 8800 6250 60  0001 L CNN "DK_Detail_Page"
-F 10 "DIODE SCHOTTKY 30V 200MA SOT23-3" H 8800 6350 60  0001 L CNN "Description"
-F 11 "ON Semiconductor" H 8800 6450 60  0001 L CNN "Manufacturer"
-F 12 "Obsolete NonStock" H 8800 6550 60  0001 L CNN "Status"
-	1    8600 5350
-	1    0    0    -1  
-$EndComp
-$Comp
-L dk_Diodes-Rectifiers-Single:BAT54 D11
-U 1 1 5D9C8665
-P 8600 6050
-F 0 "D11" H 8550 5850 60  0000 C CNN
-F 1 "BAT54" H 8600 5950 60  0000 C CNN
-F 2 "digikey-footprints:SOT-23-3" H 8800 6250 60  0001 L CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/ON%20Semiconductor%20PDFs/BAT54(A,C,S).pdf" H 8800 6350 60  0001 L CNN
-F 4 "BAT54FSCT-ND" H 8800 6450 60  0001 L CNN "Digi-Key_PN"
-F 5 "BAT54" H 8800 6550 60  0001 L CNN "MPN"
-F 6 "Discrete Semiconductor Products" H 8800 6650 60  0001 L CNN "Category"
-F 7 "Diodes - Rectifiers - Single" H 8800 6750 60  0001 L CNN "Family"
-F 8 "https://media.digikey.com/pdf/Data%20Sheets/ON%20Semiconductor%20PDFs/BAT54(A,C,S).pdf" H 8800 6850 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/on-semiconductor/BAT54/BAT54FSCT-ND/458928" H 8800 6950 60  0001 L CNN "DK_Detail_Page"
-F 10 "DIODE SCHOTTKY 30V 200MA SOT23-3" H 8800 7050 60  0001 L CNN "Description"
-F 11 "ON Semiconductor" H 8800 7150 60  0001 L CNN "Manufacturer"
-F 12 "Obsolete NonStock" H 8800 7250 60  0001 L CNN "Status"
-	1    8600 6050
-	1    0    0    -1  
-$EndComp
-$Comp
-L dk_Diodes-Rectifiers-Single:BAT54 D8
-U 1 1 5D9CA482
-P 9700 5350
-F 0 "D8" H 9650 5150 60  0000 C CNN
-F 1 "BAT54" H 9700 5250 60  0000 C CNN
-F 2 "digikey-footprints:SOT-23-3" H 9900 5550 60  0001 L CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/ON%20Semiconductor%20PDFs/BAT54(A,C,S).pdf" H 9900 5650 60  0001 L CNN
-F 4 "BAT54FSCT-ND" H 9900 5750 60  0001 L CNN "Digi-Key_PN"
-F 5 "BAT54" H 9900 5850 60  0001 L CNN "MPN"
-F 6 "Discrete Semiconductor Products" H 9900 5950 60  0001 L CNN "Category"
-F 7 "Diodes - Rectifiers - Single" H 9900 6050 60  0001 L CNN "Family"
-F 8 "https://media.digikey.com/pdf/Data%20Sheets/ON%20Semiconductor%20PDFs/BAT54(A,C,S).pdf" H 9900 6150 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/on-semiconductor/BAT54/BAT54FSCT-ND/458928" H 9900 6250 60  0001 L CNN "DK_Detail_Page"
-F 10 "DIODE SCHOTTKY 30V 200MA SOT23-3" H 9900 6350 60  0001 L CNN "Description"
-F 11 "ON Semiconductor" H 9900 6450 60  0001 L CNN "Manufacturer"
-F 12 "Obsolete NonStock" H 9900 6550 60  0001 L CNN "Status"
-	1    9700 5350
-	-1   0    0    1   
-$EndComp
-$Comp
 L Device:CP C21
 U 1 1 5D9D5DE0
-P 11000 5550
+P 11000 5400
 AR Path="/5D9949FC/5D9D5DE0" Ref="C21"  Part="1" 
 AR Path="/5DD6E95D/5D9D5DE0" Ref="C?"  Part="1" 
 AR Path="/5DD6E98C/5D9D5DE0" Ref="C?"  Part="1" 
-F 0 "C21" H 11118 5596 50  0000 L CNN
-F 1 "220uF/100V" H 11118 5505 50  0000 L CNN
-F 2 "Capacitor_THT:C_Radial_D16.0mm_H25.0mm_P7.50mm" H 11038 5400 50  0001 C CNN
-F 3 "~" H 11000 5550 50  0001 C CNN
-	1    11000 5550
+F 0 "C21" H 11118 5446 50  0000 L CNN
+F 1 "220uF/100V" H 11118 5355 50  0000 L CNN
+F 2 "Capacitor_THT:C_Radial_D16.0mm_H25.0mm_P7.50mm" H 11038 5250 50  0001 C CNN
+F 3 "~" H 11000 5400 50  0001 C CNN
+	1    11000 5400
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	9250 6050 9250 6250
+Wire Wire Line
+	9000 6050 9000 6250
+Wire Wire Line
+	8800 5400 8700 5400
+Wire Wire Line
+	8500 5400 8300 5400
+Wire Wire Line
+	8500 5800 8300 5800
+Wire Wire Line
+	8750 3400 8850 3400
+Wire Wire Line
+	8350 3400 8550 3400
+Wire Wire Line
+	9550 3400 9650 3400
+Wire Wire Line
+	9850 3400 10050 3400
+Wire Wire Line
+	9550 3800 9650 3800
+Wire Wire Line
+	9850 3800 10050 3800
+Wire Wire Line
+	8350 3800 8550 3800
+Wire Wire Line
+	8750 3800 8850 3800
+Wire Wire Line
+	9500 5800 9600 5800
+Wire Wire Line
+	9800 5800 10000 5800
+Wire Wire Line
+	9500 5400 9600 5400
+Wire Wire Line
+	9800 5400 10000 5400
+Wire Wire Line
+	8700 5800 8800 5800
 $Comp
 L Peters:DMHT6016LFJ Q2
-U 1 1 5D9C1B70
+U 1 1 5DC3A6F8
 P 9200 3550
-F 0 "Q2" H 9200 4281 50  0000 C CNN
-F 1 "DMHT6016LFJ" H 9200 4190 50  0000 C CNN
+F 0 "Q2" H 9200 4181 50  0000 C CNN
+F 1 "DMHT6016LFJ" H 9200 4090 50  0000 C CNN
 F 2 "Libs:V-DFN5045-12" H 9400 4350 50  0001 C CNN
 F 3 "https://www.diodes.com/assets/Datasheets/DMHT6016LFJ.pdf" H 9400 4350 50  0001 C CNN
 	1    9200 3550
@@ -2109,13 +1901,13 @@ F 3 "https://www.diodes.com/assets/Datasheets/DMHT6016LFJ.pdf" H 9400 4350 50  0
 $EndComp
 $Comp
 L Peters:DMHT6016LFJ Q3
-U 1 1 5D9CC0E8
-P 9150 5700
-F 0 "Q3" H 9150 6431 50  0000 C CNN
-F 1 "DMHT6016LFJ" H 9150 6340 50  0000 C CNN
-F 2 "Libs:V-DFN5045-12" H 9350 6500 50  0001 C CNN
-F 3 "https://www.diodes.com/assets/Datasheets/DMHT6016LFJ.pdf" H 9350 6500 50  0001 C CNN
-	1    9150 5700
+U 1 1 5DC400A4
+P 9150 5550
+F 0 "Q3" H 9150 6181 50  0000 C CNN
+F 1 "DMHT6016LFJ" H 9150 6090 50  0000 C CNN
+F 2 "Libs:V-DFN5045-12" H 9350 6350 50  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/DMHT6016LFJ.pdf" H 9350 6350 50  0001 C CNN
+	1    9150 5550
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
