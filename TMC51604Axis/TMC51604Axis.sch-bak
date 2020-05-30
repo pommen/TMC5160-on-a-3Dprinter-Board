@@ -62,12 +62,12 @@ Wire Wire Line
 $Comp
 L Device:C C5
 U 1 1 5ED05A0D
-P 2750 1300
-F 0 "C5" H 2550 1300 50  0000 L CNN
-F 1 "47nF" H 2550 1150 50  0000 L CNN
-F 2 "peters:C_0805_peter" H 2788 1150 50  0001 C CNN
-F 3 "~" H 2750 1300 50  0001 C CNN
-	1    2750 1300
+P 2550 1300
+F 0 "C5" H 2350 1300 50  0000 L CNN
+F 1 "47nF" H 2350 1150 50  0000 L CNN
+F 2 "peters:C_0805_peter" H 2588 1150 50  0001 C CNN
+F 3 "~" H 2550 1300 50  0001 C CNN
+	1    2550 1300
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -120,9 +120,9 @@ Connection ~ 2100 1050
 Wire Wire Line
 	1600 1050 1400 1050
 Wire Wire Line
-	2750 1450 2750 1750
+	2550 1450 2550 1750
 Wire Wire Line
-	2750 1750 1800 1750
+	2550 1750 1800 1750
 Connection ~ 1800 1750
 $Comp
 L Device:R R1
@@ -138,12 +138,12 @@ $EndComp
 $Comp
 L Connector:TestPoint TP1
 U 1 1 5ED2B264
-P 2750 950
-F 0 "TP1" H 2808 1068 50  0000 L CNN
-F 1 "TestPoint" H 2650 1200 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_1.5x1.5mm" H 2950 950 50  0001 C CNN
-F 3 "~" H 2950 950 50  0001 C CNN
-	1    2750 950 
+P 2550 950
+F 0 "TP1" H 2608 1068 50  0000 L CNN
+F 1 "TestPoint" H 2450 1200 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 2750 950 50  0001 C CNN
+F 3 "~" H 2750 950 50  0001 C CNN
+	1    2550 950 
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -152,15 +152,15 @@ U 1 1 5ED2BA57
 P 3350 950
 F 0 "TP2" H 3408 1068 50  0000 L CNN
 F 1 "TestPoint" H 3300 1200 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_1.5x1.5mm" H 3550 950 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 3550 950 50  0001 C CNN
 F 3 "~" H 3550 950 50  0001 C CNN
 	1    3350 950 
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2750 950  2750 1050
+	2550 950  2550 1050
 Wire Wire Line
-	2750 1050 2800 1050
+	2550 1050 2800 1050
 Wire Wire Line
 	3200 1050 3350 1050
 Wire Wire Line
@@ -193,8 +193,8 @@ $EndComp
 Wire Wire Line
 	3550 1150 3550 1050
 Wire Wire Line
-	3550 1750 2750 1750
-Connection ~ 2750 1750
+	3550 1750 2550 1750
+Connection ~ 2550 1750
 $Comp
 L Device:Fuse F1
 U 1 1 5EFACFB0
@@ -720,8 +720,8 @@ F 3 "~" H 5800 5000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2750 1150 2750 1050
-Connection ~ 2750 1050
+	2550 1150 2550 1050
+Connection ~ 2550 1050
 $Comp
 L Device:C_Small C2
 U 1 1 5ECF6516
@@ -897,16 +897,16 @@ $EndComp
 $Comp
 L power:GND #PWR0101
 U 1 1 5ECAFA60
-P 2750 1750
-F 0 "#PWR0101" H 2750 1500 50  0001 C CNN
-F 1 "GND" H 2755 1577 50  0000 C CNN
-F 2 "" H 2750 1750 50  0001 C CNN
-F 3 "" H 2750 1750 50  0001 C CNN
-	1    2750 1750
+P 2550 1750
+F 0 "#PWR0101" H 2550 1500 50  0001 C CNN
+F 1 "GND" H 2555 1577 50  0000 C CNN
+F 2 "" H 2550 1750 50  0001 C CNN
+F 3 "" H 2550 1750 50  0001 C CNN
+	1    2550 1750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2100 1050 2750 1050
+	2100 1050 2550 1050
 $Comp
 L Connector:TestPoint TP4
 U 1 1 5F8846DE
@@ -946,7 +946,7 @@ U 1 1 5F8973EF
 P 8450 1250
 F 0 "TP7" H 8508 1368 50  0000 L CNN
 F 1 "TestPoint" H 8400 1500 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_1.5x1.5mm" H 8650 1250 50  0001 C CNN
+F 2 "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm" H 8650 1250 50  0001 C CNN
 F 3 "~" H 8650 1250 50  0001 C CNN
 	1    8450 1250
 	1    0    0    -1  
