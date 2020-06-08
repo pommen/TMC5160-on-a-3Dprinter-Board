@@ -141,7 +141,7 @@ U 1 1 5ED2B264
 P 2550 950
 F 0 "TP1" H 2608 1068 50  0000 L CNN
 F 1 "TestPoint" H 2450 1200 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 2750 950 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 2750 950 50  0001 C CNN
 F 3 "~" H 2750 950 50  0001 C CNN
 	1    2550 950 
 	1    0    0    -1  
@@ -152,7 +152,7 @@ U 1 1 5ED2BA57
 P 3350 950
 F 0 "TP2" H 3408 1068 50  0000 L CNN
 F 1 "TestPoint" H 3300 1200 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 3550 950 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 3550 950 50  0001 C CNN
 F 3 "~" H 3550 950 50  0001 C CNN
 	1    3350 950 
 	1    0    0    -1  
