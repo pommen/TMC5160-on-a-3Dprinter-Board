@@ -22,7 +22,7 @@ Wire Wire Line
 Wire Wire Line
 	3450 4550 3450 4500
 $Comp
-L power:+3V3 #PWR024
+L TMC51604Axis-rescue:+3V3-power #PWR024
 U 1 1 5EF8E350
 P 3450 4500
 AR Path="/5D9949FC/5EF8E350" Ref="#PWR024"  Part="1" 
@@ -36,7 +36,7 @@ F 3 "" H 3450 4500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R18
+L TMC51604Axis-rescue:R-Device R18
 U 1 1 5EF8D724
 P 3450 4700
 F 0 "R18" H 3520 4746 50  0000 L CNN
@@ -47,7 +47,7 @@ F 3 "~" H 3450 4700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR030
+L TMC51604Axis-rescue:GND-power #PWR030
 U 1 1 5EF816D2
 P 4450 5250
 AR Path="/5D9949FC/5EF816D2" Ref="#PWR030"  Part="1" 
@@ -68,7 +68,7 @@ Wire Wire Line
 Wire Wire Line
 	4350 4900 4450 4900
 $Comp
-L Device:C C37
+L TMC51604Axis-rescue:C-Device C37
 U 1 1 5EF6989E
 P 4450 5100
 F 0 "C37" H 4565 5146 50  0000 L CNN
@@ -92,7 +92,7 @@ Connection ~ 4750 4900
 Wire Wire Line
 	4750 4900 5400 4900
 $Comp
-L Device:R R19
+L TMC51604Axis-rescue:R-Device R19
 U 1 1 5EEBD507
 P 4750 5050
 F 0 "R19" H 4680 5004 50  0000 R CNN
@@ -103,7 +103,7 @@ F 3 "~" H 4750 5050 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR027
+L TMC51604Axis-rescue:GND-power #PWR027
 U 1 1 5EEBCE8B
 P 3050 4700
 AR Path="/5D9949FC/5EEBCE8B" Ref="#PWR027"  Part="1" 
@@ -117,7 +117,7 @@ F 3 "" H 3050 4700 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR023
+L TMC51604Axis-rescue:+3V3-power #PWR023
 U 1 1 5EEBC211
 P 3050 4500
 AR Path="/5D9949FC/5EEBC211" Ref="#PWR023"  Part="1" 
@@ -131,7 +131,7 @@ F 3 "" H 3050 4500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C34
+L TMC51604Axis-rescue:C_Small-Device C34
 U 1 1 5EEBB32B
 P 3050 4600
 AR Path="/5D9949FC/5EEBB32B" Ref="C34"  Part="1" 
@@ -145,7 +145,7 @@ F 3 "~" H 3050 4600 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR028
+L TMC51604Axis-rescue:GND-power #PWR028
 U 1 1 5EEBAA1D
 P 4050 5200
 AR Path="/5D9949FC/5EEBAA1D" Ref="#PWR028"  Part="1" 
@@ -159,7 +159,7 @@ F 3 "" H 4050 5200 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR026
+L TMC51604Axis-rescue:+3V3-power #PWR026
 U 1 1 5EEB9FBF
 P 4050 4600
 AR Path="/5D9949FC/5EEB9FBF" Ref="#PWR026"  Part="1" 
@@ -173,7 +173,7 @@ F 3 "" H 4050 4600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Oscillator:ASDMB-xxxMHz U4
+L TMC51604Axis-rescue:ASDMB-xxxMHz-Oscillator U4
 U 1 1 5EEB85E4
 P 3950 4900
 F 0 "U4" H 4394 4946 50  0000 L CNN
@@ -196,7 +196,7 @@ Wire Wire Line
 Wire Wire Line
 	3300 5600 3300 5650
 $Comp
-L power:GND #PWR035
+L TMC51604Axis-rescue:GND-power #PWR035
 U 1 1 5EE69715
 P 2350 5650
 AR Path="/5D9949FC/5EE69715" Ref="#PWR035"  Part="1" 
@@ -210,7 +210,7 @@ F 3 "" H 2350 5650 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR036
+L TMC51604Axis-rescue:GND-power #PWR036
 U 1 1 5EE68E7A
 P 3300 5650
 AR Path="/5D9949FC/5EE68E7A" Ref="#PWR036"  Part="1" 
@@ -224,7 +224,7 @@ F 3 "" H 3300 5650 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR031
+L TMC51604Axis-rescue:+3V3-power #PWR031
 U 1 1 5EE68980
 P 2950 5600
 AR Path="/5D9949FC/5EE68980" Ref="#PWR031"  Part="1" 
@@ -238,7 +238,7 @@ F 3 "" H 2950 5600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR032
+L TMC51604Axis-rescue:+3V3-power #PWR032
 U 1 1 5EE67B0E
 P 3900 5600
 AR Path="/5D9949FC/5EE67B0E" Ref="#PWR032"  Part="1" 
@@ -252,7 +252,7 @@ F 3 "" H 3900 5600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Jumper_NC_Dual JP1
+L TMC51604Axis-rescue:Jumper_NC_Dual-Device JP1
 U 1 1 5EE66D2B
 P 2600 5600
 F 0 "JP1" H 2600 5839 50  0000 C CNN
@@ -269,7 +269,7 @@ Wire Wire Line
 Wire Wire Line
 	5400 6100 4850 6100
 $Comp
-L Device:Jumper_NC_Dual JP2
+L TMC51604Axis-rescue:Jumper_NC_Dual-Device JP2
 U 1 1 5EE0F4B6
 P 3550 5600
 F 0 "JP2" H 3550 5839 50  0000 C CNN
@@ -290,7 +290,7 @@ Connection ~ 7300 1650
 Wire Wire Line
 	7050 2150 7050 2350
 $Comp
-L Device:R_Small R7
+L TMC51604Axis-rescue:R_Small-Device R7
 U 1 1 5DCBAE75
 P 7050 2050
 AR Path="/5D9949FC/5DCBAE75" Ref="R7"  Part="1" 
@@ -306,7 +306,7 @@ $EndComp
 Wire Wire Line
 	7050 1650 7050 1950
 $Comp
-L power:GND #PWR014
+L TMC51604Axis-rescue:GND-power #PWR014
 U 1 1 5ED9E491
 P 7300 1950
 AR Path="/5D9949FC/5ED9E491" Ref="#PWR014"  Part="1" 
@@ -322,7 +322,7 @@ $EndComp
 Wire Wire Line
 	7300 1650 7300 1750
 $Comp
-L Device:C_Small C15
+L TMC51604Axis-rescue:C_Small-Device C15
 U 1 1 5ED93129
 P 7300 1850
 AR Path="/5D9949FC/5ED93129" Ref="C15"  Part="1" 
@@ -336,7 +336,7 @@ F 3 "~" H 7300 1850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Peters:TMC5160A-TA U3
+L TMC51604Axis-rescue:TMC5160A-TA-Peters U3
 U 1 1 5ED3FDD9
 P 6750 4450
 F 0 "U3" H 6600 5550 60  0000 C CNN
@@ -383,7 +383,7 @@ Wire Wire Line
 Wire Wire Line
 	9850 3800 10200 3800
 $Comp
-L Peters:DMHT6016LFJ Q3
+L TMC51604Axis-rescue:DMHT6016LFJ-Peters Q3
 U 1 1 5DC400A4
 P 10800 5550
 F 0 "Q3" H 11300 6050 50  0000 C CNN
@@ -394,7 +394,7 @@ F 3 "https://www.diodes.com/assets/Datasheets/DMHT6016LFJ.pdf" H 11000 6350 50  
 	1    0    0    -1  
 $EndComp
 $Comp
-L Peters:DMHT6016LFJ Q2
+L TMC51604Axis-rescue:DMHT6016LFJ-Peters Q2
 U 1 1 5DC3A6F8
 P 10850 3550
 F 0 "Q2" H 11100 4100 50  0000 C CNN
@@ -425,7 +425,7 @@ Wire Wire Line
 Wire Wire Line
 	10900 6050 10900 6250
 $Comp
-L Device:CP C39
+L TMC51604Axis-rescue:CP-Device C39
 U 1 1 5D9D5DE0
 P 13250 5450
 AR Path="/5D9949FC/5D9D5DE0" Ref="C39"  Part="1" 
@@ -439,7 +439,7 @@ F 3 "~" H 13250 5450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Peters:ZHCS1006TA D7
+L TMC51604Axis-rescue:ZHCS1006TA-Peters D7
 U 1 1 5DB48BFA
 P 8950 3750
 F 0 "D7" H 8950 3650 50  0000 C CNN
@@ -455,7 +455,7 @@ Wire Wire Line
 Wire Wire Line
 	8950 3850 9050 3850
 $Comp
-L Peters:ZHCS1006TA D8
+L TMC51604Axis-rescue:ZHCS1006TA-Peters D8
 U 1 1 5DB48BED
 P 9150 3750
 F 0 "D8" H 9150 3975 50  0000 C CNN
@@ -466,7 +466,7 @@ F 3 "http://192.168.0.101/api/part_attachments/635/getFile" H 9050 4250 50  0001
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR021
+L TMC51604Axis-rescue:GND-power #PWR021
 U 1 1 5DB48BE3
 P 9050 3850
 AR Path="/5D9949FC/5DB48BE3" Ref="#PWR021"  Part="1" 
@@ -480,7 +480,7 @@ F 3 "" H 9050 3850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Peters:ZHCS1006TA D9
+L TMC51604Axis-rescue:ZHCS1006TA-Peters D9
 U 1 1 5DB47EEF
 P 9000 5550
 F 0 "D9" H 9000 5450 50  0000 C CNN
@@ -825,7 +825,7 @@ Wire Wire Line
 Wire Wire Line
 	6650 2400 6650 2350
 $Comp
-L Peters:ZHCS1006TA D10
+L TMC51604Axis-rescue:ZHCS1006TA-Peters D10
 U 1 1 5D9AF44B
 P 9200 5550
 F 0 "D10" H 9200 5775 50  0000 C CNN
@@ -836,7 +836,7 @@ F 3 "http://192.168.0.101/api/part_attachments/635/getFile" H 9100 6050 50  0001
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR042
+L TMC51604Axis-rescue:GND-power #PWR042
 U 1 1 5DEF6E71
 P 4050 8150
 AR Path="/5D9949FC/5DEF6E71" Ref="#PWR042"  Part="1" 
@@ -850,7 +850,7 @@ F 3 "" H 4050 8150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR038
+L TMC51604Axis-rescue:GND-power #PWR038
 U 1 1 5DFB5D8D
 P 5400 6250
 AR Path="/5D9949FC/5DFB5D8D" Ref="#PWR038"  Part="1" 
@@ -866,7 +866,7 @@ $EndComp
 Text Notes 3100 2450 0    50   ~ 0
 Use at least 10 times more capacity than for bootstrap capacitors
 $Comp
-L power:GND #PWR015
+L TMC51604Axis-rescue:GND-power #PWR015
 U 1 1 5DF92743
 P 7550 1950
 AR Path="/5D9949FC/5DF92743" Ref="#PWR015"  Part="1" 
@@ -880,7 +880,7 @@ F 3 "" H 7550 1950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C16
+L TMC51604Axis-rescue:C_Small-Device C16
 U 1 1 5DF852B6
 P 7550 1850
 AR Path="/5D9949FC/5DF852B6" Ref="C16"  Part="1" 
@@ -902,7 +902,7 @@ EncA
 Text HLabel 3400 7900 0    50   Input ~ 0
 DRV_ENA
 $Comp
-L power:GND #PWR043
+L TMC51604Axis-rescue:GND-power #PWR043
 U 1 1 5DF49E2E
 P 3650 8200
 AR Path="/5D9949FC/5DF49E2E" Ref="#PWR043"  Part="1" 
@@ -916,7 +916,7 @@ F 3 "" H 3650 8200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R30
+L TMC51604Axis-rescue:R_Small-Device R30
 U 1 1 5DF3F1E4
 P 3650 8050
 F 0 "R30" H 3592 8004 50  0000 R CNN
@@ -927,7 +927,7 @@ F 3 "~" H 3650 8050 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L power:+3V3 #PWR041
+L TMC51604Axis-rescue:+3V3-power #PWR041
 U 1 1 5DF02529
 P 4050 7300
 AR Path="/5D9949FC/5DF02529" Ref="#PWR041"  Part="1" 
@@ -941,7 +941,7 @@ F 3 "" H 4050 7300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R29
+L TMC51604Axis-rescue:R_Small-Device R29
 U 1 1 5DF016F3
 P 4050 7450
 F 0 "R29" H 3992 7404 50  0000 R CNN
@@ -952,7 +952,7 @@ F 3 "~" H 4050 7450 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Transistor_FET:BSS138 Q4
+L TMC51604Axis-rescue:BSS138-Transistor_FET Q4
 U 1 1 5DEDFA8A
 P 3950 7900
 F 0 "Q4" H 4156 7946 50  0000 L CNN
@@ -1311,7 +1311,7 @@ BA 87 88 22 50 F7 10 51 04 EA 1E 22 8A FC 1F 72 DE 9D B3 70 D7 6C BE 00 00 00 00
 EndData
 $EndBitmap
 $Comp
-L power:GND #PWR019
+L TMC51604Axis-rescue:GND-power #PWR019
 U 1 1 5DE4952C
 P 4500 3500
 AR Path="/5D9949FC/5DE4952C" Ref="#PWR019"  Part="1" 
@@ -1325,7 +1325,7 @@ F 3 "" H 4500 3500 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C25
+L TMC51604Axis-rescue:C_Small-Device C25
 U 1 1 5DE1C6A1
 P 4950 3200
 AR Path="/5D9949FC/5DE1C6A1" Ref="C25"  Part="1" 
@@ -1339,7 +1339,7 @@ F 3 "~" H 4950 3200 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR020
+L TMC51604Axis-rescue:GND-power #PWR020
 U 1 1 5DD9256A
 P 5100 3850
 AR Path="/5D9949FC/5DD9256A" Ref="#PWR020"  Part="1" 
@@ -1353,7 +1353,7 @@ F 3 "" H 5100 3850 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C27
+L TMC51604Axis-rescue:C_Small-Device C27
 U 1 1 5DD81983
 P 5100 3750
 AR Path="/5D9949FC/5DD81983" Ref="C27"  Part="1" 
@@ -1375,7 +1375,7 @@ BMA1
 Text Label 9650 5600 0    50   ~ 0
 BMA1
 $Comp
-L Device:C_Small C?
+L TMC51604Axis-rescue:C_Small-Device C?
 U 1 1 5DD2A663
 P 11100 6500
 AR Path="/5DD2A663" Ref="C?"  Part="1" 
@@ -1390,7 +1390,7 @@ F 3 "~" H 11100 6500 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:C_Small C?
+L TMC51604Axis-rescue:C_Small-Device C?
 U 1 1 5DD2A655
 P 10250 6500
 AR Path="/5DD2A655" Ref="C?"  Part="1" 
@@ -1405,7 +1405,7 @@ F 3 "~" H 10250 6500 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR037
+L TMC51604Axis-rescue:GND-power #PWR037
 U 1 1 5DD2A64C
 P 9100 5650
 AR Path="/5D9949FC/5DD2A64C" Ref="#PWR037"  Part="1" 
@@ -1419,7 +1419,7 @@ F 3 "" H 9100 5650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R21
+L TMC51604Axis-rescue:R_Small-Device R21
 U 1 1 5DD2A637
 P 8250 5350
 AR Path="/5D9949FC/5DD2A637" Ref="R21"  Part="1" 
@@ -1433,7 +1433,7 @@ F 3 "~" H 8250 5350 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small R20
+L TMC51604Axis-rescue:R_Small-Device R20
 U 1 1 5DD2A631
 P 8250 5200
 AR Path="/5D9949FC/5DD2A631" Ref="R20"  Part="1" 
@@ -1449,7 +1449,7 @@ $EndComp
 Text Label 12000 5600 2    50   ~ 0
 BMA2
 $Comp
-L Device:R_Small R22
+L TMC51604Axis-rescue:R_Small-Device R22
 U 1 1 5DD2A61E
 P 10250 5400
 AR Path="/5D9949FC/5DD2A61E" Ref="R22"  Part="1" 
@@ -1463,7 +1463,7 @@ F 3 "~" H 10250 5400 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small R24
+L TMC51604Axis-rescue:R_Small-Device R24
 U 1 1 5DD2A618
 P 10250 5800
 AR Path="/5D9949FC/5DD2A618" Ref="R24"  Part="1" 
@@ -1477,7 +1477,7 @@ F 3 "~" H 10250 5800 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small R25
+L TMC51604Axis-rescue:R_Small-Device R25
 U 1 1 5DD2A612
 P 11350 5800
 AR Path="/5D9949FC/5DD2A612" Ref="R25"  Part="1" 
@@ -1499,7 +1499,7 @@ LA2
 Text Label 8100 5500 2    50   ~ 0
 LA1
 $Comp
-L power:GND #PWR039
+L TMC51604Axis-rescue:GND-power #PWR039
 U 1 1 5DD2A5F2
 P 10800 6750
 AR Path="/5D9949FC/5DD2A5F2" Ref="#PWR039"  Part="1" 
@@ -1513,7 +1513,7 @@ F 3 "" H 10800 6750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C38
+L TMC51604Axis-rescue:C-Device C38
 U 1 1 5DD2A5EC
 P 12500 5450
 AR Path="/5D9949FC/5DD2A5EC" Ref="C38"  Part="1" 
@@ -1527,7 +1527,7 @@ F 3 "~" H 12500 5450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR033
+L TMC51604Axis-rescue:GND-power #PWR033
 U 1 1 5DD2A5E6
 P 12500 5600
 AR Path="/5D9949FC/5DD2A5E6" Ref="#PWR033"  Part="1" 
@@ -1543,7 +1543,7 @@ $EndComp
 Text Label 11600 5600 2    50   ~ 0
 StepperD
 $Comp
-L Device:R R27
+L TMC51604Axis-rescue:R-Device R27
 U 1 1 5DD2A5DD
 P 10700 6500
 AR Path="/5D9949FC/5DD2A5DD" Ref="R27"  Part="1" 
@@ -1567,7 +1567,7 @@ HA1
 Text Label 9650 5400 0    50   ~ 0
 HA1
 $Comp
-L power:GND #PWR034
+L TMC51604Axis-rescue:GND-power #PWR034
 U 1 1 5DD2A5CD
 P 13250 5600
 AR Path="/5D9949FC/5DD2A5CD" Ref="#PWR034"  Part="1" 
@@ -1581,7 +1581,7 @@ F 3 "" H 13250 5600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
+L TMC51604Axis-rescue:C_Small-Device C?
 U 1 1 5DD2A5BF
 P 8250 4900
 AR Path="/5DD2A5BF" Ref="C?"  Part="1" 
@@ -1596,7 +1596,7 @@ F 3 "~" H 8250 4900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Small R23
+L TMC51604Axis-rescue:R_Small-Device R23
 U 1 1 5DD2A5B7
 P 11350 5400
 AR Path="/5D9949FC/5DD2A5B7" Ref="R23"  Part="1" 
@@ -1610,7 +1610,7 @@ F 3 "~" H 11350 5400 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R R?
+L TMC51604Axis-rescue:R-Device R?
 U 1 1 5DD2A5B1
 P 10450 6650
 AR Path="/5DD2A5B1" Ref="R?"  Part="1" 
@@ -1625,7 +1625,7 @@ F 3 "~" H 10450 6650 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R?
+L TMC51604Axis-rescue:R-Device R?
 U 1 1 5DD2A5AB
 P 10450 6350
 AR Path="/5DD2A5AB" Ref="R?"  Part="1" 
@@ -1640,7 +1640,7 @@ F 3 "~" H 10450 6350 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C_Small C?
+L TMC51604Axis-rescue:C_Small-Device C?
 U 1 1 5DD2A5A5
 P 8250 4600
 AR Path="/5DD2A5A5" Ref="C?"  Part="1" 
@@ -1669,7 +1669,7 @@ BMB1
 Text Label 9850 3600 0    50   ~ 0
 BMB1
 $Comp
-L Device:C_Small C?
+L TMC51604Axis-rescue:C_Small-Device C?
 U 1 1 5DBF5220
 P 11150 4350
 AR Path="/5DBF5220" Ref="C?"  Part="1" 
@@ -1684,7 +1684,7 @@ F 3 "~" H 11150 4350 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:C_Small C?
+L TMC51604Axis-rescue:C_Small-Device C?
 U 1 1 5DBDEE21
 P 10300 4350
 AR Path="/5DBDEE21" Ref="C?"  Part="1" 
@@ -1699,7 +1699,7 @@ F 3 "~" H 10300 4350 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R_Small R12
+L TMC51604Axis-rescue:R_Small-Device R12
 U 1 1 5DBB0C87
 P 8250 3500
 AR Path="/5D9949FC/5DBB0C87" Ref="R12"  Part="1" 
@@ -1713,7 +1713,7 @@ F 3 "~" H 8250 3500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small R9
+L TMC51604Axis-rescue:R_Small-Device R9
 U 1 1 5DBAFC35
 P 8250 3350
 AR Path="/5D9949FC/5DBAFC35" Ref="R9"  Part="1" 
@@ -1729,7 +1729,7 @@ $EndComp
 Text Notes 11100 9200 0    50   ~ 0
 470pF to a few nF output\ncapacitors close to bridge\nand / or output reduce\nringing and improve EMC
 $Comp
-L power:GND #PWR022
+L TMC51604Axis-rescue:GND-power #PWR022
 U 1 1 5DB8A18F
 P 10250 9000
 AR Path="/5D9949FC/5DB8A18F" Ref="#PWR022"  Part="1" 
@@ -1743,7 +1743,7 @@ F 3 "" H 10250 9000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C31
+L TMC51604Axis-rescue:C-Device C31
 U 1 1 5DB81DE1
 P 10900 8750
 AR Path="/5D9949FC/5DB81DE1" Ref="C31"  Part="1" 
@@ -1757,7 +1757,7 @@ F 3 "~" H 10900 8750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C30
+L TMC51604Axis-rescue:C-Device C30
 U 1 1 5DB81DDB
 P 10500 8750
 AR Path="/5D9949FC/5DB81DDB" Ref="C30"  Part="1" 
@@ -1771,7 +1771,7 @@ F 3 "~" H 10500 8750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C29
+L TMC51604Axis-rescue:C-Device C29
 U 1 1 5DB7BEC6
 P 10100 8750
 AR Path="/5D9949FC/5DB7BEC6" Ref="C29"  Part="1" 
@@ -1785,7 +1785,7 @@ F 3 "~" H 10100 8750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C28
+L TMC51604Axis-rescue:C-Device C28
 U 1 1 5DB7B572
 P 9700 8750
 AR Path="/5D9949FC/5DB7B572" Ref="C28"  Part="1" 
@@ -1801,7 +1801,7 @@ $EndComp
 Text Label 12000 3600 2    50   ~ 0
 BMB2
 $Comp
-L Device:R_Small R10
+L TMC51604Axis-rescue:R_Small-Device R10
 U 1 1 5DA81DAD
 P 10300 3400
 AR Path="/5D9949FC/5DA81DAD" Ref="R10"  Part="1" 
@@ -1815,7 +1815,7 @@ F 3 "~" H 10300 3400 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small R13
+L TMC51604Axis-rescue:R_Small-Device R13
 U 1 1 5DA811E9
 P 10300 3800
 AR Path="/5D9949FC/5DA811E9" Ref="R13"  Part="1" 
@@ -1829,7 +1829,7 @@ F 3 "~" H 10300 3800 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small R14
+L TMC51604Axis-rescue:R_Small-Device R14
 U 1 1 5DA80BF6
 P 11400 3800
 AR Path="/5D9949FC/5DA80BF6" Ref="R14"  Part="1" 
@@ -1843,7 +1843,7 @@ F 3 "~" H 11400 3800 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR029
+L TMC51604Axis-rescue:GND-power #PWR029
 U 1 1 5DAA5526
 P 4750 5200
 AR Path="/5D9949FC/5DAA5526" Ref="#PWR029"  Part="1" 
@@ -1857,7 +1857,7 @@ F 3 "" H 4750 5200 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR040
+L TMC51604Axis-rescue:GND-power #PWR040
 U 1 1 5DA7CDDD
 P 6650 6950
 AR Path="/5D9949FC/5DA7CDDD" Ref="#PWR040"  Part="1" 
@@ -1879,7 +1879,7 @@ LB2
 Text Label 8100 3650 2    50   ~ 0
 LB1
 $Comp
-L power:GND #PWR025
+L TMC51604Axis-rescue:GND-power #PWR025
 U 1 1 5DA170EE
 P 10850 4500
 AR Path="/5D9949FC/5DA170EE" Ref="#PWR025"  Part="1" 
@@ -1893,7 +1893,7 @@ F 3 "" H 10850 4500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C20
+L TMC51604Axis-rescue:C-Device C20
 U 1 1 5D9A73AF
 P 11800 2500
 AR Path="/5D9949FC/5D9A73AF" Ref="C20"  Part="1" 
@@ -1907,7 +1907,7 @@ F 3 "~" H 11800 2500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR017
+L TMC51604Axis-rescue:GND-power #PWR017
 U 1 1 5D9BDD14
 P 11800 2650
 AR Path="/5D9949FC/5D9BDD14" Ref="#PWR017"  Part="1" 
@@ -1923,7 +1923,7 @@ $EndComp
 Text Label 11650 3600 2    50   ~ 0
 StepperB
 $Comp
-L Device:R R16
+L TMC51604Axis-rescue:R-Device R16
 U 1 1 5D9EA5CF
 P 10750 4350
 AR Path="/5D9949FC/5D9EA5CF" Ref="R16"  Part="1" 
@@ -1965,7 +1965,7 @@ HB1
 Text Label 9850 3400 0    50   ~ 0
 HB1
 $Comp
-L power:GND #PWR018
+L TMC51604Axis-rescue:GND-power #PWR018
 U 1 1 5D9C993C
 P 12500 2650
 AR Path="/5D9949FC/5D9C993C" Ref="#PWR018"  Part="1" 
@@ -1979,7 +1979,7 @@ F 3 "" H 12500 2650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:CP C21
+L TMC51604Axis-rescue:CP-Device C21
 U 1 1 5D9C83A5
 P 12500 2500
 AR Path="/5D9949FC/5D9C83A5" Ref="C21"  Part="1" 
@@ -1993,7 +1993,7 @@ F 3 "~" H 12500 2500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
+L TMC51604Axis-rescue:C_Small-Device C?
 U 1 1 5D9A2EB2
 P 8250 3050
 AR Path="/5D9A2EB2" Ref="C?"  Part="1" 
@@ -2008,7 +2008,7 @@ F 3 "~" H 8250 3050 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Small R11
+L TMC51604Axis-rescue:R_Small-Device R11
 U 1 1 5D9AE531
 P 11400 3400
 AR Path="/5D9949FC/5D9AE531" Ref="R11"  Part="1" 
@@ -2030,7 +2030,7 @@ MOSI
 Text HLabel 5400 4250 0    50   Input ~ 0
 CLK
 $Comp
-L Device:R R?
+L TMC51604Axis-rescue:R-Device R?
 U 1 1 5D9A2ED6
 P 10500 4500
 AR Path="/5D9A2ED6" Ref="R?"  Part="1" 
@@ -2045,7 +2045,7 @@ F 3 "~" H 10500 4500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R?
+L TMC51604Axis-rescue:R-Device R?
 U 1 1 5D9A2ED0
 P 10500 4200
 AR Path="/5D9A2ED0" Ref="R?"  Part="1" 
@@ -2060,7 +2060,7 @@ F 3 "~" H 10500 4200 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR016
+L TMC51604Axis-rescue:GND-power #PWR016
 U 1 1 5D9A2EA7
 P 7250 2400
 AR Path="/5D9949FC/5D9A2EA7" Ref="#PWR016"  Part="1" 
@@ -2074,7 +2074,7 @@ F 3 "" H 7250 2400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C19
+L TMC51604Axis-rescue:C_Small-Device C19
 U 1 1 5D9A2EA1
 P 7150 2350
 AR Path="/5D9949FC/5D9A2EA1" Ref="C19"  Part="1" 
@@ -2088,7 +2088,7 @@ F 3 "~" H 7150 2350 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:C_Small C18
+L TMC51604Axis-rescue:C_Small-Device C18
 U 1 1 5D9A2E96
 P 6750 2350
 AR Path="/5D9949FC/5D9A2E96" Ref="C18"  Part="1" 
@@ -2096,13 +2096,13 @@ AR Path="/5DD6E95D/5D9A2E96" Ref="C?"  Part="1"
 AR Path="/5DD6E98C/5D9A2E96" Ref="C?"  Part="1" 
 F 0 "C18" V 6521 2350 50  0000 C CNN
 F 1 "100n/100V" V 6612 2350 50  0000 C CNN
-F 2 "peters:C_0805_peter" H 6750 2350 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6750 2350 50  0001 C CNN
 F 3 "~" H 6750 2350 50  0001 C CNN
 	1    6750 2350
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C_Small C17
+L TMC51604Axis-rescue:C_Small-Device C17
 U 1 1 5D9A2E90
 P 6200 2350
 AR Path="/5D9949FC/5D9A2E90" Ref="C17"  Part="1" 
@@ -2116,7 +2116,7 @@ F 3 "~" H 6200 2350 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C_Small C?
+L TMC51604Axis-rescue:C_Small-Device C?
 U 1 1 5D9A2E8A
 P 8250 2750
 AR Path="/5D9A2E8A" Ref="C?"  Part="1" 
@@ -2131,7 +2131,7 @@ F 3 "~" H 8250 2750 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C_Small C26
+L TMC51604Axis-rescue:C_Small-Device C26
 U 1 1 5D9A2E5A
 P 4650 3400
 AR Path="/5D9949FC/5D9A2E5A" Ref="C26"  Part="1" 
@@ -2145,7 +2145,7 @@ F 3 "~" H 4650 3400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Small R8
+L TMC51604Axis-rescue:R_Small-Device R8
 U 1 1 5D9A2E52
 P 5200 3300
 AR Path="/5D9949FC/5D9A2E52" Ref="R8"  Part="1" 
@@ -2159,7 +2159,7 @@ F 3 "~" H 5200 3300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C23
+L TMC51604Axis-rescue:C_Small-Device C23
 U 1 1 5D9A2E4C
 P 4350 3000
 AR Path="/5D9949FC/5D9A2E4C" Ref="C23"  Part="1" 
@@ -2173,7 +2173,7 @@ F 3 "~" H 4350 3000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R52
+L TMC51604Axis-rescue:R-Device R52
 U 1 1 600B40B8
 P 10900 6500
 AR Path="/5D9949FC/600B40B8" Ref="R52"  Part="1" 
@@ -2193,7 +2193,7 @@ Connection ~ 10900 6650
 Wire Wire Line
 	10900 6650 10800 6650
 $Comp
-L Device:R R51
+L TMC51604Axis-rescue:R-Device R51
 U 1 1 600B4471
 P 10950 4350
 AR Path="/5D9949FC/600B4471" Ref="R51"  Part="1" 

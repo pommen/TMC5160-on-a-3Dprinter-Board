@@ -41,7 +41,7 @@ F19 "DIAG0_SWn" I L 3900 4950 50
 F20 "VCC_IO" I R 5300 4350 50 
 $EndSheet
 $Comp
-L Connector:Conn_01x02_Female J1
+L TMC51604Axis-rescue:Conn_01x02_Female-Connector J1
 U 1 1 5ECB9EB8
 P 900 1150
 F 0 "J1" H 928 1126 50  0000 L CNN
@@ -60,18 +60,18 @@ Wire Wire Line
 Wire Wire Line
 	5600 5200 5300 5200
 $Comp
-L Device:C C5
+L TMC51604Axis-rescue:C-Device C5
 U 1 1 5ED05A0D
 P 2550 1300
 F 0 "C5" H 2350 1300 50  0000 L CNN
-F 1 "47nF" H 2350 1150 50  0000 L CNN
+F 1 "47nF/100V" H 2350 1150 50  0000 L CNN
 F 2 "peters:C_0805_peter" H 2588 1150 50  0001 C CNN
 F 3 "~" H 2550 1300 50  0001 C CNN
 	1    2550 1300
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transistor_FET:SUD08P06-155L Q1
+L TMC51604Axis-rescue:SUD08P06-155L-Transistor_FET Q1
 U 1 1 5ED0C6B9
 P 1800 1150
 F 0 "Q1" V 2142 1150 50  0000 C CNN
@@ -82,7 +82,7 @@ F 3 "https://www.vishay.com/docs/62843/sud08p06-155l-ge3.pdf" H 1800 1150 50  00
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D_Zener D3
+L TMC51604Axis-rescue:D_Zener-Device D3
 U 1 1 5ED0DCA9
 P 2100 1300
 F 0 "D3" V 2054 1379 50  0000 L CNN
@@ -93,7 +93,7 @@ F 3 "~" H 2100 1300 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R3
+L TMC51604Axis-rescue:R-Device R3
 U 1 1 5ED15B9A
 P 1800 1600
 F 0 "R3" H 1870 1646 50  0000 L CNN
@@ -125,7 +125,7 @@ Wire Wire Line
 	2550 1750 1800 1750
 Connection ~ 1800 1750
 $Comp
-L Device:R R1
+L TMC51604Axis-rescue:R-Device R1
 U 1 1 5ED28378
 P 3050 1050
 F 0 "R1" V 3257 1050 50  0000 C CNN
@@ -136,7 +136,7 @@ F 3 "~" H 3050 1050 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:TestPoint TP1
+L TMC51604Axis-rescue:TestPoint-Connector TP1
 U 1 1 5ED2B264
 P 2550 950
 F 0 "TP1" H 2608 1068 50  0000 L CNN
@@ -147,7 +147,7 @@ F 3 "~" H 2750 950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP2
+L TMC51604Axis-rescue:TestPoint-Connector TP2
 U 1 1 5ED2BA57
 P 3350 950
 F 0 "TP2" H 3408 1068 50  0000 L CNN
@@ -169,7 +169,7 @@ Wire Wire Line
 	3350 1050 3550 1050
 Connection ~ 3350 1050
 $Comp
-L Device:LED D4
+L TMC51604Axis-rescue:LED-Device D4
 U 1 1 5EFA7135
 P 3550 1300
 F 0 "D4" V 3589 1183 50  0000 R CNN
@@ -180,7 +180,7 @@ F 3 "~" H 3550 1300 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R R4
+L TMC51604Axis-rescue:R-Device R4
 U 1 1 5EFA90DA
 P 3550 1600
 F 0 "R4" H 3620 1646 50  0000 L CNN
@@ -196,7 +196,7 @@ Wire Wire Line
 	3550 1750 2550 1750
 Connection ~ 2550 1750
 $Comp
-L Device:Fuse F1
+L TMC51604Axis-rescue:Fuse-Device F1
 U 1 1 5EFACFB0
 P 1250 1050
 F 0 "F1" V 1053 1050 50  0000 C CNN
@@ -209,7 +209,7 @@ $EndComp
 Wire Wire Line
 	1400 1150 1100 1150
 $Comp
-L power:GND #PWR06
+L TMC51604Axis-rescue:GND-power #PWR06
 U 1 1 5EC840BA
 P 4000 1400
 F 0 "#PWR06" H 4000 1150 50  0001 C CNN
@@ -222,7 +222,7 @@ $EndComp
 Wire Wire Line
 	4000 1400 4000 1350
 $Comp
-L Peters:LT1766 D5
+L TMC51604Axis-rescue:LT1766-Peters D5
 U 1 1 5EC24277
 P 5600 1300
 F 0 "D5" H 5650 1750 50  0000 C CNN
@@ -233,7 +233,7 @@ F 3 "http://192.168.10.161/api/part_attachments/2499/getFile" H 5600 1900 50  00
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR09
+L TMC51604Axis-rescue:GND-power #PWR09
 U 1 1 5EC2FFA1
 P 5600 1950
 F 0 "#PWR09" H 5600 1700 50  0001 C CNN
@@ -244,7 +244,7 @@ F 3 "" H 5600 1950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:L L1
+L TMC51604Axis-rescue:L-Device L1
 U 1 1 5EC33164
 P 6800 1200
 F 0 "L1" V 6990 1200 50  0000 C CNN
@@ -255,7 +255,7 @@ F 3 "~" H 6800 1200 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:C_Small C1
+L TMC51604Axis-rescue:C_Small-Device C1
 U 1 1 5EC34588
 P 6400 1100
 F 0 "C1" H 6492 1146 50  0000 L CNN
@@ -266,11 +266,11 @@ F 3 "~" H 6400 1100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Schottky D6
+L TMC51604Axis-rescue:D_Schottky-Device D6
 U 1 1 5EC365E4
 P 6400 1550
 F 0 "D6" V 6354 1630 50  0000 L CNN
-F 1 "D_Schottky" V 6445 1630 50  0000 L CNN
+F 1 "SS34FA" V 6445 1630 50  0000 L CNN
 F 2 "Diode_SMD:D_SOD-123F" H 6400 1550 50  0001 C CNN
 F 3 "~" H 6400 1550 50  0001 C CNN
 	1    6400 1550
@@ -296,7 +296,7 @@ Wire Wire Line
 Wire Wire Line
 	7000 1200 6950 1200
 $Comp
-L Device:R_Small R2
+L TMC51604Axis-rescue:R_Small-Device R2
 U 1 1 5EC4223F
 P 6250 1450
 F 0 "R2" V 6250 1400 50  0000 L CNN
@@ -319,7 +319,7 @@ Wire Wire Line
 Wire Wire Line
 	5100 1500 4950 1500
 $Comp
-L power:GND #PWR05
+L TMC51604Axis-rescue:GND-power #PWR05
 U 1 1 5EC591D4
 P 5050 1350
 F 0 "#PWR05" H 5050 1100 50  0001 C CNN
@@ -332,7 +332,7 @@ $EndComp
 Wire Wire Line
 	5100 1350 5050 1350
 $Comp
-L Diode:1N4148W D1
+L TMC51604Axis-rescue:1N4148W-Diode D1
 U 1 1 5EC5B891
 P 6350 850
 F 0 "D1" H 6350 1067 50  0000 C CNN
@@ -343,7 +343,7 @@ F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 6350 850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Zener D2
+L TMC51604Axis-rescue:D_Zener-Device D2
 U 1 1 5EC5D08E
 P 6750 850
 F 0 "D2" H 6750 633 50  0000 C CNN
@@ -373,7 +373,7 @@ Wire Wire Line
 	7000 1200 7200 1200
 Connection ~ 7200 1200
 $Comp
-L Device:CP C7
+L TMC51604Axis-rescue:CP-Device C7
 U 1 1 5EC7675D
 P 7200 1500
 F 0 "C7" H 7318 1546 50  0000 L CNN
@@ -386,7 +386,7 @@ $EndComp
 Wire Wire Line
 	6250 1550 6250 1600
 $Comp
-L Device:R_Small R5
+L TMC51604Axis-rescue:R_Small-Device R5
 U 1 1 5EC42B52
 P 6250 1700
 F 0 "R5" V 6250 1650 50  0000 L CNN
@@ -410,7 +410,7 @@ Connection ~ 6250 1850
 Wire Wire Line
 	6250 1850 5600 1850
 $Comp
-L Device:C C4
+L TMC51604Axis-rescue:C-Device C4
 U 1 1 5EC82DDD
 P 4450 1200
 F 0 "C4" H 4565 1246 50  0000 L CNN
@@ -422,7 +422,7 @@ F 3 "~" H 4450 1200 50  0001 C CNN
 $EndComp
 Connection ~ 4450 1050
 $Comp
-L power:GND #PWR07
+L TMC51604Axis-rescue:GND-power #PWR07
 U 1 1 5EC8447E
 P 4450 1400
 F 0 "#PWR07" H 4450 1150 50  0001 C CNN
@@ -435,10 +435,10 @@ $EndComp
 Wire Wire Line
 	4450 1400 4450 1350
 $Comp
-L Device:CP C3
+L TMC51604Axis-rescue:CP-Device C3
 U 1 1 5EC8F720
 P 4000 1200
-F 0 "C3" H 4118 1246 50  0000 L CNN
+F 0 "C3" H 3950 1450 50  0000 L CNN
 F 1 "10uF/100v" V 4200 850 50  0000 L CNN
 F 2 "Capacitor_SMD:CP_Elec_8x6.2" H 4038 1050 50  0001 C CNN
 F 3 "~" H 4000 1200 50  0001 C CNN
@@ -452,7 +452,7 @@ Connection ~ 4000 1050
 Wire Wire Line
 	4000 1050 4450 1050
 $Comp
-L Device:C C13
+L TMC51604Axis-rescue:C-Device C13
 U 1 1 5ECA4151
 P 4950 1650
 F 0 "C13" H 5065 1696 50  0000 L CNN
@@ -468,7 +468,7 @@ Wire Wire Line
 	4750 1500 4750 1800
 Connection ~ 4950 1500
 $Comp
-L Device:R_Small R6
+L TMC51604Axis-rescue:R_Small-Device R6
 U 1 1 5ECAD316
 P 4750 1900
 F 0 "R6" V 4650 1850 50  0000 L CNN
@@ -479,7 +479,7 @@ F 3 "~" H 4750 1900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C14
+L TMC51604Axis-rescue:C_Small-Device C14
 U 1 1 5ECAE19E
 P 4750 2150
 F 0 "C14" H 4842 2196 50  0000 L CNN
@@ -492,7 +492,7 @@ $EndComp
 Wire Wire Line
 	4750 2050 4750 2000
 $Comp
-L power:GND #PWR010
+L TMC51604Axis-rescue:GND-power #PWR010
 U 1 1 5ECB0DED
 P 4750 2350
 F 0 "#PWR010" H 4750 2100 50  0001 C CNN
@@ -512,7 +512,7 @@ Connection ~ 4750 2300
 Wire Wire Line
 	4750 2300 4750 2350
 $Comp
-L power:+48V #PWR01
+L TMC51604Axis-rescue:+48V-power #PWR01
 U 1 1 5ECB6C55
 P 4450 900
 F 0 "#PWR01" H 4450 750 50  0001 C CNN
@@ -525,7 +525,7 @@ $EndComp
 Wire Wire Line
 	4450 900  4450 1050
 $Comp
-L power:+48V #PWR011
+L TMC51604Axis-rescue:+48V-power #PWR011
 U 1 1 5ECBA302
 P 5550 4000
 F 0 "#PWR011" H 5550 3850 50  0001 C CNN
@@ -536,7 +536,7 @@ F 3 "" H 5550 4000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+12V #PWR012
+L TMC51604Axis-rescue:+12V-power #PWR012
 U 1 1 5ECBB50A
 P 5800 4000
 F 0 "#PWR012" H 5800 3850 50  0001 C CNN
@@ -555,7 +555,7 @@ Wire Wire Line
 Wire Wire Line
 	5300 4350 6100 4350
 $Comp
-L Peters:+3.3V #PWR013
+L TMC51604Axis-rescue:+3.3V-Peters #PWR013
 U 1 1 5ECF24FB
 P 6100 4000
 F 0 "#PWR013" H 6100 3850 50  0001 C CNN
@@ -566,7 +566,7 @@ F 3 "" H 6100 4000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C12
+L TMC51604Axis-rescue:C-Device C12
 U 1 1 5ECFF908
 P 9750 3050
 F 0 "C12" H 9865 3096 50  0000 L CNN
@@ -577,7 +577,7 @@ F 3 "~" H 9750 3050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C6
+L TMC51604Axis-rescue:C-Device C6
 U 1 1 5ED00402
 P 10150 2900
 F 0 "C6" H 10265 2946 50  0000 L CNN
@@ -588,7 +588,7 @@ F 3 "~" H 10150 2900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C11
+L TMC51604Axis-rescue:C-Device C11
 U 1 1 5ED00A27
 P 8250 3050
 F 0 "C11" H 8365 3096 50  0000 L CNN
@@ -630,7 +630,7 @@ Connection ~ 9750 3400
 Wire Wire Line
 	9750 3400 9150 3400
 $Comp
-L Peters:+3.3V #PWR04
+L TMC51604Axis-rescue:+3.3V-Peters #PWR04
 U 1 1 5ED30E59
 P 10150 2750
 F 0 "#PWR04" H 10150 2600 50  0001 C CNN
@@ -644,7 +644,7 @@ Connection ~ 10150 2750
 Wire Wire Line
 	6100 4350 6100 4000
 $Comp
-L Peters:LM2937 U2
+L TMC51604Axis-rescue:LM2937-Peters U2
 U 1 1 5ED7FF5A
 P 7600 2650
 F 0 "U2" H 7542 2797 60  0000 C CNN
@@ -660,7 +660,7 @@ Connection ~ 7500 3400
 Wire Wire Line
 	7500 3400 7950 3400
 $Comp
-L Device:C C9
+L TMC51604Axis-rescue:C-Device C9
 U 1 1 5ED94130
 P 7100 3050
 F 0 "C9" H 7215 3096 50  0000 L CNN
@@ -671,7 +671,7 @@ F 3 "~" H 7100 3050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C10
+L TMC51604Axis-rescue:C-Device C10
 U 1 1 5ED94E73
 P 7950 3050
 F 0 "C10" H 8065 3096 50  0000 L CNN
@@ -696,7 +696,7 @@ Connection ~ 7950 3400
 Wire Wire Line
 	7950 3400 8250 3400
 $Comp
-L power:+5V #PWR03
+L TMC51604Axis-rescue:+5V-power #PWR03
 U 1 1 5EDA6039
 P 8250 2700
 F 0 "#PWR03" H 8250 2550 50  0001 C CNN
@@ -709,7 +709,7 @@ $EndComp
 Wire Wire Line
 	8250 2700 8250 2750
 $Comp
-L Connector:Screw_Terminal_01x04 J2
+L TMC51604Axis-rescue:Screw_Terminal_01x04-Connector J2
 U 1 1 5EE4D43F
 P 5800 5000
 F 0 "J2" H 5880 4992 50  0000 L CNN
@@ -723,7 +723,7 @@ Wire Wire Line
 	2550 1150 2550 1050
 Connection ~ 2550 1050
 $Comp
-L Device:C_Small C2
+L TMC51604Axis-rescue:C_Small-Device C2
 U 1 1 5ECF6516
 P 3050 1200
 F 0 "C2" V 3250 1200 50  0000 C CNN
@@ -745,7 +745,7 @@ Connection ~ 2800 1050
 Wire Wire Line
 	2800 1050 2900 1050
 $Comp
-L power:+12V #PWR02
+L TMC51604Axis-rescue:+12V-power #PWR02
 U 1 1 5EC65390
 P 7600 1050
 F 0 "#PWR02" H 7600 900 50  0001 C CNN
@@ -774,7 +774,7 @@ F12 "ENC_N" I R 2900 5250 50
 F13 "SDI" I R 2900 4600 50 
 $EndSheet
 $Comp
-L Mechanical:MountingHole H1
+L TMC51604Axis-rescue:MountingHole-Mechanical H1
 U 1 1 5EDCC0E6
 P 10400 5650
 F 0 "H1" H 10500 5696 50  0000 L CNN
@@ -785,7 +785,7 @@ F 3 "~" H 10400 5650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H2
+L TMC51604Axis-rescue:MountingHole-Mechanical H2
 U 1 1 5EDCC0EC
 P 10400 5850
 F 0 "H2" H 10500 5896 50  0000 L CNN
@@ -796,7 +796,7 @@ F 3 "~" H 10400 5850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H3
+L TMC51604Axis-rescue:MountingHole-Mechanical H3
 U 1 1 5EDCC0F2
 P 10400 6050
 F 0 "H3" H 10500 6096 50  0000 L CNN
@@ -807,7 +807,7 @@ F 3 "~" H 10400 6050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H4
+L TMC51604Axis-rescue:MountingHole-Mechanical H4
 U 1 1 5EDCC0F8
 P 10400 6250
 F 0 "H4" H 10500 6296 50  0000 L CNN
@@ -818,7 +818,7 @@ F 3 "~" H 10400 6250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Ferrite_Bead FB2
+L TMC51604Axis-rescue:Ferrite_Bead-Device FB2
 U 1 1 5ED11BFB
 P 6800 2750
 F 0 "FB2" V 6526 2750 50  0000 C CNN
@@ -831,7 +831,7 @@ $EndComp
 Wire Wire Line
 	7600 1050 7600 1200
 $Comp
-L power:+12V #PWR044
+L TMC51604Axis-rescue:+12V-power #PWR044
 U 1 1 5F1ED2CA
 P 6250 2650
 F 0 "#PWR044" H 6250 2500 50  0001 C CNN
@@ -849,7 +849,7 @@ Wire Wire Line
 Wire Wire Line
 	6250 2750 6250 2650
 $Comp
-L power:GND #PWR048
+L TMC51604Axis-rescue:GND-power #PWR048
 U 1 1 5F1FA36F
 P 7500 3400
 F 0 "#PWR048" H 7500 3150 50  0001 C CNN
@@ -884,7 +884,7 @@ Wire Wire Line
 Wire Wire Line
 	2900 4000 3900 4000
 $Comp
-L Peters:AP2210-3.3V U1
+L TMC51604Axis-rescue:AP2210-3.3V-Peters U1
 U 1 1 5F245C78
 P 9150 2550
 F 0 "U1" H 9175 2575 50  0000 C CNN
@@ -895,7 +895,7 @@ F 3 "http://192.168.10.161/api/part_attachments/2545/getFile" H 9250 2150 50  00
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0101
+L TMC51604Axis-rescue:GND-power #PWR0101
 U 1 1 5ECAFA60
 P 2550 1750
 F 0 "#PWR0101" H 2550 1500 50  0001 C CNN
@@ -908,7 +908,7 @@ $EndComp
 Wire Wire Line
 	2100 1050 2550 1050
 $Comp
-L Connector:TestPoint TP4
+L TMC51604Axis-rescue:TestPoint-Connector TP4
 U 1 1 5F8846DE
 P 8900 1250
 F 0 "TP4" H 8958 1368 50  0000 L CNN
@@ -919,7 +919,7 @@ F 3 "~" H 9100 1250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP5
+L TMC51604Axis-rescue:TestPoint-Connector TP5
 U 1 1 5F8851C5
 P 9500 1250
 F 0 "TP5" H 9558 1368 50  0000 L CNN
@@ -930,7 +930,7 @@ F 3 "~" H 9700 1250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP6
+L TMC51604Axis-rescue:TestPoint-Connector TP6
 U 1 1 5F885A15
 P 10100 1250
 F 0 "TP6" H 10158 1368 50  0000 L CNN
@@ -941,7 +941,7 @@ F 3 "~" H 10300 1250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP7
+L TMC51604Axis-rescue:TestPoint-Connector TP7
 U 1 1 5F8973EF
 P 8450 1250
 F 0 "TP7" H 8508 1368 50  0000 L CNN
@@ -952,7 +952,7 @@ F 3 "~" H 8650 1250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0102
+L TMC51604Axis-rescue:GND-power #PWR0102
 U 1 1 5F897905
 P 8450 1250
 F 0 "#PWR0102" H 8450 1000 50  0001 C CNN
@@ -965,7 +965,7 @@ $EndComp
 Wire Wire Line
 	7200 1200 7600 1200
 $Comp
-L power:+12V #PWR0103
+L TMC51604Axis-rescue:+12V-power #PWR0103
 U 1 1 5F8D8D2B
 P 9250 1250
 F 0 "#PWR0103" H 9250 1100 50  0001 C CNN
@@ -978,7 +978,7 @@ $EndComp
 Wire Wire Line
 	9250 1250 8900 1250
 $Comp
-L power:+5V #PWR0104
+L TMC51604Axis-rescue:+5V-power #PWR0104
 U 1 1 5F8DDF9A
 P 9900 1250
 F 0 "#PWR0104" H 9900 1100 50  0001 C CNN
@@ -995,7 +995,7 @@ Wire Wire Line
 Wire Wire Line
 	9650 2750 10150 2750
 $Comp
-L Peters:+3.3V #PWR0105
+L TMC51604Axis-rescue:+3.3V-Peters #PWR0105
 U 1 1 5F8E2D13
 P 10500 1250
 F 0 "#PWR0105" H 10500 1100 50  0001 C CNN
@@ -1008,7 +1008,7 @@ $EndComp
 Wire Wire Line
 	10500 1250 10100 1250
 $Comp
-L Device:C C8
+L TMC51604Axis-rescue:C-Device C8
 U 1 1 5F8FCFC8
 P 7600 1500
 F 0 "C8" H 7715 1546 50  0000 L CNN
