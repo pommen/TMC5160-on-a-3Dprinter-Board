@@ -13,7 +13,7 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Notes 5150 9350 0    50   ~ 0
+Text Notes 6800 2250 0    50   ~ 0
 Hint:\nWith MOSFETs above 50nC of total gate charge,\n chopper frequency >40kHz, or at clock frequency >12MHz,\n it is recommended to use a VSA supply not higher than 40V. 
 $Sheet
 S 3900 3900 1400 1400
