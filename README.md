@@ -15,3 +15,4 @@ RJ45 pinout on silk?
 clearer pin1 marking on 74xx125 buffers
 Larger diameter holes on testpoints
 I/O testpoints
+Diag pin outputs
