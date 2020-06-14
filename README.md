@@ -3,3 +3,16 @@
 
 All files made in KICAD
 (Work in progress)
+
+
+todo:
+bad footprint on RJ45 conn.
+Clean up BOM (values and voltages)
+74xx125 buffer footprint to wide
+bigger fuse footprint (Automotive fuseholder?)
+THT caps for H-bridge?
+RJ45 pinout on silk?
+clearer pin1 marking on 74xx125 buffers
+Larger diameter holes on testpoints
+I/O testpoints
+Diag pin outputs

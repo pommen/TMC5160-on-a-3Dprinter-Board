@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L 74xx:74LVC125 U?
+L TMC51604Axis-rescue:74LVC125-74xx U?
 U 1 1 5ED5E67B
 P 8450 2000
 AR Path="/5ED5E67B" Ref="U?"  Part="2" 
@@ -27,7 +27,7 @@ F 3 "http://www.ti.com/lit/gpn/sn74LVC125" H 8450 2000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74xx:74LVC125 U?
+L TMC51604Axis-rescue:74LVC125-74xx U?
 U 3 1 5ED5E681
 P 8450 2650
 AR Path="/5ED5E681" Ref="U?"  Part="3" 
@@ -44,7 +44,7 @@ Wire Wire Line
 Wire Wire Line
 	8750 2000 8950 2000
 $Comp
-L power:+5V #PWR?
+L TMC51604Axis-rescue:+5V-power #PWR?
 U 1 1 5ED5E68E
 P 6850 1400
 AR Path="/5ED5E68E" Ref="#PWR?"  Part="1" 
@@ -61,7 +61,7 @@ Wire Wire Line
 Wire Wire Line
 	7400 1800 7400 1700
 $Comp
-L power:GND #PWR?
+L TMC51604Axis-rescue:GND-power #PWR?
 U 1 1 5ED5E696
 P 7400 2400
 AR Path="/5ED5E696" Ref="#PWR?"  Part="1" 
@@ -88,7 +88,7 @@ Wire Wire Line
 Wire Wire Line
 	7300 2100 7950 2100
 $Comp
-L power:GND #PWR?
+L TMC51604Axis-rescue:GND-power #PWR?
 U 1 1 5ED5E6A4
 P 8450 2250
 AR Path="/5ED5E6A4" Ref="#PWR?"  Part="1" 
@@ -101,7 +101,7 @@ F 3 "" H 8450 2250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L TMC51604Axis-rescue:GND-power #PWR?
 U 1 1 5ED5E6AA
 P 8450 1600
 AR Path="/5ED5E6AA" Ref="#PWR?"  Part="1" 
@@ -118,7 +118,7 @@ Wire Wire Line
 Wire Wire Line
 	8750 2650 8950 2650
 $Comp
-L 74xx:74LVC125 U?
+L TMC51604Axis-rescue:74LVC125-74xx U?
 U 5 1 5EDC60B9
 P 10550 5600
 AR Path="/5EDC60B9" Ref="U?"  Part="5" 
@@ -131,7 +131,7 @@ F 3 "http://www.ti.com/lit/gpn/sn74LVC125" H 10550 5600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L TMC51604Axis-rescue:C-Device C?
 U 1 1 5EDC60BF
 P 10050 5600
 AR Path="/5EDC60BF" Ref="C?"  Part="1" 
@@ -144,7 +144,7 @@ F 3 "~" H 10050 5600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L TMC51604Axis-rescue:GND-power #PWR?
 U 1 1 5EDC60C5
 P 10050 5750
 AR Path="/5EDC60C5" Ref="#PWR?"  Part="1" 
@@ -157,7 +157,7 @@ F 3 "" H 10050 5750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L TMC51604Axis-rescue:GND-power #PWR?
 U 1 1 5EDC60CB
 P 10550 6150
 AR Path="/5EDC60CB" Ref="#PWR?"  Part="1" 
@@ -170,7 +170,7 @@ F 3 "" H 10550 6150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Peters:+3.3V #PWR?
+L TMC51604Axis-rescue:+3.3V-Peters #PWR?
 U 1 1 5EDC60D1
 P 10550 5100
 AR Path="/5EDC60D1" Ref="#PWR?"  Part="1" 
@@ -183,7 +183,7 @@ F 3 "" H 10550 5100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Peters:+3.3V #PWR?
+L TMC51604Axis-rescue:+3.3V-Peters #PWR?
 U 1 1 5EDC60D7
 P 10050 5450
 AR Path="/5EDC60D7" Ref="#PWR?"  Part="1" 
@@ -198,7 +198,7 @@ $EndComp
 Wire Wire Line
 	10550 6150 10550 6100
 $Comp
-L 74xx:74LVC125 U?
+L TMC51604Axis-rescue:74LVC125-74xx U?
 U 1 1 5EDC60F9
 P 4350 3500
 AR Path="/5EDC60F9" Ref="U?"  Part="1" 
@@ -211,7 +211,7 @@ F 3 "http://www.ti.com/lit/gpn/sn74LVC125" H 4350 3500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74xx:74LVC125 U?
+L TMC51604Axis-rescue:74LVC125-74xx U?
 U 2 1 5EDC60FF
 P 4350 4700
 AR Path="/5EDC60FF" Ref="U?"  Part="1" 
@@ -224,7 +224,7 @@ F 3 "http://www.ti.com/lit/gpn/sn74LVC125" H 4350 4700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74xx:74LVC125 U?
+L TMC51604Axis-rescue:74LVC125-74xx U?
 U 3 1 5EDC610F
 P 4350 5300
 AR Path="/5EDC610F" Ref="U?"  Part="1" 
@@ -237,7 +237,7 @@ F 3 "http://www.ti.com/lit/gpn/sn74LVC125" H 4350 5300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74xx:74LVC125 U?
+L TMC51604Axis-rescue:74LVC125-74xx U?
 U 4 1 5EDC6115
 P 4350 4100
 AR Path="/5EDC6115" Ref="U?"  Part="1" 
@@ -250,7 +250,7 @@ F 3 "http://www.ti.com/lit/gpn/sn74LVC125" H 4350 4100 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L 74xx:74LVC125 U?
+L TMC51604Axis-rescue:74LVC125-74xx U?
 U 1 1 5EDC6124
 P 4350 2500
 AR Path="/5EDC6124" Ref="U?"  Part="1" 
@@ -263,7 +263,7 @@ F 3 "http://www.ti.com/lit/gpn/sn74LVC125" H 4350 2500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74xx:74LVC125 U?
+L TMC51604Axis-rescue:74LVC125-74xx U?
 U 2 1 5EDC612A
 P 4350 1300
 AR Path="/5EDC612A" Ref="U?"  Part="1" 
@@ -276,7 +276,7 @@ F 3 "http://www.ti.com/lit/gpn/sn74LVC125" H 4350 1300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74xx:74LVC125 U?
+L TMC51604Axis-rescue:74LVC125-74xx U?
 U 3 1 5EDC6139
 P 4350 1900
 AR Path="/5EDC6139" Ref="U?"  Part="1" 
@@ -289,7 +289,7 @@ F 3 "http://www.ti.com/lit/gpn/sn74LVC125" H 4350 1900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74xx:74LVC125 U?
+L TMC51604Axis-rescue:74LVC125-74xx U?
 U 4 1 5EDC613F
 P 4650 6550
 AR Path="/5EDC613F" Ref="U?"  Part="1" 
@@ -302,7 +302,7 @@ F 3 "http://www.ti.com/lit/gpn/sn74LVC125" H 4650 6550 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L 74xx:74LVC125 U?
+L TMC51604Axis-rescue:74LVC125-74xx U?
 U 4 1 5EDC614E
 P 5050 6550
 AR Path="/5EDC614E" Ref="U?"  Part="1" 
@@ -315,7 +315,7 @@ F 3 "http://www.ti.com/lit/gpn/sn74LVC125" H 5050 6550 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L 74xx:74LVC125 U?
+L TMC51604Axis-rescue:74LVC125-74xx U?
 U 5 1 5EDC6242
 P 9200 5600
 AR Path="/5EDC6242" Ref="U?"  Part="5" 
@@ -328,7 +328,7 @@ F 3 "http://www.ti.com/lit/gpn/sn74LVC125" H 9200 5600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L TMC51604Axis-rescue:C-Device C?
 U 1 1 5EDC6248
 P 8700 5600
 AR Path="/5EDC6248" Ref="C?"  Part="1" 
@@ -341,7 +341,7 @@ F 3 "~" H 8700 5600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L TMC51604Axis-rescue:GND-power #PWR?
 U 1 1 5EDC624E
 P 8700 5750
 AR Path="/5EDC624E" Ref="#PWR?"  Part="1" 
@@ -354,7 +354,7 @@ F 3 "" H 8700 5750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L TMC51604Axis-rescue:GND-power #PWR?
 U 1 1 5EDC6254
 P 9200 6150
 AR Path="/5EDC6254" Ref="#PWR?"  Part="1" 
@@ -367,7 +367,7 @@ F 3 "" H 9200 6150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Peters:+3.3V #PWR?
+L TMC51604Axis-rescue:+3.3V-Peters #PWR?
 U 1 1 5EDC625A
 P 9200 5100
 AR Path="/5EDC625A" Ref="#PWR?"  Part="1" 
@@ -380,7 +380,7 @@ F 3 "" H 9200 5100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Peters:+3.3V #PWR?
+L TMC51604Axis-rescue:+3.3V-Peters #PWR?
 U 1 1 5EDC6260
 P 8700 5450
 AR Path="/5EDC6260" Ref="#PWR?"  Part="1" 
@@ -395,7 +395,7 @@ $EndComp
 Wire Wire Line
 	9200 6150 9200 6100
 $Comp
-L 74xx:74LVC125 U?
+L TMC51604Axis-rescue:74LVC125-74xx U?
 U 5 1 5EDC6267
 P 7300 3350
 AR Path="/5EDC6267" Ref="U?"  Part="5" 
@@ -408,7 +408,7 @@ F 3 "http://www.ti.com/lit/gpn/sn74LVC125" H 7300 3350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L TMC51604Axis-rescue:C-Device C?
 U 1 1 5EDC626D
 P 6800 3350
 AR Path="/5EDC626D" Ref="C?"  Part="1" 
@@ -421,7 +421,7 @@ F 3 "~" H 6800 3350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L TMC51604Axis-rescue:GND-power #PWR?
 U 1 1 5EDC6273
 P 6800 3500
 AR Path="/5EDC6273" Ref="#PWR?"  Part="1" 
@@ -434,7 +434,7 @@ F 3 "" H 6800 3500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L TMC51604Axis-rescue:GND-power #PWR?
 U 1 1 5EDC6279
 P 7300 3900
 AR Path="/5EDC6279" Ref="#PWR?"  Part="1" 
@@ -447,7 +447,7 @@ F 3 "" H 7300 3900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Peters:+3.3V #PWR?
+L TMC51604Axis-rescue:+3.3V-Peters #PWR?
 U 1 1 5EDC627F
 P 7300 2850
 AR Path="/5EDC627F" Ref="#PWR?"  Part="1" 
@@ -460,7 +460,7 @@ F 3 "" H 7300 2850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Peters:+3.3V #PWR?
+L TMC51604Axis-rescue:+3.3V-Peters #PWR?
 U 1 1 5EDC6285
 P 6800 3200
 AR Path="/5EDC6285" Ref="#PWR?"  Part="1" 
@@ -475,7 +475,7 @@ $EndComp
 Wire Wire Line
 	7300 3900 7300 3850
 $Comp
-L Jumper:Jumper_3_Bridged12 JP3
+L TMC51604Axis-rescue:Jumper_3_Bridged12-Jumper JP3
 U 1 1 5EE06AF9
 P 7400 1450
 F 0 "JP3" H 7400 1654 50  0000 C CNN
@@ -490,7 +490,7 @@ Wire Wire Line
 Wire Wire Line
 	6850 1450 6850 1400
 $Comp
-L Peters:+3.3V #PWR?
+L TMC51604Axis-rescue:+3.3V-Peters #PWR?
 U 1 1 5EE0E552
 P 7650 1450
 AR Path="/5EE0E552" Ref="#PWR?"  Part="1" 
@@ -503,7 +503,7 @@ F 3 "" H 7650 1450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C42
+L TMC51604Axis-rescue:C-Device C42
 U 1 1 5EE0EECD
 P 6600 2000
 F 0 "C42" H 6715 2046 50  0000 L CNN
@@ -521,7 +521,7 @@ Connection ~ 7400 1700
 Wire Wire Line
 	7400 1700 7400 1600
 $Comp
-L power:GND #PWR?
+L TMC51604Axis-rescue:GND-power #PWR?
 U 1 1 5EE13984
 P 6600 2150
 AR Path="/5EE13984" Ref="#PWR?"  Part="1" 
@@ -534,7 +534,7 @@ F 3 "" H 6600 2150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L TMC51604Axis-rescue:GND-power #PWR?
 U 1 1 5EE19F66
 P 8450 2900
 AR Path="/5EE19F66" Ref="#PWR?"  Part="1" 
@@ -569,7 +569,7 @@ ENC_B
 Text HLabel 8950 2650 2    50   Input ~ 0
 ENC_N
 $Comp
-L Device:R R37
+L TMC51604Axis-rescue:R-Device R37
 U 1 1 5EEAFF05
 P 3350 3500
 F 0 "R37" V 3143 3500 50  0000 C CNN
@@ -580,7 +580,7 @@ F 3 "~" H 3350 3500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR076
+L TMC51604Axis-rescue:GND-power #PWR076
 U 1 1 5EEC26C1
 P 3950 3200
 F 0 "#PWR076" H 3950 2950 50  0001 C CNN
@@ -602,7 +602,7 @@ Wire Wire Line
 	3550 3400 3550 3500
 Connection ~ 3550 3500
 $Comp
-L Device:R R36
+L TMC51604Axis-rescue:R-Device R36
 U 1 1 5EEE3025
 P 3350 4700
 F 0 "R36" V 3143 4700 50  0000 C CNN
@@ -613,7 +613,7 @@ F 3 "~" H 3350 4700 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR074
+L TMC51604Axis-rescue:GND-power #PWR074
 U 1 1 5EEE3031
 P 3950 4400
 F 0 "#PWR074" H 3950 4150 50  0001 C CNN
@@ -633,7 +633,7 @@ Wire Wire Line
 	3550 4600 3550 4700
 Connection ~ 3550 4700
 $Comp
-L Device:R R35
+L TMC51604Axis-rescue:R-Device R35
 U 1 1 5EEEFB9F
 P 3350 5300
 F 0 "R35" V 3143 5300 50  0000 C CNN
@@ -644,7 +644,7 @@ F 3 "~" H 3350 5300 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR071
+L TMC51604Axis-rescue:GND-power #PWR071
 U 1 1 5EEEFBAB
 P 3950 5000
 F 0 "#PWR071" H 3950 4750 50  0001 C CNN
@@ -668,7 +668,7 @@ CSN
 Text Label 2850 6850 1    50   ~ 0
 SDI
 $Comp
-L Device:R R34
+L TMC51604Axis-rescue:R-Device R34
 U 1 1 5EEF5450
 P 3350 4100
 F 0 "R34" V 3143 4100 50  0000 C CNN
@@ -679,7 +679,7 @@ F 3 "~" H 3350 4100 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR067
+L TMC51604Axis-rescue:GND-power #PWR067
 U 1 1 5EEF545C
 P 3950 3800
 F 0 "#PWR067" H 3950 3550 50  0001 C CNN
@@ -703,7 +703,7 @@ Wire Wire Line
 Text Label 3350 6850 1    50   ~ 0
 SDO
 $Comp
-L Device:R R33
+L TMC51604Axis-rescue:R-Device R33
 U 1 1 5EF19016
 P 3350 2500
 F 0 "R33" V 3143 2500 50  0000 C CNN
@@ -714,7 +714,7 @@ F 3 "~" H 3350 2500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR060
+L TMC51604Axis-rescue:GND-power #PWR060
 U 1 1 5EF19022
 P 3950 2200
 F 0 "#PWR060" H 3950 1950 50  0001 C CNN
@@ -734,7 +734,7 @@ Wire Wire Line
 	3550 2400 3550 2500
 Connection ~ 3550 2500
 $Comp
-L Device:R R39
+L TMC51604Axis-rescue:R-Device R39
 U 1 1 5EF29140
 P 3350 1300
 F 0 "R39" V 3143 1300 50  0000 C CNN
@@ -745,7 +745,7 @@ F 3 "~" H 3350 1300 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR080
+L TMC51604Axis-rescue:GND-power #PWR080
 U 1 1 5EF2914C
 P 3950 1000
 F 0 "#PWR080" H 3950 750 50  0001 C CNN
@@ -769,7 +769,7 @@ DRV_ENN
 Text Label 1550 6850 1    50   ~ 0
 DIR_REFR
 $Comp
-L Device:R R49
+L TMC51604Axis-rescue:R-Device R49
 U 1 1 5EF3D3A7
 P 3350 1900
 F 0 "R49" V 3143 1900 50  0000 C CNN
@@ -780,7 +780,7 @@ F 3 "~" H 3350 1900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR086
+L TMC51604Axis-rescue:GND-power #PWR086
 U 1 1 5EF3D3B3
 P 3950 1600
 F 0 "#PWR086" H 3950 1350 50  0001 C CNN
@@ -800,7 +800,7 @@ Wire Wire Line
 	3550 1800 3550 1900
 Connection ~ 3550 1900
 $Comp
-L Device:R R38
+L TMC51604Axis-rescue:R-Device R38
 U 1 1 5EFFA6FC
 P 10050 1450
 F 0 "R38" V 9843 1450 50  0000 C CNN
@@ -811,7 +811,7 @@ F 3 "~" H 10050 1450 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR078
+L TMC51604Axis-rescue:GND-power #PWR078
 U 1 1 5EFFA708
 P 10650 1150
 F 0 "#PWR078" H 10650 900 50  0001 C CNN
@@ -836,7 +836,7 @@ ENC_A
 Text Label 9750 1450 2    50   ~ 0
 ENC_A_raw
 $Comp
-L Device:R R48
+L TMC51604Axis-rescue:R-Device R48
 U 1 1 5F00D2ED
 P 10050 2800
 F 0 "R48" V 9843 2800 50  0000 C CNN
@@ -847,7 +847,7 @@ F 3 "~" H 10050 2800 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR084
+L TMC51604Axis-rescue:GND-power #PWR084
 U 1 1 5F00D2F9
 P 10650 2500
 F 0 "#PWR084" H 10650 2250 50  0001 C CNN
@@ -870,7 +870,7 @@ Wire Wire Line
 Text Label 9750 2800 2    50   ~ 0
 ENC_N_raw
 $Comp
-L Device:R R40
+L TMC51604Axis-rescue:R-Device R40
 U 1 1 5F0142CB
 P 10050 2100
 F 0 "R40" V 9843 2100 50  0000 C CNN
@@ -881,7 +881,7 @@ F 3 "~" H 10050 2100 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR082
+L TMC51604Axis-rescue:GND-power #PWR082
 U 1 1 5F0142D7
 P 10650 1800
 F 0 "#PWR082" H 10650 1550 50  0001 C CNN
@@ -2443,7 +2443,7 @@ A3 00 00 00 19 91 51 00 00 80 8C C8 28 00 00 40 46 64 14 00 00 20 23 32 0A 00 00
 EndData
 $EndBitmap
 $Comp
-L power:GND #PWR?
+L TMC51604Axis-rescue:GND-power #PWR?
 U 1 1 5F0D7B50
 P 1650 4700
 AR Path="/5F0D7B50" Ref="#PWR?"  Part="1" 
@@ -2468,7 +2468,7 @@ Wire Notes Line
 Text Notes 7950 800  0    50   ~ 0
 Encoder interface
 $Comp
-L Connector:RJ45_Shielded J3
+L TMC51604Axis-rescue:RJ45_Shielded-Connector J3
 U 1 1 5F29F29E
 P 1250 2000
 F 0 "J3" H 1307 2667 50  0000 C CNN
@@ -2479,7 +2479,7 @@ F 3 "~" V 1250 2025 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Screw_Terminal_01x03 J4
+L TMC51604Axis-rescue:Screw_Terminal_01x03-Connector J4
 U 1 1 5ED08FD6
 P 7100 1900
 F 0 "J4" V 7250 1650 50  0000 C CNN
@@ -2490,7 +2490,7 @@ F 3 "~" H 7100 1900 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector:Screw_Terminal_01x03 J6
+L TMC51604Axis-rescue:Screw_Terminal_01x03-Connector J6
 U 1 1 5ED0A894
 P 7100 2200
 F 0 "J6" V 7250 2150 50  0000 C CNN
@@ -2503,7 +2503,7 @@ $EndComp
 Wire Wire Line
 	7300 2300 7400 2300
 $Comp
-L Diode:BAT54S D25
+L TMC51604Axis-rescue:BAT54S-Diode D25
 U 1 1 5F1F5967
 P 10250 1150
 F 0 "D25" H 10250 1375 50  0000 C CNN
@@ -2514,7 +2514,7 @@ F 3 "https://www.diodes.com/assets/Datasheets/ds11005.pdf" H 10130 1150 50  0001
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Diode:BAT54S D27
+L TMC51604Axis-rescue:BAT54S-Diode D27
 U 1 1 5F1F92C4
 P 10250 1800
 F 0 "D27" H 10250 2025 50  0000 C CNN
@@ -2525,7 +2525,7 @@ F 3 "https://www.diodes.com/assets/Datasheets/ds11005.pdf" H 10130 1800 50  0001
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Diode:BAT54S D28
+L TMC51604Axis-rescue:BAT54S-Diode D28
 U 1 1 5F1F9AB5
 P 10250 2500
 F 0 "D28" H 10250 2725 50  0000 C CNN
@@ -2536,7 +2536,7 @@ F 3 "https://www.diodes.com/assets/Datasheets/ds11005.pdf" H 10130 2500 50  0001
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Diode:BAT54S D29
+L TMC51604Axis-rescue:BAT54S-Diode D29
 U 1 1 5F1FA8C9
 P 3550 1600
 F 0 "D29" H 3550 1825 50  0000 C CNN
@@ -2547,7 +2547,7 @@ F 3 "https://www.diodes.com/assets/Datasheets/ds11005.pdf" H 3430 1600 50  0001 
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Diode:BAT54S D26
+L TMC51604Axis-rescue:BAT54S-Diode D26
 U 1 1 5F1FAF65
 P 3550 1000
 F 0 "D26" H 3550 1225 50  0000 C CNN
@@ -2558,7 +2558,7 @@ F 3 "https://www.diodes.com/assets/Datasheets/ds11005.pdf" H 3430 1000 50  0001 
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Diode:BAT54S D24
+L TMC51604Axis-rescue:BAT54S-Diode D24
 U 1 1 5F1FB802
 P 3550 3200
 F 0 "D24" H 3550 3425 50  0000 C CNN
@@ -2569,7 +2569,7 @@ F 3 "https://www.diodes.com/assets/Datasheets/ds11005.pdf" H 3430 3200 50  0001 
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Diode:BAT54S D23
+L TMC51604Axis-rescue:BAT54S-Diode D23
 U 1 1 5F1FC48D
 P 3550 4400
 F 0 "D23" H 3550 4625 50  0000 C CNN
@@ -2580,7 +2580,7 @@ F 3 "https://www.diodes.com/assets/Datasheets/ds11005.pdf" H 3430 4400 50  0001 
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Diode:BAT54S D22
+L TMC51604Axis-rescue:BAT54S-Diode D22
 U 1 1 5F1FCC5F
 P 3550 5000
 F 0 "D22" H 3550 5225 50  0000 C CNN
@@ -2591,7 +2591,7 @@ F 3 "https://www.diodes.com/assets/Datasheets/ds11005.pdf" H 3430 5000 50  0001 
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Diode:BAT54S D21
+L TMC51604Axis-rescue:BAT54S-Diode D21
 U 1 1 5F1FD85D
 P 3550 3800
 F 0 "D21" H 3550 4025 50  0000 C CNN
@@ -2602,7 +2602,7 @@ F 3 "https://www.diodes.com/assets/Datasheets/ds11005.pdf" H 3430 3800 50  0001 
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Diode:BAT54S D20
+L TMC51604Axis-rescue:BAT54S-Diode D20
 U 1 1 5F1FE5CE
 P 3550 2200
 F 0 "D20" H 3550 2425 50  0000 C CNN
@@ -2613,7 +2613,7 @@ F 3 "https://www.diodes.com/assets/Datasheets/ds11005.pdf" H 3430 2200 50  0001 
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP3
+L TMC51604Axis-rescue:TestPoint-Connector TP3
 U 1 1 5F208A00
 P 7500 2200
 F 0 "TP3" V 7454 2388 50  0000 L CNN
@@ -2640,7 +2640,7 @@ enc_volt
 Text Label 9900 2500 2    50   ~ 0
 enc_volt
 $Comp
-L 74xx:74LVC125 U?
+L TMC51604Axis-rescue:74LVC125-74xx U?
 U 2 1 5ED5E675
 P 8450 1350
 AR Path="/5ED5E675" Ref="U?"  Part="1" 
@@ -2667,7 +2667,7 @@ Signal_VCC
 Text Label 3200 1600 2    50   ~ 0
 Signal_VCC
 $Comp
-L Device:R R?
+L TMC51604Axis-rescue:R-Device R?
 U 1 1 5EE4CF92
 P 5050 7350
 AR Path="/5EE4CF92" Ref="R?"  Part="1" 
@@ -2680,7 +2680,7 @@ F 3 "~" H 5050 7350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L TMC51604Axis-rescue:R-Device R?
 U 1 1 5EE4CC50
 P 4650 7350
 AR Path="/5EE4CC50" Ref="R?"  Part="1" 
@@ -2693,7 +2693,7 @@ F 3 "~" H 4650 7350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L TMC51604Axis-rescue:R-Device R?
 U 1 1 5EE4C8E1
 P 2000 7350
 AR Path="/5EE4C8E1" Ref="R?"  Part="1" 
@@ -2706,7 +2706,7 @@ F 3 "~" H 2000 7350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L TMC51604Axis-rescue:R-Device R?
 U 1 1 5EE4C557
 P 1550 7350
 AR Path="/5EE4C557" Ref="R?"  Part="1" 
@@ -2719,7 +2719,7 @@ F 3 "~" H 1550 7350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L TMC51604Axis-rescue:R-Device R?
 U 1 1 5EE4C277
 P 1100 7350
 AR Path="/5EE4C277" Ref="R?"  Part="1" 
@@ -2732,7 +2732,7 @@ F 3 "~" H 1100 7350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L TMC51604Axis-rescue:R-Device R?
 U 1 1 5EE4BB79
 P 3950 7050
 AR Path="/5EE4BB79" Ref="R?"  Part="1" 
@@ -2765,7 +2765,7 @@ Wire Wire Line
 Wire Wire Line
 	4800 6550 4800 7500
 $Comp
-L Device:R R?
+L TMC51604Axis-rescue:R-Device R?
 U 1 1 5EDC61BA
 P 2850 7050
 AR Path="/5EDC61BA" Ref="R?"  Part="1" 
@@ -2778,7 +2778,7 @@ F 3 "~" H 2850 7050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L TMC51604Axis-rescue:R-Device R?
 U 1 1 5EDC61B4
 P 2400 7050
 AR Path="/5EDC61B4" Ref="R?"  Part="1" 
@@ -2799,7 +2799,7 @@ Connection ~ 4650 7500
 Connection ~ 2000 7500
 Connection ~ 1550 7500
 $Comp
-L Device:LED D?
+L TMC51604Axis-rescue:LED-Device D?
 U 1 1 5EDC6180
 P 5050 7050
 AR Path="/5EDC6180" Ref="D?"  Part="1" 
@@ -2812,7 +2812,7 @@ F 3 "~" H 5050 7050 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:LED D?
+L TMC51604Axis-rescue:LED-Device D?
 U 1 1 5EDC617A
 P 2000 7050
 AR Path="/5EDC617A" Ref="D?"  Part="1" 
@@ -2825,7 +2825,7 @@ F 3 "~" H 2000 7050 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:LED D?
+L TMC51604Axis-rescue:LED-Device D?
 U 1 1 5EDC6174
 P 1100 7050
 AR Path="/5EDC6174" Ref="D?"  Part="1" 
@@ -2838,7 +2838,7 @@ F 3 "~" H 1100 7050 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:LED D?
+L TMC51604Axis-rescue:LED-Device D?
 U 1 1 5EDC616E
 P 3950 7350
 AR Path="/5EDC616E" Ref="D?"  Part="1" 
@@ -2853,7 +2853,7 @@ $EndComp
 Wire Wire Line
 	4650 7500 4400 7500
 $Comp
-L Device:LED D?
+L TMC51604Axis-rescue:LED-Device D?
 U 1 1 5EDC6132
 P 4650 7050
 AR Path="/5EDC6132" Ref="D?"  Part="1" 
@@ -2866,7 +2866,7 @@ F 3 "~" H 4650 7050 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:LED D?
+L TMC51604Axis-rescue:LED-Device D?
 U 1 1 5EDC611D
 P 1550 7050
 AR Path="/5EDC611D" Ref="D?"  Part="1" 
@@ -2879,7 +2879,7 @@ F 3 "~" H 1550 7050 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:LED D?
+L TMC51604Axis-rescue:LED-Device D?
 U 1 1 5EDC6108
 P 3350 7350
 AR Path="/5EDC6108" Ref="D?"  Part="1" 
@@ -2892,7 +2892,7 @@ F 3 "~" H 3350 7350 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:LED D?
+L TMC51604Axis-rescue:LED-Device D?
 U 1 1 5EDC60EA
 P 2400 7350
 AR Path="/5EDC60EA" Ref="D?"  Part="1" 
@@ -2905,7 +2905,7 @@ F 3 "~" H 2400 7350 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:LED D?
+L TMC51604Axis-rescue:LED-Device D?
 U 1 1 5EDC60E4
 P 2850 7350
 AR Path="/5EDC60E4" Ref="D?"  Part="1" 
@@ -2926,7 +2926,7 @@ Wire Notes Line
 Wire Notes Line
 	6500 4150 6500 600 
 $Comp
-L power:GND #PWR?
+L TMC51604Axis-rescue:GND-power #PWR?
 U 1 1 5FB3EF7A
 P 1650 2300
 AR Path="/5FB3EF7A" Ref="#PWR?"  Part="1" 
@@ -2939,7 +2939,7 @@ F 3 "" H 1650 2300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R50
+L TMC51604Axis-rescue:R-Device R50
 U 1 1 5F9BA98E
 P 2100 2200
 F 0 "R50" V 2000 2200 50  0000 C CNN
@@ -2962,7 +2962,7 @@ Wire Wire Line
 Wire Wire Line
 	2700 2500 3200 2500
 $Comp
-L power:GND #PWR?
+L TMC51604Axis-rescue:GND-power #PWR?
 U 1 1 5FC8346F
 P 1650 2100
 AR Path="/5FC8346F" Ref="#PWR?"  Part="1" 
@@ -2975,7 +2975,7 @@ F 3 "" H 1650 2100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR?
+L TMC51604Axis-rescue:GND-power #PWR?
 U 1 1 5FC83F4E
 P 1650 1900
 AR Path="/5FC83F4E" Ref="#PWR?"  Part="1" 
@@ -2988,7 +2988,7 @@ F 3 "" H 1650 1900 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR?
+L TMC51604Axis-rescue:GND-power #PWR?
 U 1 1 5FC8446E
 P 1650 1700
 AR Path="/5FC8446E" Ref="#PWR?"  Part="1" 
@@ -3021,7 +3021,7 @@ Wire Wire Line
 Wire Wire Line
 	1650 4600 2600 4600
 $Comp
-L power:GND #PWR?
+L TMC51604Axis-rescue:GND-power #PWR?
 U 1 1 5FCEAC89
 P 1650 4500
 AR Path="/5FCEAC89" Ref="#PWR?"  Part="1" 
@@ -3034,7 +3034,7 @@ F 3 "" H 1650 4500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR?
+L TMC51604Axis-rescue:GND-power #PWR?
 U 1 1 5FCF253A
 P 1650 4300
 AR Path="/5FCF253A" Ref="#PWR?"  Part="1" 
@@ -3047,7 +3047,7 @@ F 3 "" H 1650 4300 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR?
+L TMC51604Axis-rescue:GND-power #PWR?
 U 1 1 5FCF28C3
 P 1650 4100
 AR Path="/5FCF28C3" Ref="#PWR?"  Part="1" 
@@ -3062,7 +3062,7 @@ $EndComp
 Wire Wire Line
 	2700 1300 2700 1600
 $Comp
-L Connector:RJ45_Shielded J5
+L TMC51604Axis-rescue:RJ45_Shielded-Connector J5
 U 1 1 5F2A1324
 P 1250 4400
 F 0 "J5" H 1307 5067 50  0000 C CNN
@@ -3081,7 +3081,7 @@ SDO_raw
 Text Label 2350 4600 2    50   ~ 0
 CSN_raw
 $Comp
-L power:GND #PWR?
+L TMC51604Axis-rescue:GND-power #PWR?
 U 1 1 5FD303BD
 P 4350 5550
 AR Path="/5FD303BD" Ref="#PWR?"  Part="1" 
@@ -3098,7 +3098,7 @@ Wire Wire Line
 Wire Wire Line
 	3550 4700 4050 4700
 $Comp
-L power:GND #PWR?
+L TMC51604Axis-rescue:GND-power #PWR?
 U 1 1 5FD57A1F
 P 4350 4950
 AR Path="/5FD57A1F" Ref="#PWR?"  Part="1" 
@@ -3115,7 +3115,7 @@ Wire Wire Line
 Wire Wire Line
 	3550 3500 4050 3500
 $Comp
-L power:GND #PWR?
+L TMC51604Axis-rescue:GND-power #PWR?
 U 1 1 5FD6466D
 P 4350 3750
 AR Path="/5FD6466D" Ref="#PWR?"  Part="1" 
@@ -3128,7 +3128,7 @@ F 3 "" H 4350 3750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L TMC51604Axis-rescue:GND-power #PWR?
 U 1 1 5FD81D03
 P 4350 4350
 AR Path="/5FD81D03" Ref="#PWR?"  Part="1" 
@@ -3143,7 +3143,7 @@ $EndComp
 Wire Wire Line
 	3550 2500 4050 2500
 $Comp
-L power:GND #PWR0117
+L TMC51604Axis-rescue:GND-power #PWR0117
 U 1 1 5FDB2B9B
 P 4350 2750
 F 0 "#PWR0117" H 4350 2500 50  0001 C CNN
@@ -3156,7 +3156,7 @@ $EndComp
 Wire Wire Line
 	3550 1900 4050 1900
 $Comp
-L power:GND #PWR0118
+L TMC51604Axis-rescue:GND-power #PWR0118
 U 1 1 5FDBF9E8
 P 4350 2150
 F 0 "#PWR0118" H 4350 1900 50  0001 C CNN
@@ -3169,7 +3169,7 @@ $EndComp
 Wire Wire Line
 	3550 1300 4050 1300
 $Comp
-L power:GND #PWR0119
+L TMC51604Axis-rescue:GND-power #PWR0119
 U 1 1 5FDCB0B4
 P 4350 1550
 F 0 "#PWR0119" H 4350 1300 50  0001 C CNN
@@ -3195,7 +3195,7 @@ Connection ~ 3350 7500
 Text Label 2000 6850 1    50   ~ 0
 STEP_REFL
 $Comp
-L Device:R R?
+L TMC51604Axis-rescue:R-Device R?
 U 1 1 5EE4BF32
 P 3350 7050
 AR Path="/5EE4BF32" Ref="R?"  Part="1" 
@@ -3208,7 +3208,7 @@ F 3 "~" H 3350 7050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L TMC51604Axis-rescue:GND-power #PWR?
 U 1 1 5FDFE869
 P 900 7550
 AR Path="/5FDFE869" Ref="#PWR?"  Part="1" 
@@ -3236,7 +3236,7 @@ Wire Wire Line
 Wire Wire Line
 	2700 2000 2700 2500
 $Comp
-L Device:C C47
+L TMC51604Axis-rescue:C-Device C47
 U 1 1 60015F7A
 P 1250 5050
 F 0 "C47" H 1365 5096 50  0000 L CNN
@@ -3247,7 +3247,7 @@ F 3 "~" H 1250 5050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L TMC51604Axis-rescue:GND-power #PWR?
 U 1 1 60017A98
 P 1250 5200
 AR Path="/60017A98" Ref="#PWR?"  Part="1" 
@@ -3260,7 +3260,7 @@ F 3 "" H 1250 5200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C46
+L TMC51604Axis-rescue:C-Device C46
 U 1 1 6001E9CC
 P 1250 2650
 F 0 "C46" H 1365 2696 50  0000 L CNN
@@ -3271,7 +3271,7 @@ F 3 "~" H 1250 2650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L TMC51604Axis-rescue:GND-power #PWR?
 U 1 1 6001E9D2
 P 1250 2800
 AR Path="/6001E9D2" Ref="#PWR?"  Part="1" 
