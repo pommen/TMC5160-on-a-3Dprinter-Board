@@ -1,3 +1,8 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP TMC5160A-TA
+D The TMC5160 is a high power stepper motor controller and driver IC with serial communication interfaces
+F https://www.trinamic.com/fileadmin/assets/Products/ICs_Documents/TMC5160A_Datasheet_Rev1.13.pdf
+$ENDCMP
+#
 #End Doc Library
