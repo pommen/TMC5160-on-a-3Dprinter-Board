@@ -1,0 +1,4 @@
+Reference, Quantity, Value, Footprint, Datasheet
+J1 ,1,"E5908-0T0343-L","Libs:E5908-0T0343-L",""
+J2 J3 ,2,"Conn_01x08_Male","Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical","~"
+J4 J5 J6 ,3,"Conn_01x02_Male","Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical","~"

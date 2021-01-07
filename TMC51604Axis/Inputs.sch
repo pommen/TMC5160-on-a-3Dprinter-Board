@@ -96,7 +96,7 @@ AR Path="/5ED3D12E/5EDC6267" Ref="U5"  Part="5"
 F 0 "U5" H 7530 3396 50  0000 L CNN
 F 1 "74LVC125" H 7530 3305 50  0000 L CNN
 F 2 "Package_SO:SO-14_5.3x10.2mm_P1.27mm" H 7300 3350 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LVC125" H 7300 3350 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/sn74lvc125a.pdf?ts=1610054477145&ref_url=https%253A%252F%252Fwww.google.com%252F" H 7300 3350 50  0001 C CNN
 	5    7300 3350
 	1    0    0    -1  
 $EndComp
@@ -5041,8 +5041,47 @@ AR Path="/5ED3D12E/5ED5E681" Ref="U5"  Part="3"
 F 0 "U5" H 8800 2650 50  0000 C CNN
 F 1 "74LVC125" H 8850 2876 50  0001 C CNN
 F 2 "Package_SO:SO-14_5.3x10.2mm_P1.27mm" H 8850 2650 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LVC125" H 8850 2650 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/sn74lvc125a.pdf?ts=1610054477145&ref_url=https%253A%252F%252Fwww.google.com%252F" H 8850 2650 50  0001 C CNN
 	3    8850 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L TMC51604Axis-rescue:74LVC125-74xx U?
+U 4 1 5FFC3458
+P 8850 3400
+AR Path="/5FFC3458" Ref="U?"  Part="3" 
+AR Path="/5ED3D12E/5FFC3458" Ref="U5"  Part="4" 
+F 0 "U5" H 8800 3400 50  0000 C CNN
+F 1 "74LVC125" H 8850 3626 50  0001 C CNN
+F 2 "Package_SO:SO-14_5.3x10.2mm_P1.27mm" H 8850 3400 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/sn74lvc125a.pdf?ts=1610054477145&ref_url=https%253A%252F%252Fwww.google.com%252F" H 8850 3400 50  0001 C CNN
+	4    8850 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L TMC51604Axis-rescue:GND-power #PWR?
+U 1 1 5FFC6319
+P 8850 3650
+AR Path="/5FFC6319" Ref="#PWR?"  Part="1" 
+AR Path="/5ED3D12E/5FFC6319" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 8850 3400 50  0001 C CNN
+F 1 "GND" H 8850 3500 50  0000 C CNN
+F 2 "" H 8850 3650 50  0001 C CNN
+F 3 "" H 8850 3650 50  0001 C CNN
+	1    8850 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L TMC51604Axis-rescue:GND-power #PWR?
+U 1 1 5FFC67F5
+P 9150 3400
+AR Path="/5FFC67F5" Ref="#PWR?"  Part="1" 
+AR Path="/5ED3D12E/5FFC67F5" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 9150 3150 50  0001 C CNN
+F 1 "GND" H 9150 3250 50  0000 C CNN
+F 2 "" H 9150 3400 50  0001 C CNN
+F 3 "" H 9150 3400 50  0001 C CNN
+	1    9150 3400
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -5051,17 +5090,13 @@ U 1 1 5ED5E67B
 P 8850 2000
 AR Path="/5ED5E67B" Ref="U?"  Part="2" 
 AR Path="/5ED3D12E/5ED5E67B" Ref="U5"  Part="1" 
-F 0 "U5" H 8800 2000 50  0000 C CNN
+F 0 "U5" V 8800 2000 50  0000 C CNN
 F 1 "74LVC125" H 8850 2226 50  0001 C CNN
 F 2 "Package_SO:SO-14_5.3x10.2mm_P1.27mm" H 8850 2000 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LVC125" H 8850 2000 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/sn74lvc125a.pdf?ts=1610054477145&ref_url=https%253A%252F%252Fwww.google.com%252F" H 8850 2000 50  0001 C CNN
 	1    8850 2000
 	1    0    0    -1  
 $EndComp
-Wire Bus Line
-	3700 1900 3700 7100
-Wire Bus Line
-	2300 1100 2300 7100
 $Comp
 L TMC51604Axis-rescue:74LVC125-74xx U?
 U 2 1 5ED5E675
@@ -5071,8 +5106,25 @@ AR Path="/5ED3D12E/5ED5E675" Ref="U5"  Part="2"
 F 0 "U5" V 8800 1350 50  0000 C CNN
 F 1 "74LVC125" H 8850 1576 50  0000 C CNN
 F 2 "Package_SO:SO-14_5.3x10.2mm_P1.27mm" H 8850 1350 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LVC125" H 8850 1350 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/sn74lvc125a.pdf?ts=1610054477145&ref_url=https%253A%252F%252Fwww.google.com%252F" H 8850 1350 50  0001 C CNN
 	2    8850 1350
+	-1   0    0    -1  
+$EndComp
+Wire Bus Line
+	2300 1100 2300 7100
+Wire Bus Line
+	3700 1900 3700 7100
+$Comp
+L TMC51604Axis-rescue:GND-power #PWR?
+U 1 1 6000AB21
+P 8550 3400
+AR Path="/6000AB21" Ref="#PWR?"  Part="1" 
+AR Path="/5ED3D12E/6000AB21" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 8550 3150 50  0001 C CNN
+F 1 "GND" H 8550 3250 50  0000 C CNN
+F 2 "" H 8550 3400 50  0001 C CNN
+F 3 "" H 8550 3400 50  0001 C CNN
+	1    8550 3400
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
