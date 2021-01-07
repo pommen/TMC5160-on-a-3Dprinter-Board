@@ -1,0 +1,2550 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>E:\GitHub\TMC5160-on-a-3Dprinter-Board\TMC51604Axis\TMC51604Axis.sch</source>
+    <date>01/07/21 20:47:20</date>
+    <tool>Eeschema (5.1.8)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company>Design not proven</company>
+        <rev>v2</rev>
+        <date>2021-01-01</date>
+        <source>TMC51604Axis.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/MotorDrv1/" tstamps="/5D9949FC/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev>v2</rev>
+        <date>2020-06-14</date>
+        <source>MotorDrv1.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/Inputs/" tstamps="/5ED3D12E/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev>v2</rev>
+        <date>2020-06-14</date>
+        <source>Inputs.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J1">
+      <value>+48Vin</value>
+      <footprint>Connector_Phoenix_MSTB:PhoenixContact_MSTB_2,5_2-GF_1x02_P5.00mm_Horizontal_ThreadedFlange_MountHole</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TMC51604Axis-rescue" part="Conn_01x02_Female-Connector" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ECB9EB8</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>10V</value>
+      <footprint>Diode_SMD:D_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TMC51604Axis-rescue" part="D_Zener-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ED0DCA9</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>100k</value>
+      <footprint>peters:R_0805_peter</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TMC51604Axis-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ED15B9A</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>LED</value>
+      <footprint>Diode_SMD:D_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TMC51604Axis-rescue" part="LED-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EFA7135</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>10K</value>
+      <footprint>peters:R_0805_peter</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TMC51604Axis-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EFA90DA</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>LT1766</value>
+      <footprint>Package_SO:TSSOP-16-1EP_4.4x5mm_P0.65mm</footprint>
+      <datasheet>http://192.168.10.161/api/part_attachments/2499/getFile</datasheet>
+      <libsource lib="TMC51604Axis-rescue" part="LT1766-Peters" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EC24277</tstamp>
+    </comp>
+    <comp ref="L1">
+      <value>33uH</value>
+      <footprint>Inductor_SMD:L_7.3x7.3_H3.5</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TMC51604Axis-rescue" part="L-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EC33164</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>330n</value>
+      <footprint>peters:C_0805_peter</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TMC51604Axis-rescue" part="C_Small-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EC34588</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>SS34FA</value>
+      <footprint>Diode_SMD:D_SOD-123F</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TMC51604Axis-rescue" part="D_Schottky-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EC365E4</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>36K5</value>
+      <footprint>peters:R_0805_peter</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TMC51604Axis-rescue" part="R_Small-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EC4223F</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <libsource lib="TMC51604Axis-rescue" part="1N4148W-Diode" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EC5B891</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>7V</value>
+      <footprint>Diode_SMD:D_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TMC51604Axis-rescue" part="D_Zener-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EC5D08E</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>47u/25V</value>
+      <footprint>Capacitor_THT:CP_Radial_D10.0mm_P5.00mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TMC51604Axis-rescue" part="CP-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EC7675D</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>4K12</value>
+      <footprint>peters:R_0805_peter</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TMC51604Axis-rescue" part="R_Small-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EC42B52</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>22uF/100v</value>
+      <footprint>Capacitor_SMD:CP_Elec_8x10</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TMC51604Axis-rescue" part="C-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EC82DDD</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>10uF/100v</value>
+      <footprint>Capacitor_SMD:CP_Elec_8x10</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TMC51604Axis-rescue" part="CP-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EC8F720</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>220p</value>
+      <footprint>peters:C_0805_peter</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TMC51604Axis-rescue" part="C-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ECA4151</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>2k2</value>
+      <footprint>peters:R_0805_peter</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TMC51604Axis-rescue" part="R_Small-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ECAD316</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>22nF</value>
+      <footprint>peters:C_0805_peter</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TMC51604Axis-rescue" part="C_Small-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ECAE19E</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>100p</value>
+      <footprint>peters:C_0805_peter</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TMC51604Axis-rescue" part="C-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ECFF908</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>2.2uF</value>
+      <footprint>peters:C_0805_peter</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TMC51604Axis-rescue" part="C-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ED00402</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>1uF</value>
+      <footprint>peters:C_0805_peter</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TMC51604Axis-rescue" part="C-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ED00A27</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>LM2937</value>
+      <footprint>Package_TO_SOT_SMD:SOT-223-3_TabPin2</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lm2937.pdf</datasheet>
+      <libsource lib="TMC51604Axis-rescue" part="LM2937-Peters" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ED7FF5A</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TMC51604Axis-rescue" part="C-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ED94130</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TMC51604Axis-rescue" part="C-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ED94E73</tstamp>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TMC51604Axis-rescue" part="MountingHole-Mechanical" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EDCC0E6</tstamp>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TMC51604Axis-rescue" part="MountingHole-Mechanical" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EDCC0EC</tstamp>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TMC51604Axis-rescue" part="MountingHole-Mechanical" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EDCC0F2</tstamp>
+    </comp>
+    <comp ref="H4">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TMC51604Axis-rescue" part="MountingHole-Mechanical" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EDCC0F8</tstamp>
+    </comp>
+    <comp ref="FB2">
+      <value>MPZ2012S601A</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TMC51604Axis-rescue" part="Ferrite_Bead-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ED11BFB</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>AP2210-3.3V</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5_HandSoldering</footprint>
+      <datasheet>http://192.168.10.161/api/part_attachments/2545/getFile</datasheet>
+      <libsource lib="TMC51604Axis-rescue" part="AP2210-3.3V-Peters" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F245C78</tstamp>
+    </comp>
+    <comp ref="TP4">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TMC51604Axis-rescue" part="TestPoint-Connector" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F8846DE</tstamp>
+    </comp>
+    <comp ref="TP5">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TMC51604Axis-rescue" part="TestPoint-Connector" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F8851C5</tstamp>
+    </comp>
+    <comp ref="TP6">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TMC51604Axis-rescue" part="TestPoint-Connector" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F885A15</tstamp>
+    </comp>
+    <comp ref="TP7">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TMC51604Axis-rescue" part="TestPoint-Connector" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F8973EF</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>47u/25</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TMC51604Axis-rescue" part="C-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F8FCFC8</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>Stepper_conn</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-4-3.5-H_1x04_P3.50mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TMC51604Axis-rescue" part="Screw_Terminal_01x04-Connector" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EE4D43F</tstamp>
+    </comp>
+    <comp ref="J7">
+      <value>Stepper_conn</value>
+      <footprint>Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_4-G-5,08_1x04_P5.08mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TMC51604Axis-rescue" part="Screw_Terminal_01x04-Connector" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FC26CD7</tstamp>
+    </comp>
+    <comp ref="Q5">
+      <value>SQJ481EP</value>
+      <footprint>Libs:PowerPAK SO-8L SINGLE</footprint>
+      <libsource lib="Peters" part="SQJ481EP" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FF19ECE</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>100k</value>
+      <footprint>peters:R_0805_peter</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TMC51604Axis-rescue" part="R-Device" description=""/>
+      <sheetpath names="/MotorDrv1/" tstamps="/5D9949FC/"/>
+      <tstamp>5EF8D724</tstamp>
+    </comp>
+    <comp ref="C37">
+      <value>15pF</value>
+      <footprint>peters:D_0805_peter</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TMC51604Axis-rescue" part="C-Device" description=""/>
+      <sheetpath names="/MotorDrv1/" tstamps="/5D9949FC/"/>
+      <tstamp>5EF6989E</tstamp>
+    </comp>
+    <comp ref="R19">
+      <value>NC</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TMC51604Axis-rescue" part="R-Device" description=""/>
+      <sheetpath names="/MotorDrv1/" tstamps="/5D9949FC/"/>
+      <tstamp>5EEBD507</tstamp>
+    </comp>
+    <comp ref="C34">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TMC51604Axis-rescue" part="C_Small-Device" description=""/>
+      <sheetpath names="/MotorDrv1/" tstamps="/5D9949FC/"/>
+      <tstamp>5EEBB32B</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>ASDMB-12.0MHz</value>
+      <footprint>Oscillator:Oscillator_SMD_Abracon_ASDMB-4Pin_2.5x2.0mm</footprint>
+      <datasheet>https://abracon.com/Oscillators/ASDMB.pdf</datasheet>
+      <libsource lib="TMC51604Axis-rescue" part="ASDMB-xxxMHz-Oscillator" description=""/>
+      <sheetpath names="/MotorDrv1/" tstamps="/5D9949FC/"/>
+      <tstamp>5EEB85E4</tstamp>
+    </comp>
+    <comp ref="JP1">
+      <value>SPI_MODE</value>
+      <footprint>Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TMC51604Axis-rescue" part="Jumper_NC_Dual-Device" description=""/>
+      <sheetpath names="/MotorDrv1/" tstamps="/5D9949FC/"/>
+      <tstamp>5EE66D2B</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>1R</value>
+      <footprint>peters:R_0805_peter</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TMC51604Axis-rescue" part="R_Small-Device" description=""/>
+      <sheetpath names="/MotorDrv1/" tstamps="/5D9949FC/"/>
+      <tstamp>5DCBAE75</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>100n/100v</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TMC51604Axis-rescue" part="C_Small-Device" description=""/>
+      <sheetpath names="/MotorDrv1/" tstamps="/5D9949FC/"/>
+      <tstamp>5ED93129</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>TMC5160A-TA</value>
+      <footprint>peters:LQFP-48-1EP_7x7mm_P0.5mm_EP3.6x3.6mm_peter</footprint>
+      <datasheet>https://www.trinamic.com/fileadmin/assets/Products/ICs_Documents/TMC5160A_Datasheet_Rev1.14.pdf</datasheet>
+      <libsource lib="TMC51604Axis-rescue" part="TMC5160A-TA-Peters" description=""/>
+      <sheetpath names="/MotorDrv1/" tstamps="/5D9949FC/"/>
+      <tstamp>5ED3FDD9</tstamp>
+    </comp>
+    <comp ref="D7">
+      <value>ZHCS1006TA</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>http://192.168.0.101/api/part_attachments/635/getFile</datasheet>
+      <libsource lib="TMC51604Axis-rescue" part="ZHCS1006TA-Peters" description=""/>
+      <sheetpath names="/MotorDrv1/" tstamps="/5D9949FC/"/>
+      <tstamp>5DB48BFA</tstamp>
+    </comp>
+    <comp ref="D8">
+      <value>ZHCS1006TA</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>http://192.168.0.101/api/part_attachments/635/getFile</datasheet>
+      <libsource lib="TMC51604Axis-rescue" part="ZHCS1006TA-Peters" description=""/>
+      <sheetpath names="/MotorDrv1/" tstamps="/5D9949FC/"/>
+      <tstamp>5DB48BED</tstamp>
+    </comp>
+    <comp ref="D9">
+      <value>ZHCS1006TA</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>http://192.168.0.101/api/part_attachments/635/getFile</datasheet>
+      <libsource lib="TMC51604Axis-rescue" part="ZHCS1006TA-Peters" description=""/>
+      <sheetpath names="/MotorDrv1/" tstamps="/5D9949FC/"/>
+      <tstamp>5DB47EEF</tstamp>
+    </comp>
+    <comp ref="D10">
+      <value>ZHCS1006TA</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>http://192.168.0.101/api/part_attachments/635/getFile</datasheet>
+      <libsource lib="TMC51604Axis-rescue" part="ZHCS1006TA-Peters" description=""/>
+      <sheetpath names="/MotorDrv1/" tstamps="/5D9949FC/"/>
+      <tstamp>5D9AF44B</tstamp>
+    </comp>
+    <comp ref="C16">
+      <value>4,7uF/100v</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TMC51604Axis-rescue" part="C_Small-Device" description=""/>
+      <sheetpath names="/MotorDrv1/" tstamps="/5D9949FC/"/>
+      <tstamp>5DF852B6</tstamp>
+    </comp>
+    <comp ref="R30">
+      <value>100K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TMC51604Axis-rescue" part="R_Small-Device" description=""/>
+      <sheetpath names="/MotorDrv1/" tstamps="/5D9949FC/"/>
+      <tstamp>5DF3F1E4</tstamp>
+    </comp>
+    <comp ref="R29">
+      <value>100K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TMC51604Axis-rescue" part="R_Small-Device" description=""/>
+      <sheetpath names="/MotorDrv1/" tstamps="/5D9949FC/"/>
+      <tstamp>5DF016F3</tstamp>
+    </comp>
+    <comp ref="Q4">
+      <value>BSS138</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf</datasheet>
+      <libsource lib="TMC51604Axis-rescue" part="BSS138-Transistor_FET" description=""/>
+      <sheetpath names="/MotorDrv1/" tstamps="/5D9949FC/"/>
+      <tstamp>5DEDFA8A</tstamp>
+    </comp>
+    <comp ref="C25">
+      <value>2.2uFto10uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TMC51604Axis-rescue" part="C_Small-Device" description=""/>
+      <sheetpath names="/MotorDrv1/" tstamps="/5D9949FC/"/>
+      <tstamp>5DE1C6A1</tstamp>
+    </comp>
+    <comp ref="C27">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TMC51604Axis-rescue" part="C_Small-Device" description=""/>
+      <sheetpath names="/MotorDrv1/" tstamps="/5D9949FC/"/>
+      <tstamp>5DD81983</tstamp>
+    </comp>
+    <comp ref="C41">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TMC51604Axis-rescue" part="C_Small-Device" description=""/>
+      <sheetpath names="/MotorDrv1/" tstamps="/5D9949FC/"/>
+      <tstamp>5DD2A663</tstamp>
+    </comp>
+    <comp ref="C40">
+      <value>2n2</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TMC51604Axis-rescue" part="C_Small-Device" description=""/>
+      <sheetpath names="/MotorDrv1/" tstamps="/5D9949FC/"/>
+      <tstamp>5DD2A655</tstamp>
+    </comp>
+    <comp ref="R21">
+      <value>0R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TMC51604Axis-rescue" part="R_Small-Device" description=""/>
+      <sheetpath names="/MotorDrv1/" tstamps="/5D9949FC/"/>
+      <tstamp>5DD2A637</tstamp>
+    </comp>
+    <comp ref="R20">
+      <value>0R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TMC51604Axis-rescue" part="R_Small-Device" description=""/>
+      <sheetpath names="/MotorDrv1/" tstamps="/5D9949FC/"/>
+      <tstamp>5DD2A631</tstamp>
+    </comp>
+    <comp ref="R22">
+      <value>12R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TMC51604Axis-rescue" part="R_Small-Device" description=""/>
+      <sheetpath names="/MotorDrv1/" tstamps="/5D9949FC/"/>
+      <tstamp>5DD2A61E</tstamp>
+    </comp>
+    <comp ref="R24">
+      <value>12R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TMC51604Axis-rescue" part="R_Small-Device" description=""/>
+      <sheetpath names="/MotorDrv1/" tstamps="/5D9949FC/"/>
+      <tstamp>5DD2A618</tstamp>
+    </comp>
+    <comp ref="R25">
+      <value>12R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TMC51604Axis-rescue" part="R_Small-Device" description=""/>
+      <sheetpath names="/MotorDrv1/" tstamps="/5D9949FC/"/>
+      <tstamp>5DD2A612</tstamp>
+    </comp>
+    <comp ref="C38">
+      <value>470n/100V x2</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TMC51604Axis-rescue" part="C-Device" description=""/>
+      <sheetpath names="/MotorDrv1/" tstamps="/5D9949FC/"/>
+      <tstamp>5DD2A5EC</tstamp>
+    </comp>
+    <comp ref="R27">
+      <value>0R05</value>
+      <footprint>Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TMC51604Axis-rescue" part="R-Device" description=""/>
+      <sheetpath names="/MotorDrv1/" tstamps="/5D9949FC/"/>
+      <tstamp>5DD2A5DD</tstamp>
+    </comp>
+    <comp ref="C36">
+      <value>470n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TMC51604Axis-rescue" part="C_Small-Device" description=""/>
+      <sheetpath names="/MotorDrv1/" tstamps="/5D9949FC/"/>
+      <tstamp>5DD2A5BF</tstamp>
+    </comp>
+    <comp ref="R23">
+      <value>12R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TMC51604Axis-rescue" part="R_Small-Device" description=""/>
+      <sheetpath names="/MotorDrv1/" tstamps="/5D9949FC/"/>
+      <tstamp>5DD2A5B7</tstamp>
+    </comp>
+    <comp ref="R28">
+      <value>47R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TMC51604Axis-rescue" part="R-Device" description=""/>
+      <sheetpath names="/MotorDrv1/" tstamps="/5D9949FC/"/>
+      <tstamp>5DD2A5B1</tstamp>
+    </comp>
+    <comp ref="R26">
+      <value>47R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TMC51604Axis-rescue" part="R-Device" description=""/>
+      <sheetpath names="/MotorDrv1/" tstamps="/5D9949FC/"/>
+      <tstamp>5DD2A5AB</tstamp>
+    </comp>
+    <comp ref="C35">
+      <value>470n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TMC51604Axis-rescue" part="C_Small-Device" description=""/>
+      <sheetpath names="/MotorDrv1/" tstamps="/5D9949FC/"/>
+      <tstamp>5DD2A5A5</tstamp>
+    </comp>
+    <comp ref="C33">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TMC51604Axis-rescue" part="C_Small-Device" description=""/>
+      <sheetpath names="/MotorDrv1/" tstamps="/5D9949FC/"/>
+      <tstamp>5DBF5220</tstamp>
+    </comp>
+    <comp ref="C32">
+      <value>2n2</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TMC51604Axis-rescue" part="C_Small-Device" description=""/>
+      <sheetpath names="/MotorDrv1/" tstamps="/5D9949FC/"/>
+      <tstamp>5DBDEE21</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>0R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TMC51604Axis-rescue" part="R_Small-Device" description=""/>
+      <sheetpath names="/MotorDrv1/" tstamps="/5D9949FC/"/>
+      <tstamp>5DBB0C87</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>0R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TMC51604Axis-rescue" part="R_Small-Device" description=""/>
+      <sheetpath names="/MotorDrv1/" tstamps="/5D9949FC/"/>
+      <tstamp>5DBAFC35</tstamp>
+    </comp>
+    <comp ref="C31">
+      <value>1n/100V</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TMC51604Axis-rescue" part="C-Device" description=""/>
+      <sheetpath names="/MotorDrv1/" tstamps="/5D9949FC/"/>
+      <tstamp>5DB81DE1</tstamp>
+    </comp>
+    <comp ref="C30">
+      <value>1n/100V</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TMC51604Axis-rescue" part="C-Device" description=""/>
+      <sheetpath names="/MotorDrv1/" tstamps="/5D9949FC/"/>
+      <tstamp>5DB81DDB</tstamp>
+    </comp>
+    <comp ref="C29">
+      <value>1n/100V</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TMC51604Axis-rescue" part="C-Device" description=""/>
+      <sheetpath names="/MotorDrv1/" tstamps="/5D9949FC/"/>
+      <tstamp>5DB7BEC6</tstamp>
+    </comp>
+    <comp ref="C28">
+      <value>1n/100V</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TMC51604Axis-rescue" part="C-Device" description=""/>
+      <sheetpath names="/MotorDrv1/" tstamps="/5D9949FC/"/>
+      <tstamp>5DB7B572</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>12R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TMC51604Axis-rescue" part="R_Small-Device" description=""/>
+      <sheetpath names="/MotorDrv1/" tstamps="/5D9949FC/"/>
+      <tstamp>5DA81DAD</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>12R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TMC51604Axis-rescue" part="R_Small-Device" description=""/>
+      <sheetpath names="/MotorDrv1/" tstamps="/5D9949FC/"/>
+      <tstamp>5DA811E9</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>12R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TMC51604Axis-rescue" part="R_Small-Device" description=""/>
+      <sheetpath names="/MotorDrv1/" tstamps="/5D9949FC/"/>
+      <tstamp>5DA80BF6</tstamp>
+    </comp>
+    <comp ref="C20">
+      <value>470n/100V x2</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TMC51604Axis-rescue" part="C-Device" description=""/>
+      <sheetpath names="/MotorDrv1/" tstamps="/5D9949FC/"/>
+      <tstamp>5D9A73AF</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>0R05</value>
+      <footprint>Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TMC51604Axis-rescue" part="R-Device" description=""/>
+      <sheetpath names="/MotorDrv1/" tstamps="/5D9949FC/"/>
+      <tstamp>5D9EA5CF</tstamp>
+    </comp>
+    <comp ref="C24">
+      <value>470n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TMC51604Axis-rescue" part="C_Small-Device" description=""/>
+      <sheetpath names="/MotorDrv1/" tstamps="/5D9949FC/"/>
+      <tstamp>5D9A2EB2</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>12R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TMC51604Axis-rescue" part="R_Small-Device" description=""/>
+      <sheetpath names="/MotorDrv1/" tstamps="/5D9949FC/"/>
+      <tstamp>5D9AE531</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>47R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TMC51604Axis-rescue" part="R-Device" description=""/>
+      <sheetpath names="/MotorDrv1/" tstamps="/5D9949FC/"/>
+      <tstamp>5D9A2ED6</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>47R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TMC51604Axis-rescue" part="R-Device" description=""/>
+      <sheetpath names="/MotorDrv1/" tstamps="/5D9949FC/"/>
+      <tstamp>5D9A2ED0</tstamp>
+    </comp>
+    <comp ref="C19">
+      <value>220n/100v</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TMC51604Axis-rescue" part="C_Small-Device" description=""/>
+      <sheetpath names="/MotorDrv1/" tstamps="/5D9949FC/"/>
+      <tstamp>5D9A2EA1</tstamp>
+    </comp>
+    <comp ref="C18">
+      <value>100n/100V</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TMC51604Axis-rescue" part="C_Small-Device" description=""/>
+      <sheetpath names="/MotorDrv1/" tstamps="/5D9949FC/"/>
+      <tstamp>5D9A2E96</tstamp>
+    </comp>
+    <comp ref="C17">
+      <value>22n/100v</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikery partno">445-2275-1-ND</field>
+      </fields>
+      <libsource lib="TMC51604Axis-rescue" part="C_Small-Device" description=""/>
+      <sheetpath names="/MotorDrv1/" tstamps="/5D9949FC/"/>
+      <tstamp>5D9A2E90</tstamp>
+    </comp>
+    <comp ref="C22">
+      <value>470n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TMC51604Axis-rescue" part="C_Small-Device" description=""/>
+      <sheetpath names="/MotorDrv1/" tstamps="/5D9949FC/"/>
+      <tstamp>5D9A2E8A</tstamp>
+    </comp>
+    <comp ref="C26">
+      <value>470n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TMC51604Axis-rescue" part="C_Small-Device" description=""/>
+      <sheetpath names="/MotorDrv1/" tstamps="/5D9949FC/"/>
+      <tstamp>5D9A2E5A</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>2R2</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TMC51604Axis-rescue" part="R_Small-Device" description=""/>
+      <sheetpath names="/MotorDrv1/" tstamps="/5D9949FC/"/>
+      <tstamp>5D9A2E52</tstamp>
+    </comp>
+    <comp ref="C23">
+      <value>2.2uFto10uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TMC51604Axis-rescue" part="C_Small-Device" description=""/>
+      <sheetpath names="/MotorDrv1/" tstamps="/5D9949FC/"/>
+      <tstamp>5D9A2E4C</tstamp>
+    </comp>
+    <comp ref="R54">
+      <value>47K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TMC51604Axis-rescue" part="R_Small-Device" description=""/>
+      <sheetpath names="/MotorDrv1/" tstamps="/5D9949FC/"/>
+      <tstamp>5EE9D3E7</tstamp>
+    </comp>
+    <comp ref="R53">
+      <value>47K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TMC51604Axis-rescue" part="R_Small-Device" description=""/>
+      <sheetpath names="/MotorDrv1/" tstamps="/5D9949FC/"/>
+      <tstamp>5EEE00CC</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>DMHT6016LFJ-Peters</value>
+      <footprint>Libs:V-DFN5045-12 (Type B)</footprint>
+      <libsource lib="TMC51604Axis-rescue" part="DMHT6016LFJ-Peters" description=""/>
+      <sheetpath names="/MotorDrv1/" tstamps="/5D9949FC/"/>
+      <tstamp>5FCE50CE</tstamp>
+    </comp>
+    <comp ref="Q3">
+      <value>DMHT6016LFJ-Peters</value>
+      <footprint>Libs:V-DFN5045-12 (Type B)</footprint>
+      <libsource lib="TMC51604Axis-rescue" part="DMHT6016LFJ-Peters" description=""/>
+      <sheetpath names="/MotorDrv1/" tstamps="/5D9949FC/"/>
+      <tstamp>5FDEE5C2</tstamp>
+    </comp>
+    <comp ref="C50">
+      <value>470n/100V</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TMC51604Axis-rescue" part="C-Device" description=""/>
+      <sheetpath names="/MotorDrv1/" tstamps="/5D9949FC/"/>
+      <tstamp>5FE4753D</tstamp>
+    </comp>
+    <comp ref="C51">
+      <value>470n/100V</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TMC51604Axis-rescue" part="C-Device" description=""/>
+      <sheetpath names="/MotorDrv1/" tstamps="/5D9949FC/"/>
+      <tstamp>5FE48BBE</tstamp>
+    </comp>
+    <comp ref="C53">
+      <value>330uF/100V</value>
+      <footprint>Capacitor_THT:CP_Radial_D12.5mm_P5.00mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="digikey">UVZ2A471MHD</field>
+      </fields>
+      <libsource lib="TMC51604Axis-rescue" part="CP-Device" description=""/>
+      <sheetpath names="/MotorDrv1/" tstamps="/5D9949FC/"/>
+      <tstamp>5FD5C72B</tstamp>
+    </comp>
+    <comp ref="C55">
+      <value>330uF/100V</value>
+      <footprint>Capacitor_THT:CP_Radial_D12.5mm_P5.00mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="digikey">UVZ2A471MHD</field>
+      </fields>
+      <libsource lib="TMC51604Axis-rescue" part="CP-Device" description=""/>
+      <sheetpath names="/MotorDrv1/" tstamps="/5D9949FC/"/>
+      <tstamp>5FD7E4D4</tstamp>
+    </comp>
+    <comp ref="C54">
+      <value>330uF/100V</value>
+      <footprint>Capacitor_THT:CP_Radial_D12.5mm_P5.00mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="digikey">UVZ2A471MHD</field>
+      </fields>
+      <libsource lib="TMC51604Axis-rescue" part="CP-Device" description=""/>
+      <sheetpath names="/MotorDrv1/" tstamps="/5D9949FC/"/>
+      <tstamp>5FD9CB7B</tstamp>
+    </comp>
+    <comp ref="C52">
+      <value>330uF/100V</value>
+      <footprint>Capacitor_THT:CP_Radial_D12.5mm_P5.00mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="digikey#">UVZ2A471MHD</field>
+      </fields>
+      <libsource lib="TMC51604Axis-rescue" part="CP-Device" description=""/>
+      <sheetpath names="/MotorDrv1/" tstamps="/5D9949FC/"/>
+      <tstamp>5FD9CB87</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>BSS138</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf</datasheet>
+      <libsource lib="TMC51604Axis-rescue" part="BSS138-Transistor_FET" description=""/>
+      <sheetpath names="/MotorDrv1/" tstamps="/5D9949FC/"/>
+      <tstamp>60021AE3</tstamp>
+    </comp>
+    <comp ref="R42">
+      <value>100K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TMC51604Axis-rescue" part="R_Small-Device" description=""/>
+      <sheetpath names="/MotorDrv1/" tstamps="/5D9949FC/"/>
+      <tstamp>60030B72</tstamp>
+    </comp>
+    <comp ref="R43">
+      <value>100K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TMC51604Axis-rescue" part="R_Small-Device" description=""/>
+      <sheetpath names="/MotorDrv1/" tstamps="/5D9949FC/"/>
+      <tstamp>60051E01</tstamp>
+    </comp>
+    <comp ref="R44">
+      <value>100K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TMC51604Axis-rescue" part="R_Small-Device" description=""/>
+      <sheetpath names="/MotorDrv1/" tstamps="/5D9949FC/"/>
+      <tstamp>600DD8D4</tstamp>
+    </comp>
+    <comp ref="JP2">
+      <value>SD_MODE</value>
+      <footprint>Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TMC51604Axis-rescue" part="Jumper_NC_Dual-Device" description=""/>
+      <sheetpath names="/MotorDrv1/" tstamps="/5D9949FC/"/>
+      <tstamp>5EE0F4B6</tstamp>
+    </comp>
+    <comp ref="R46">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TMC51604Axis-rescue" part="R_Small-Device" description=""/>
+      <sheetpath names="/MotorDrv1/" tstamps="/5D9949FC/"/>
+      <tstamp>603BBEC4</tstamp>
+    </comp>
+    <comp ref="R45">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TMC51604Axis-rescue" part="R_Small-Device" description=""/>
+      <sheetpath names="/MotorDrv1/" tstamps="/5D9949FC/"/>
+      <tstamp>60403AC2</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>74LVC125</value>
+      <footprint>Package_SO:SO-14_5.3x10.2mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/gpn/sn74LVC125</datasheet>
+      <libsource lib="TMC51604Axis-rescue" part="74LVC125-74xx" description=""/>
+      <sheetpath names="/Inputs/" tstamps="/5ED3D12E/"/>
+      <tstamp>5EDC6267</tstamp>
+    </comp>
+    <comp ref="C43">
+      <value>100n</value>
+      <footprint>peters:C_0805_peter</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TMC51604Axis-rescue" part="C-Device" description=""/>
+      <sheetpath names="/Inputs/" tstamps="/5ED3D12E/"/>
+      <tstamp>5EDC626D</tstamp>
+    </comp>
+    <comp ref="JP3">
+      <value>Encoder_Voltage_Sel</value>
+      <footprint>Jumper:SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TMC51604Axis-rescue" part="Jumper_3_Bridged12-Jumper" description=""/>
+      <sheetpath names="/Inputs/" tstamps="/5ED3D12E/"/>
+      <tstamp>5EE06AF9</tstamp>
+    </comp>
+    <comp ref="C42">
+      <value>10u</value>
+      <footprint>peters:C_0805_peter</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TMC51604Axis-rescue" part="C-Device" description=""/>
+      <sheetpath names="/Inputs/" tstamps="/5ED3D12E/"/>
+      <tstamp>5EE0EECD</tstamp>
+    </comp>
+    <comp ref="R38">
+      <value>100R</value>
+      <footprint>peters:R_0805_peter</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TMC51604Axis-rescue" part="R-Device" description=""/>
+      <sheetpath names="/Inputs/" tstamps="/5ED3D12E/"/>
+      <tstamp>5EFFA6FC</tstamp>
+    </comp>
+    <comp ref="R48">
+      <value>100R</value>
+      <footprint>peters:R_0805_peter</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TMC51604Axis-rescue" part="R-Device" description=""/>
+      <sheetpath names="/Inputs/" tstamps="/5ED3D12E/"/>
+      <tstamp>5F00D2ED</tstamp>
+    </comp>
+    <comp ref="R40">
+      <value>100R</value>
+      <footprint>peters:R_0805_peter</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TMC51604Axis-rescue" part="R-Device" description=""/>
+      <sheetpath names="/Inputs/" tstamps="/5ED3D12E/"/>
+      <tstamp>5F0142CB</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>EncCon1</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-3-3.5-H_1x03_P3.50mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TMC51604Axis-rescue" part="Screw_Terminal_01x03-Connector" description=""/>
+      <sheetpath names="/Inputs/" tstamps="/5ED3D12E/"/>
+      <tstamp>5ED08FD6</tstamp>
+    </comp>
+    <comp ref="J6">
+      <value>EncCon2</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-3-3.5-H_1x03_P3.50mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TMC51604Axis-rescue" part="Screw_Terminal_01x03-Connector" description=""/>
+      <sheetpath names="/Inputs/" tstamps="/5ED3D12E/"/>
+      <tstamp>5ED0A894</tstamp>
+    </comp>
+    <comp ref="D25">
+      <value>BAT54S</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/ds11005.pdf</datasheet>
+      <libsource lib="TMC51604Axis-rescue" part="BAT54S-Diode" description=""/>
+      <sheetpath names="/Inputs/" tstamps="/5ED3D12E/"/>
+      <tstamp>5F1F5967</tstamp>
+    </comp>
+    <comp ref="D27">
+      <value>BAT54S</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/ds11005.pdf</datasheet>
+      <libsource lib="TMC51604Axis-rescue" part="BAT54S-Diode" description=""/>
+      <sheetpath names="/Inputs/" tstamps="/5ED3D12E/"/>
+      <tstamp>5F1F92C4</tstamp>
+    </comp>
+    <comp ref="D28">
+      <value>BAT54S</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/ds11005.pdf</datasheet>
+      <libsource lib="TMC51604Axis-rescue" part="BAT54S-Diode" description=""/>
+      <sheetpath names="/Inputs/" tstamps="/5ED3D12E/"/>
+      <tstamp>5F1F9AB5</tstamp>
+    </comp>
+    <comp ref="TP3">
+      <value>spare</value>
+      <footprint>TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TMC51604Axis-rescue" part="TestPoint-Connector" description=""/>
+      <sheetpath names="/Inputs/" tstamps="/5ED3D12E/"/>
+      <tstamp>5F208A00</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>RJ45_SPI</value>
+      <footprint>peters:360s-1812-11001(RJ45)</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TMC51604Axis-rescue" part="RJ45_Shielded-Connector" description=""/>
+      <sheetpath names="/Inputs/" tstamps="/5ED3D12E/"/>
+      <tstamp>5F2A1324</tstamp>
+    </comp>
+    <comp ref="C47">
+      <value>100n</value>
+      <footprint>peters:C_0805_peter</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TMC51604Axis-rescue" part="C-Device" description=""/>
+      <sheetpath names="/Inputs/" tstamps="/5ED3D12E/"/>
+      <tstamp>60015F7A</tstamp>
+    </comp>
+    <comp ref="C46">
+      <value>100n</value>
+      <footprint>peters:C_0805_peter</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TMC51604Axis-rescue" part="C-Device" description=""/>
+      <sheetpath names="/Inputs/" tstamps="/5ED3D12E/"/>
+      <tstamp>6001E9CC</tstamp>
+    </comp>
+    <comp ref="D20">
+      <value>BAT54S</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/ds11005.pdf</datasheet>
+      <libsource lib="TMC51604Axis-rescue" part="BAT54S-Diode" description=""/>
+      <sheetpath names="/Inputs/" tstamps="/5ED3D12E/"/>
+      <tstamp>5F1FE5CE</tstamp>
+    </comp>
+    <comp ref="R31">
+      <value>100R</value>
+      <footprint>peters:R_0805_peter</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TMC51604Axis-rescue" part="R-Device" description=""/>
+      <sheetpath names="/Inputs/" tstamps="/5ED3D12E/"/>
+      <tstamp>601E63E3</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>100R</value>
+      <footprint>peters:R_0805_peter</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TMC51604Axis-rescue" part="R-Device" description=""/>
+      <sheetpath names="/Inputs/" tstamps="/5ED3D12E/"/>
+      <tstamp>601E5BB5</tstamp>
+    </comp>
+    <comp ref="R32">
+      <value>100R</value>
+      <footprint>peters:R_0805_peter</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TMC51604Axis-rescue" part="R-Device" description=""/>
+      <sheetpath names="/Inputs/" tstamps="/5ED3D12E/"/>
+      <tstamp>601F84B1</tstamp>
+    </comp>
+    <comp ref="R33">
+      <value>100R</value>
+      <footprint>peters:R_0805_peter</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TMC51604Axis-rescue" part="R-Device" description=""/>
+      <sheetpath names="/Inputs/" tstamps="/5ED3D12E/"/>
+      <tstamp>601F8B9E</tstamp>
+    </comp>
+    <comp ref="R34">
+      <value>100R</value>
+      <footprint>peters:R_0805_peter</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TMC51604Axis-rescue" part="R-Device" description=""/>
+      <sheetpath names="/Inputs/" tstamps="/5ED3D12E/"/>
+      <tstamp>6020545E</tstamp>
+    </comp>
+    <comp ref="R35">
+      <value>100R</value>
+      <footprint>peters:R_0805_peter</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TMC51604Axis-rescue" part="R-Device" description=""/>
+      <sheetpath names="/Inputs/" tstamps="/5ED3D12E/"/>
+      <tstamp>6020D92C</tstamp>
+    </comp>
+    <comp ref="R36">
+      <value>100R</value>
+      <footprint>peters:R_0805_peter</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TMC51604Axis-rescue" part="R-Device" description=""/>
+      <sheetpath names="/Inputs/" tstamps="/5ED3D12E/"/>
+      <tstamp>6020E5AA</tstamp>
+    </comp>
+    <comp ref="R37">
+      <value>100R</value>
+      <footprint>peters:R_0805_peter</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TMC51604Axis-rescue" part="R-Device" description=""/>
+      <sheetpath names="/Inputs/" tstamps="/5ED3D12E/"/>
+      <tstamp>6020E975</tstamp>
+    </comp>
+    <comp ref="R39">
+      <value>100R</value>
+      <footprint>peters:R_0805_peter</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TMC51604Axis-rescue" part="R-Device" description=""/>
+      <sheetpath names="/Inputs/" tstamps="/5ED3D12E/"/>
+      <tstamp>6020ECB4</tstamp>
+    </comp>
+    <comp ref="D11">
+      <value>BAT54S</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/ds11005.pdf</datasheet>
+      <libsource lib="TMC51604Axis-rescue" part="BAT54S-Diode" description=""/>
+      <sheetpath names="/Inputs/" tstamps="/5ED3D12E/"/>
+      <tstamp>6039461D</tstamp>
+    </comp>
+    <comp ref="D13">
+      <value>BAT54S</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/ds11005.pdf</datasheet>
+      <libsource lib="TMC51604Axis-rescue" part="BAT54S-Diode" description=""/>
+      <sheetpath names="/Inputs/" tstamps="/5ED3D12E/"/>
+      <tstamp>603A8CED</tstamp>
+    </comp>
+    <comp ref="D14">
+      <value>BAT54S</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/ds11005.pdf</datasheet>
+      <libsource lib="TMC51604Axis-rescue" part="BAT54S-Diode" description=""/>
+      <sheetpath names="/Inputs/" tstamps="/5ED3D12E/"/>
+      <tstamp>603AFF53</tstamp>
+    </comp>
+    <comp ref="D12">
+      <value>BAT54S</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/ds11005.pdf</datasheet>
+      <libsource lib="TMC51604Axis-rescue" part="BAT54S-Diode" description=""/>
+      <sheetpath names="/Inputs/" tstamps="/5ED3D12E/"/>
+      <tstamp>603A22DA</tstamp>
+    </comp>
+    <comp ref="D16">
+      <value>BAT54S</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/ds11005.pdf</datasheet>
+      <libsource lib="TMC51604Axis-rescue" part="BAT54S-Diode" description=""/>
+      <sheetpath names="/Inputs/" tstamps="/5ED3D12E/"/>
+      <tstamp>60405874</tstamp>
+    </comp>
+    <comp ref="D17">
+      <value>BAT54S</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/ds11005.pdf</datasheet>
+      <libsource lib="TMC51604Axis-rescue" part="BAT54S-Diode" description=""/>
+      <sheetpath names="/Inputs/" tstamps="/5ED3D12E/"/>
+      <tstamp>6040D7C3</tstamp>
+    </comp>
+    <comp ref="D18">
+      <value>BAT54S</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/ds11005.pdf</datasheet>
+      <libsource lib="TMC51604Axis-rescue" part="BAT54S-Diode" description=""/>
+      <sheetpath names="/Inputs/" tstamps="/5ED3D12E/"/>
+      <tstamp>6041557E</tstamp>
+    </comp>
+    <comp ref="D19">
+      <value>BAT54S</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/ds11005.pdf</datasheet>
+      <libsource lib="TMC51604Axis-rescue" part="BAT54S-Diode" description=""/>
+      <sheetpath names="/Inputs/" tstamps="/5ED3D12E/"/>
+      <tstamp>6041D883</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TMC51604Axis-rescue" part="C-Device" description=""/>
+      <sheetpath names="/Inputs/" tstamps="/5ED3D12E/"/>
+      <tstamp>604EAB38</tstamp>
+    </comp>
+    <comp ref="R41">
+      <value>R</value>
+      <footprint>peters:C_0805_peter</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Inputs/" tstamps="/5ED3D12E/"/>
+      <tstamp>604F5AAB</tstamp>
+    </comp>
+    <comp ref="U7">
+      <value>TXB0108PWR</value>
+      <footprint>digikey-footprints:TSSOP-20_W4.4mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/txb0108.pdf</datasheet>
+      <fields>
+        <field name="Category">Integrated Circuits (ICs)</field>
+        <field name="DK_Datasheet_Link">http://www.ti.com/lit/ds/symlink/txb0108.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/texas-instruments/TXB0108PWR/296-21527-1-ND/1305700</field>
+        <field name="Description">IC TRNSLTR BIDIRECTIONAL 20TSSOP</field>
+        <field name="Digi-Key_PN">296-21527-1-ND</field>
+        <field name="Family">Logic - Translators, Level Shifters</field>
+        <field name="MPN">TXB0108PWR</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Logic-Translators-Level-Shifters" part="TXB0108PWR" description="IC TRNSLTR BIDIRECTIONAL 20TSSOP"/>
+      <sheetpath names="/Inputs/" tstamps="/5ED3D12E/"/>
+      <tstamp>6096B372</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>RJ45_STEP_DIR</value>
+      <footprint>peters:360s-1812-11001(RJ45)</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TMC51604Axis-rescue" part="RJ45_Shielded-Connector" description=""/>
+      <sheetpath names="/Inputs/" tstamps="/5ED3D12E/"/>
+      <tstamp>5F29F29E</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TMC51604Axis-rescue" part="C-Device" description=""/>
+      <sheetpath names="/Inputs/" tstamps="/5ED3D12E/"/>
+      <tstamp>602B622B</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Peters" part="SQJ481EP">
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">SQJ481EP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="S" type="passive"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="S" type="passive"/>
+        <pin num="4" name="G" type="input"/>
+        <pin num="5" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="TMC51604Axis-rescue" part="1N4148W-Diode">
+      <footprints>
+        <fp>D*SOD?123*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">1N4148W-Diode</field>
+        <field name="Footprint">Diode_SMD:D_SOD-123</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="TMC51604Axis-rescue" part="74LVC125-74xx">
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74LVC125-74xx</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="input"/>
+        <pin num="3" name="~" type="3state"/>
+        <pin num="4" name="~" type="input"/>
+        <pin num="5" name="~" type="input"/>
+        <pin num="6" name="~" type="3state"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="~" type="3state"/>
+        <pin num="9" name="~" type="input"/>
+        <pin num="10" name="~" type="input"/>
+        <pin num="11" name="~" type="3state"/>
+        <pin num="12" name="~" type="input"/>
+        <pin num="13" name="~" type="input"/>
+        <pin num="14" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="TMC51604Axis-rescue" part="AP2210-3.3V-Peters">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AP2210-3.3V-Peters</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5_HandSoldering</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VIN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="ENA" type="input"/>
+        <pin num="4" name="Bypass" type="power_out"/>
+        <pin num="5" name="VOut" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="TMC51604Axis-rescue" part="ASDMB-xxxMHz-Oscillator">
+      <footprints>
+        <fp>Oscillator*SMD*Abracon*ASDMB*2.5x2.0mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ASDMB-xxxMHz-Oscillator</field>
+        <field name="Footprint">Oscillator:Oscillator_SMD_Abracon_ASDMB-4Pin_2.5x2.0mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Standby" type="input"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="Out" type="output"/>
+        <pin num="4" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="TMC51604Axis-rescue" part="BAT54S-Diode">
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">BAT54S-Diode</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="TMC51604Axis-rescue" part="BSS138-Transistor_FET">
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BSS138-Transistor_FET</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="TMC51604Axis-rescue" part="C-Device">
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="TMC51604Axis-rescue" part="CP-Device">
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="TMC51604Axis-rescue" part="C_Small-Device">
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="TMC51604Axis-rescue" part="Conn_01x02_Female-Connector">
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Female-Connector</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="TMC51604Axis-rescue" part="DMHT6016LFJ-Peters">
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">DMHT6016LFJ-Peters</field>
+        <field name="Footprint">Libs:V-DFN5045-12</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G1" type="unspc"/>
+        <pin num="2" name="D1/D4,13" type="unspc"/>
+        <pin num="3" name="S1/D2" type="unspc"/>
+        <pin num="4" name="G2" type="unspc"/>
+        <pin num="5" name="S2" type="unspc"/>
+        <pin num="6" name="S2" type="unspc"/>
+        <pin num="7" name="S3" type="unspc"/>
+        <pin num="8" name="S3" type="unspc"/>
+        <pin num="9" name="G3" type="unspc"/>
+        <pin num="10" name="S4/D3" type="unspc"/>
+        <pin num="11" name="D1/D4" type="unspc"/>
+        <pin num="12" name="G4" type="unspc"/>
+        <pin num="13" name="D1/D4" type="unspc"/>
+        <pin num="14" name="S1/D2" type="unspc"/>
+        <pin num="15" name="S4/D3" type="unspc"/>
+      </pins>
+    </libpart>
+    <libpart lib="TMC51604Axis-rescue" part="D_Schottky-Device">
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="TMC51604Axis-rescue" part="D_Zener-Device">
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Zener-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="TMC51604Axis-rescue" part="Ferrite_Bead-Device">
+      <footprints>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+        <fp>*Ferrite*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">FB</field>
+        <field name="Value">Ferrite_Bead-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="TMC51604Axis-rescue" part="Jumper_3_Bridged12-Jumper">
+      <footprints>
+        <fp>Jumper*</fp>
+        <fp>TestPoint*3Pads*</fp>
+        <fp>TestPoint*Bridge*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">Jumper_3_Bridged12-Jumper</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="C" type="input"/>
+        <pin num="3" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="TMC51604Axis-rescue" part="Jumper_NC_Dual-Device">
+      <footprints>
+        <fp>SolderJumper*Bridged*</fp>
+        <fp>Jumper*</fp>
+        <fp>TestPoint*2Pads*</fp>
+        <fp>TestPoint*Bridge*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">Jumper_NC_Dual-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="TMC51604Axis-rescue" part="L-Device">
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="TMC51604Axis-rescue" part="LED-Device">
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="TMC51604Axis-rescue" part="LM2937-Peters">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM2937-Peters</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-223-3_TabPin2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VIN" type="input"/>
+        <pin num="2" name="GND" type="input"/>
+        <pin num="3" name="VOUT" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="TMC51604Axis-rescue" part="LT1766-Peters">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LT1766-Peters</field>
+        <field name="Footprint">Package_SO:TSSOP-16-1EP_4.4x5mm_P0.65mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="unspc"/>
+        <pin num="2" name="SW" type="unspc"/>
+        <pin num="3" name="NC" type="NotConnected"/>
+        <pin num="4" name="VIN" type="unspc"/>
+        <pin num="5" name="NC" type="NotConnected"/>
+        <pin num="6" name="BOOST" type="unspc"/>
+        <pin num="7" name="NC" type="NotConnected"/>
+        <pin num="8" name="GND" type="unspc"/>
+        <pin num="9" name="GND" type="unspc"/>
+        <pin num="10" name="BIAS" type="unspc"/>
+        <pin num="11" name="VC" type="unspc"/>
+        <pin num="12" name="FB" type="unspc"/>
+        <pin num="13" name="NC" type="NotConnected"/>
+        <pin num="14" name="SYNC" type="unspc"/>
+        <pin num="15" name="SHDN" type="unspc"/>
+        <pin num="16" name="GND" type="unspc"/>
+        <pin num="17" name="GND" type="unspc"/>
+      </pins>
+    </libpart>
+    <libpart lib="TMC51604Axis-rescue" part="MountingHole-Mechanical">
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole-Mechanical</field>
+      </fields>
+    </libpart>
+    <libpart lib="TMC51604Axis-rescue" part="R-Device">
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="TMC51604Axis-rescue" part="RJ45_Shielded-Connector">
+      <footprints>
+        <fp>8P8C*</fp>
+        <fp>RJ31*</fp>
+        <fp>RJ32*</fp>
+        <fp>RJ33*</fp>
+        <fp>RJ34*</fp>
+        <fp>RJ35*</fp>
+        <fp>RJ41*</fp>
+        <fp>RJ45*</fp>
+        <fp>RJ49*</fp>
+        <fp>RJ61*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">RJ45_Shielded-Connector</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+        <pin num="5" name="~" type="passive"/>
+        <pin num="6" name="~" type="passive"/>
+        <pin num="7" name="~" type="passive"/>
+        <pin num="8" name="~" type="passive"/>
+        <pin num="SH" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="TMC51604Axis-rescue" part="R_Small-Device">
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="TMC51604Axis-rescue" part="Screw_Terminal_01x03-Connector">
+      <footprints>
+        <fp>TerminalBlock*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_01x03-Connector</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="TMC51604Axis-rescue" part="Screw_Terminal_01x04-Connector">
+      <footprints>
+        <fp>TerminalBlock*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_01x04-Connector</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="TMC51604Axis-rescue" part="TMC5160A-TA-Peters">
+      <footprints>
+        <fp>eTQFP48_9x9</fp>
+        <fp>eTQFP48_9x9-M</fp>
+        <fp>eTQFP48_9x9-L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TMC5160A-TA-Peters</field>
+        <field name="Footprint">Package_QFP:TQFP-48-1EP_7x7mm_P0.5mm_EP5x5mm_ThermalVias</field>
+      </fields>
+      <pins>
+        <pin num="1" name="HB1" type="output"/>
+        <pin num="2" name="CB1" type="unspc"/>
+        <pin num="3" name="12VOUT" type="output"/>
+        <pin num="4" name="VSA" type="power_in"/>
+        <pin num="5" name="5VOUT" type="output"/>
+        <pin num="6" name="GNDA" type="power_in"/>
+        <pin num="7" name="SRAL" type="input"/>
+        <pin num="8" name="SRAH" type="input"/>
+        <pin num="9" name="SRBH" type="input"/>
+        <pin num="10" name="SRBL" type="input"/>
+        <pin num="11" name="TST_MODE" type="input"/>
+        <pin num="12" name="CLK" type="input"/>
+        <pin num="13" name="CSN_CFG3" type="input"/>
+        <pin num="14" name="SCK_CFG2" type="input"/>
+        <pin num="15" name="SDI_CFG1" type="input"/>
+        <pin num="16" name="SDO_CFG0" type="input"/>
+        <pin num="17" name="REFL_STEP" type="input"/>
+        <pin num="18" name="REFR_DIR" type="input"/>
+        <pin num="19" name="GNDD" type="power_in"/>
+        <pin num="20" name="VCC_IO" type="power_in"/>
+        <pin num="21" name="SD_MODE" type="input"/>
+        <pin num="22" name="SPI_MODE" type="input"/>
+        <pin num="23" name="ENCB_DCEN_CFG4" type="input"/>
+        <pin num="24" name="ENCA_DCIN_CFG5" type="input"/>
+        <pin num="25" name="ENCN_DCO_CFG6" type="BiDi"/>
+        <pin num="26" name="DIAG0_SWN" type="BiDi"/>
+        <pin num="27" name="DIAG1_SWP" type="BiDi"/>
+        <pin num="28" name="DRV_ENN" type="input"/>
+        <pin num="29" name="VCC" type="power_in"/>
+        <pin num="30" name="GNDD" type="power_in"/>
+        <pin num="31" name="CPO" type="output"/>
+        <pin num="32" name="CPI" type="input"/>
+        <pin num="33" name="VS" type="power_in"/>
+        <pin num="34" name="VCP" type="power_in"/>
+        <pin num="35" name="CA2" type="unspc"/>
+        <pin num="36" name="HA2" type="output"/>
+        <pin num="37" name="BMA2" type="unspc"/>
+        <pin num="38" name="LA2" type="output"/>
+        <pin num="39" name="LA1" type="output"/>
+        <pin num="40" name="BMA1" type="unspc"/>
+        <pin num="41" name="HA1" type="output"/>
+        <pin num="42" name="CA1" type="unspc"/>
+        <pin num="43" name="CB2" type="unspc"/>
+        <pin num="44" name="HB2" type="output"/>
+        <pin num="45" name="BMB2" type="unspc"/>
+        <pin num="46" name="LB2" type="output"/>
+        <pin num="47" name="LB1" type="output"/>
+        <pin num="48" name="BMB1" type="unspc"/>
+        <pin num="EPAD" name="EPAD" type="unspc"/>
+      </pins>
+    </libpart>
+    <libpart lib="TMC51604Axis-rescue" part="TestPoint-Connector">
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint-Connector</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="TMC51604Axis-rescue" part="ZHCS1006TA-Peters">
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">ZHCS1006TA-Peters</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23_Handsoldering</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="3" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="dk_Logic-Translators-Level-Shifters" part="TXB0108PWR">
+      <description>IC TRNSLTR BIDIRECTIONAL 20TSSOP</description>
+      <docs>http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&amp;gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftxb0108</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TXB0108PWR</field>
+        <field name="Footprint">digikey-footprints:TSSOP-20_W4.4mm</field>
+        <field name="Datasheet">http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&amp;gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftxb0108</field>
+        <field name="Digi-Key_PN">296-21527-1-ND</field>
+        <field name="MPN">TXB0108PWR</field>
+        <field name="Category">Integrated Circuits (ICs)</field>
+        <field name="Family">Logic - Translators, Level Shifters</field>
+        <field name="DK_Datasheet_Link">http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&amp;gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftxb0108</field>
+        <field name="DK_Detail_Page">/product-detail/en/texas-instruments/TXB0108PWR/296-21527-1-ND/1305700</field>
+        <field name="Description">IC TRNSLTR BIDIRECTIONAL 20TSSOP</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Status">Active</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A1" type="BiDi"/>
+        <pin num="2" name="VCCA" type="power_in"/>
+        <pin num="3" name="A2" type="BiDi"/>
+        <pin num="4" name="A3" type="BiDi"/>
+        <pin num="5" name="A4" type="BiDi"/>
+        <pin num="6" name="A5" type="BiDi"/>
+        <pin num="7" name="A6" type="BiDi"/>
+        <pin num="8" name="A7" type="BiDi"/>
+        <pin num="9" name="A8" type="BiDi"/>
+        <pin num="10" name="OE" type="input"/>
+        <pin num="11" name="GND" type="power_in"/>
+        <pin num="12" name="B8" type="BiDi"/>
+        <pin num="13" name="B7" type="BiDi"/>
+        <pin num="14" name="B6" type="BiDi"/>
+        <pin num="15" name="B5" type="BiDi"/>
+        <pin num="16" name="B4" type="BiDi"/>
+        <pin num="17" name="B3" type="BiDi"/>
+        <pin num="18" name="B2" type="BiDi"/>
+        <pin num="19" name="VCCB" type="power_in"/>
+        <pin num="20" name="B1" type="BiDi"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="Peters">
+      <uri>C:/Users/lillahunden/Documents/kiCAD/Libs/Libs/Peters.lib</uri>
+    </library>
+    <library logical="TMC51604Axis-rescue">
+      <uri>E:\GitHub\TMC5160-on-a-3Dprinter-Board\TMC51604Axis/TMC51604Axis-rescue.lib</uri>
+    </library>
+    <library logical="dk_Logic-Translators-Level-Shifters">
+      <uri>E:/GitHub/FootprintsAndLibs/digikey-kicad-library/digikey-symbols/dk_Logic-Translators-Level-Shifters.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/Inputs/ENC_A">
+      <node ref="U5" pin="6"/>
+      <node ref="U3" pin="24"/>
+    </net>
+    <net code="2" name="/MotorDrv1/REFL_STEP">
+      <node ref="R46" pin="2"/>
+      <node ref="U3" pin="17"/>
+      <node ref="U7" pin="4"/>
+    </net>
+    <net code="3" name="/Inputs/DIR_REFR">
+      <node ref="R45" pin="2"/>
+      <node ref="U7" pin="5"/>
+      <node ref="U3" pin="18"/>
+    </net>
+    <net code="4" name="/MotorDrv1/DRV_ENA">
+      <node ref="R30" pin="2"/>
+      <node ref="D19" pin="3"/>
+      <node ref="Q4" pin="1"/>
+      <node ref="R32" pin="1"/>
+    </net>
+    <net code="5" name="/Inputs/SDO">
+      <node ref="U3" pin="16"/>
+      <node ref="U7" pin="8"/>
+    </net>
+    <net code="6" name="/Inputs/CSN">
+      <node ref="U7" pin="6"/>
+      <node ref="U3" pin="13"/>
+    </net>
+    <net code="7" name="/Inputs/ENC_B">
+      <node ref="U3" pin="23"/>
+      <node ref="U5" pin="3"/>
+    </net>
+    <net code="8" name="+5V">
+      <node ref="U1" pin="3"/>
+      <node ref="TP5" pin="1"/>
+      <node ref="JP3" pin="1"/>
+      <node ref="U2" pin="3"/>
+      <node ref="C10" pin="1"/>
+      <node ref="U1" pin="1"/>
+      <node ref="C11" pin="1"/>
+    </net>
+    <net code="9" name="Net-(C9-Pad1)">
+      <node ref="C9" pin="1"/>
+      <node ref="FB2" pin="1"/>
+      <node ref="U2" pin="1"/>
+    </net>
+    <net code="10" name="/Inputs/DIAG0_SWn">
+      <node ref="U7" pin="3"/>
+      <node ref="R54" pin="2"/>
+      <node ref="U3" pin="26"/>
+    </net>
+    <net code="11" name="/Inputs/ENC_N">
+      <node ref="U5" pin="8"/>
+      <node ref="U3" pin="25"/>
+    </net>
+    <net code="12" name="/Inputs/DIAG1_SWp">
+      <node ref="R53" pin="2"/>
+      <node ref="U3" pin="27"/>
+      <node ref="U7" pin="1"/>
+    </net>
+    <net code="13" name="/Inputs/SDI">
+      <node ref="U3" pin="15"/>
+      <node ref="U7" pin="7"/>
+    </net>
+    <net code="14" name="Net-(C12-Pad1)">
+      <node ref="U1" pin="4"/>
+      <node ref="C12" pin="1"/>
+    </net>
+    <net code="15" name="GND">
+      <node ref="C47" pin="2"/>
+      <node ref="U3" pin="6"/>
+      <node ref="D7" pin="3"/>
+      <node ref="D8" pin="3"/>
+      <node ref="J5" pin="8"/>
+      <node ref="U3" pin="30"/>
+      <node ref="J5" pin="6"/>
+      <node ref="U3" pin="EPAD"/>
+      <node ref="C55" pin="2"/>
+      <node ref="C53" pin="2"/>
+      <node ref="C51" pin="2"/>
+      <node ref="C37" pin="2"/>
+      <node ref="JP1" pin="3"/>
+      <node ref="U3" pin="19"/>
+      <node ref="C42" pin="2"/>
+      <node ref="U3" pin="11"/>
+      <node ref="C15" pin="2"/>
+      <node ref="R19" pin="1"/>
+      <node ref="J5" pin="2"/>
+      <node ref="U4" pin="2"/>
+      <node ref="J5" pin="4"/>
+      <node ref="C34" pin="1"/>
+      <node ref="D9" pin="3"/>
+      <node ref="R43" pin="1"/>
+      <node ref="Q1" pin="2"/>
+      <node ref="C29" pin="2"/>
+      <node ref="C30" pin="2"/>
+      <node ref="C31" pin="2"/>
+      <node ref="C20" pin="2"/>
+      <node ref="C28" pin="2"/>
+      <node ref="C33" pin="1"/>
+      <node ref="R28" pin="1"/>
+      <node ref="C50" pin="2"/>
+      <node ref="JP2" pin="3"/>
+      <node ref="C46" pin="2"/>
+      <node ref="C52" pin="2"/>
+      <node ref="D20" pin="1"/>
+      <node ref="C54" pin="2"/>
+      <node ref="D25" pin="1"/>
+      <node ref="D17" pin="1"/>
+      <node ref="D11" pin="1"/>
+      <node ref="D13" pin="1"/>
+      <node ref="D14" pin="1"/>
+      <node ref="D28" pin="1"/>
+      <node ref="D27" pin="1"/>
+      <node ref="J6" pin="1"/>
+      <node ref="C43" pin="2"/>
+      <node ref="D18" pin="1"/>
+      <node ref="U7" pin="11"/>
+      <node ref="C2" pin="1"/>
+      <node ref="R41" pin="2"/>
+      <node ref="C5" pin="1"/>
+      <node ref="U5" pin="10"/>
+      <node ref="U5" pin="1"/>
+      <node ref="U5" pin="4"/>
+      <node ref="J3" pin="4"/>
+      <node ref="J3" pin="6"/>
+      <node ref="D12" pin="1"/>
+      <node ref="D16" pin="1"/>
+      <node ref="C41" pin="1"/>
+      <node ref="C27" pin="1"/>
+      <node ref="C25" pin="2"/>
+      <node ref="U5" pin="7"/>
+      <node ref="D19" pin="1"/>
+      <node ref="R30" pin="1"/>
+      <node ref="C16" pin="2"/>
+      <node ref="D10" pin="3"/>
+      <node ref="C26" pin="2"/>
+      <node ref="R16" pin="2"/>
+      <node ref="D5" pin="14"/>
+      <node ref="C19" pin="2"/>
+      <node ref="D6" pin="2"/>
+      <node ref="D5" pin="1"/>
+      <node ref="C3" pin="2"/>
+      <node ref="D5" pin="16"/>
+      <node ref="C23" pin="2"/>
+      <node ref="R17" pin="1"/>
+      <node ref="C7" pin="2"/>
+      <node ref="R5" pin="2"/>
+      <node ref="U1" pin="2"/>
+      <node ref="D5" pin="9"/>
+      <node ref="R4" pin="2"/>
+      <node ref="R3" pin="2"/>
+      <node ref="D5" pin="8"/>
+      <node ref="C8" pin="2"/>
+      <node ref="J1" pin="1"/>
+      <node ref="TP7" pin="1"/>
+      <node ref="C13" pin="2"/>
+      <node ref="C14" pin="2"/>
+      <node ref="D5" pin="17"/>
+      <node ref="R27" pin="2"/>
+      <node ref="C11" pin="2"/>
+      <node ref="U2" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="C10" pin="2"/>
+      <node ref="U2" pin="2"/>
+      <node ref="C9" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="C38" pin="2"/>
+      <node ref="C12" pin="2"/>
+    </net>
+    <net code="16" name="/MotorDrv1/StepperB">
+      <node ref="Q3" pin="15"/>
+      <node ref="Q3" pin="10"/>
+      <node ref="C22" pin="1"/>
+      <node ref="R12" pin="2"/>
+      <node ref="J7" pin="3"/>
+      <node ref="D7" pin="1"/>
+      <node ref="C29" pin="1"/>
+      <node ref="J2" pin="3"/>
+    </net>
+    <net code="17" name="/MotorDrv1/StepperD">
+      <node ref="R21" pin="2"/>
+      <node ref="J7" pin="1"/>
+      <node ref="C31" pin="1"/>
+      <node ref="Q2" pin="10"/>
+      <node ref="D9" pin="1"/>
+      <node ref="C35" pin="1"/>
+      <node ref="J2" pin="1"/>
+      <node ref="Q2" pin="15"/>
+    </net>
+    <net code="18" name="Net-(J1-Pad2)">
+      <node ref="Q5" pin="5"/>
+      <node ref="J1" pin="2"/>
+    </net>
+    <net code="19" name="/MotorDrv1/CLK">
+      <node ref="U3" pin="14"/>
+      <node ref="U7" pin="9"/>
+    </net>
+    <net code="20" name="Net-(D3-Pad2)">
+      <node ref="Q5" pin="4"/>
+      <node ref="R3" pin="1"/>
+      <node ref="D3" pin="2"/>
+    </net>
+    <net code="21" name="/MotorDrv1/StepperA">
+      <node ref="C24" pin="1"/>
+      <node ref="D8" pin="1"/>
+      <node ref="Q3" pin="3"/>
+      <node ref="Q3" pin="14"/>
+      <node ref="C28" pin="1"/>
+      <node ref="J7" pin="4"/>
+      <node ref="R9" pin="2"/>
+      <node ref="J2" pin="4"/>
+    </net>
+    <net code="22" name="+3V3">
+      <node ref="R46" pin="1"/>
+      <node ref="R45" pin="1"/>
+      <node ref="R18" pin="1"/>
+      <node ref="R29" pin="2"/>
+      <node ref="R54" pin="1"/>
+      <node ref="U4" pin="4"/>
+      <node ref="JP3" pin="3"/>
+      <node ref="R53" pin="1"/>
+      <node ref="C34" pin="2"/>
+      <node ref="C27" pin="2"/>
+      <node ref="U5" pin="14"/>
+      <node ref="R44" pin="1"/>
+      <node ref="C43" pin="1"/>
+      <node ref="U7" pin="2"/>
+      <node ref="C6" pin="1"/>
+      <node ref="U3" pin="20"/>
+      <node ref="JP2" pin="1"/>
+      <node ref="JP1" pin="1"/>
+      <node ref="U1" pin="5"/>
+      <node ref="C5" pin="2"/>
+      <node ref="TP6" pin="1"/>
+    </net>
+    <net code="23" name="Net-(D5-Pad7)">
+      <node ref="D5" pin="7"/>
+    </net>
+    <net code="24" name="Net-(D5-Pad5)">
+      <node ref="D5" pin="5"/>
+    </net>
+    <net code="25" name="Net-(D5-Pad3)">
+      <node ref="D5" pin="3"/>
+    </net>
+    <net code="26" name="Net-(C1-Pad2)">
+      <node ref="D5" pin="2"/>
+      <node ref="L1" pin="1"/>
+      <node ref="C1" pin="2"/>
+      <node ref="D6" pin="1"/>
+    </net>
+    <net code="27" name="Net-(D5-Pad15)">
+      <node ref="D5" pin="15"/>
+    </net>
+    <net code="28" name="Net-(D5-Pad13)">
+      <node ref="D5" pin="13"/>
+    </net>
+    <net code="29" name="Net-(C1-Pad1)">
+      <node ref="C1" pin="1"/>
+      <node ref="D1" pin="1"/>
+      <node ref="D5" pin="6"/>
+    </net>
+    <net code="30" name="/MotorDrv1/StepperC">
+      <node ref="C30" pin="1"/>
+      <node ref="Q2" pin="3"/>
+      <node ref="Q2" pin="14"/>
+      <node ref="D10" pin="1"/>
+      <node ref="R20" pin="2"/>
+      <node ref="J2" pin="2"/>
+      <node ref="C36" pin="1"/>
+      <node ref="J7" pin="2"/>
+    </net>
+    <net code="31" name="Net-(D4-Pad1)">
+      <node ref="D4" pin="1"/>
+      <node ref="R4" pin="1"/>
+    </net>
+    <net code="32" name="Net-(C14-Pad1)">
+      <node ref="C14" pin="1"/>
+      <node ref="R6" pin="2"/>
+    </net>
+    <net code="33" name="Net-(C13-Pad1)">
+      <node ref="R6" pin="1"/>
+      <node ref="D5" pin="11"/>
+      <node ref="C13" pin="1"/>
+    </net>
+    <net code="34" name="+48V">
+      <node ref="D4" pin="2"/>
+      <node ref="D3" pin="1"/>
+      <node ref="D5" pin="4"/>
+      <node ref="R7" pin="2"/>
+      <node ref="C3" pin="1"/>
+      <node ref="Q5" pin="3"/>
+      <node ref="C16" pin="1"/>
+      <node ref="Q5" pin="2"/>
+      <node ref="Q5" pin="1"/>
+      <node ref="C50" pin="1"/>
+      <node ref="C54" pin="1"/>
+      <node ref="C53" pin="1"/>
+      <node ref="C55" pin="1"/>
+      <node ref="Q3" pin="2"/>
+      <node ref="C38" pin="1"/>
+      <node ref="C20" pin="1"/>
+      <node ref="C52" pin="1"/>
+      <node ref="Q3" pin="11"/>
+      <node ref="Q2" pin="11"/>
+      <node ref="Q2" pin="13"/>
+      <node ref="Q3" pin="13"/>
+      <node ref="Q2" pin="2"/>
+      <node ref="C51" pin="1"/>
+      <node ref="C4" pin="1"/>
+      <node ref="C15" pin="1"/>
+    </net>
+    <net code="35" name="+12V">
+      <node ref="D2" pin="1"/>
+      <node ref="L1" pin="2"/>
+      <node ref="C23" pin="1"/>
+      <node ref="R42" pin="2"/>
+      <node ref="FB2" pin="2"/>
+      <node ref="U3" pin="4"/>
+      <node ref="U3" pin="3"/>
+      <node ref="C8" pin="1"/>
+      <node ref="C7" pin="1"/>
+      <node ref="D5" pin="10"/>
+      <node ref="TP4" pin="1"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="36" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2"/>
+      <node ref="D2" pin="2"/>
+    </net>
+    <net code="37" name="Net-(D5-Pad12)">
+      <node ref="R2" pin="2"/>
+      <node ref="R5" pin="1"/>
+      <node ref="D5" pin="12"/>
+    </net>
+    <net code="38" name="Net-(C33-Pad2)">
+      <node ref="Q3" pin="8"/>
+      <node ref="Q3" pin="7"/>
+      <node ref="C33" pin="2"/>
+      <node ref="Q3" pin="6"/>
+      <node ref="Q3" pin="5"/>
+      <node ref="R16" pin="1"/>
+      <node ref="R15" pin="1"/>
+    </net>
+    <net code="39" name="Net-(C37-Pad1)">
+      <node ref="U3" pin="12"/>
+      <node ref="U4" pin="3"/>
+      <node ref="C37" pin="1"/>
+      <node ref="R19" pin="2"/>
+    </net>
+    <net code="40" name="/MotorDrv1/LB1">
+      <node ref="U3" pin="47"/>
+      <node ref="R13" pin="1"/>
+    </net>
+    <net code="41" name="/MotorDrv1/LB2">
+      <node ref="U3" pin="46"/>
+      <node ref="R14" pin="2"/>
+    </net>
+    <net code="42" name="/MotorDrv1/HA2">
+      <node ref="U3" pin="36"/>
+      <node ref="R23" pin="2"/>
+    </net>
+    <net code="43" name="/MotorDrv1/LA2">
+      <node ref="R25" pin="2"/>
+      <node ref="U3" pin="38"/>
+    </net>
+    <net code="44" name="Net-(Q2-Pad9)">
+      <node ref="Q2" pin="9"/>
+      <node ref="R25" pin="1"/>
+    </net>
+    <net code="45" name="/MotorDrv1/LA1">
+      <node ref="U3" pin="39"/>
+      <node ref="R24" pin="1"/>
+    </net>
+    <net code="46" name="Net-(Q1-Pad1)">
+      <node ref="R43" pin="2"/>
+      <node ref="R42" pin="1"/>
+      <node ref="Q1" pin="1"/>
+    </net>
+    <net code="47" name="Net-(Q1-Pad3)">
+      <node ref="Q1" pin="3"/>
+      <node ref="R44" pin="2"/>
+      <node ref="Q4" pin="2"/>
+    </net>
+    <net code="48" name="/MotorDrv1/SD_MODE">
+      <node ref="JP2" pin="2"/>
+      <node ref="U3" pin="21"/>
+    </net>
+    <net code="49" name="/MotorDrv1/SRB-">
+      <node ref="C32" pin="1"/>
+      <node ref="U3" pin="10"/>
+      <node ref="R17" pin="2"/>
+    </net>
+    <net code="50" name="Net-(Q3-Pad1)">
+      <node ref="Q3" pin="1"/>
+      <node ref="R10" pin="2"/>
+    </net>
+    <net code="51" name="Net-(Q3-Pad12)">
+      <node ref="Q3" pin="12"/>
+      <node ref="R11" pin="1"/>
+    </net>
+    <net code="52" name="Net-(Q2-Pad1)">
+      <node ref="R22" pin="2"/>
+      <node ref="Q2" pin="1"/>
+    </net>
+    <net code="53" name="Net-(Q2-Pad12)">
+      <node ref="R23" pin="1"/>
+      <node ref="Q2" pin="12"/>
+    </net>
+    <net code="54" name="Net-(Q2-Pad4)">
+      <node ref="R24" pin="2"/>
+      <node ref="Q2" pin="4"/>
+    </net>
+    <net code="55" name="Net-(Q3-Pad9)">
+      <node ref="R14" pin="1"/>
+      <node ref="Q3" pin="9"/>
+    </net>
+    <net code="56" name="Net-(Q3-Pad4)">
+      <node ref="Q3" pin="4"/>
+      <node ref="R13" pin="2"/>
+    </net>
+    <net code="57" name="Net-(R12-Pad1)">
+      <node ref="U3" pin="45"/>
+      <node ref="R12" pin="1"/>
+    </net>
+    <net code="58" name="Net-(R9-Pad1)">
+      <node ref="R9" pin="1"/>
+      <node ref="U3" pin="48"/>
+    </net>
+    <net code="59" name="/MotorDrv1/SRA+">
+      <node ref="R26" pin="2"/>
+      <node ref="C40" pin="2"/>
+      <node ref="U3" pin="8"/>
+    </net>
+    <net code="60" name="/MotorDrv1/HB2">
+      <node ref="U3" pin="44"/>
+      <node ref="R11" pin="2"/>
+    </net>
+    <net code="61" name="Net-(C35-Pad2)">
+      <node ref="U3" pin="35"/>
+      <node ref="C35" pin="2"/>
+    </net>
+    <net code="62" name="Net-(C26-Pad1)">
+      <node ref="U3" pin="29"/>
+      <node ref="R8" pin="2"/>
+      <node ref="C26" pin="1"/>
+    </net>
+    <net code="63" name="Net-(C17-Pad2)">
+      <node ref="U3" pin="31"/>
+      <node ref="C17" pin="2"/>
+    </net>
+    <net code="64" name="Net-(C17-Pad1)">
+      <node ref="C17" pin="1"/>
+      <node ref="U3" pin="32"/>
+    </net>
+    <net code="65" name="Net-(C18-Pad1)">
+      <node ref="C18" pin="1"/>
+      <node ref="U3" pin="33"/>
+      <node ref="C19" pin="1"/>
+      <node ref="R7" pin="1"/>
+    </net>
+    <net code="66" name="Net-(C18-Pad2)">
+      <node ref="C18" pin="2"/>
+      <node ref="U3" pin="34"/>
+    </net>
+    <net code="67" name="Net-(R21-Pad1)">
+      <node ref="U3" pin="37"/>
+      <node ref="R21" pin="1"/>
+    </net>
+    <net code="68" name="Net-(R20-Pad1)">
+      <node ref="U3" pin="40"/>
+      <node ref="R20" pin="1"/>
+    </net>
+    <net code="69" name="/MotorDrv1/HA1">
+      <node ref="U3" pin="41"/>
+      <node ref="R22" pin="1"/>
+    </net>
+    <net code="70" name="Net-(C36-Pad2)">
+      <node ref="U3" pin="42"/>
+      <node ref="C36" pin="2"/>
+    </net>
+    <net code="71" name="Net-(C22-Pad2)">
+      <node ref="U3" pin="43"/>
+      <node ref="C22" pin="2"/>
+    </net>
+    <net code="72" name="/MotorDrv1/SRB+">
+      <node ref="U3" pin="9"/>
+      <node ref="C32" pin="2"/>
+      <node ref="R15" pin="2"/>
+    </net>
+    <net code="73" name="/MotorDrv1/SRA-">
+      <node ref="C40" pin="1"/>
+      <node ref="U3" pin="7"/>
+      <node ref="R28" pin="2"/>
+    </net>
+    <net code="74" name="Net-(R18-Pad2)">
+      <node ref="R18" pin="2"/>
+      <node ref="U4" pin="1"/>
+    </net>
+    <net code="75" name="/MotorDrv1/HB1">
+      <node ref="R10" pin="1"/>
+      <node ref="U3" pin="1"/>
+    </net>
+    <net code="76" name="Net-(C24-Pad2)">
+      <node ref="U3" pin="2"/>
+      <node ref="C24" pin="2"/>
+    </net>
+    <net code="77" name="/MotorDrv1/SPI_MODE">
+      <node ref="U3" pin="22"/>
+      <node ref="JP1" pin="2"/>
+    </net>
+    <net code="78" name="Net-(C41-Pad2)">
+      <node ref="R27" pin="1"/>
+      <node ref="R26" pin="1"/>
+      <node ref="C41" pin="2"/>
+      <node ref="Q2" pin="8"/>
+      <node ref="Q2" pin="5"/>
+      <node ref="Q2" pin="7"/>
+      <node ref="Q2" pin="6"/>
+    </net>
+    <net code="79" name="Net-(Q4-Pad3)">
+      <node ref="R29" pin="1"/>
+      <node ref="U3" pin="28"/>
+      <node ref="Q4" pin="3"/>
+    </net>
+    <net code="80" name="Net-(C25-Pad1)">
+      <node ref="U3" pin="5"/>
+      <node ref="R8" pin="1"/>
+      <node ref="C25" pin="1"/>
+    </net>
+    <net code="81" name="VBUS">
+      <node ref="D18" pin="2"/>
+      <node ref="D13" pin="2"/>
+      <node ref="D11" pin="2"/>
+      <node ref="D17" pin="2"/>
+      <node ref="D12" pin="2"/>
+      <node ref="D16" pin="2"/>
+      <node ref="D20" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="D14" pin="2"/>
+      <node ref="U7" pin="19"/>
+      <node ref="J3" pin="8"/>
+      <node ref="D19" pin="2"/>
+    </net>
+    <net code="82" name="/Inputs/DIAG0_SWn_OUT">
+      <node ref="R34" pin="1"/>
+      <node ref="U7" pin="18"/>
+      <node ref="D18" pin="3"/>
+    </net>
+    <net code="83" name="/Inputs/SDO_raw">
+      <node ref="R36" pin="1"/>
+      <node ref="D11" pin="3"/>
+      <node ref="U7" pin="13"/>
+    </net>
+    <net code="84" name="/Inputs/CSN_raw">
+      <node ref="R39" pin="1"/>
+      <node ref="D13" pin="3"/>
+      <node ref="U7" pin="15"/>
+    </net>
+    <net code="85" name="/Inputs/SDI_raw">
+      <node ref="U7" pin="14"/>
+      <node ref="D12" pin="3"/>
+      <node ref="R37" pin="1"/>
+    </net>
+    <net code="86" name="/Inputs/DIAG1_SWp_OUT">
+      <node ref="R33" pin="1"/>
+      <node ref="D17" pin="3"/>
+      <node ref="U7" pin="20"/>
+    </net>
+    <net code="87" name="/Inputs/Step_Raw">
+      <node ref="R31" pin="1"/>
+      <node ref="U7" pin="17"/>
+      <node ref="D16" pin="3"/>
+    </net>
+    <net code="88" name="/Inputs/DIR_raw">
+      <node ref="U7" pin="16"/>
+      <node ref="D14" pin="3"/>
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="89" name="Net-(C46-Pad1)">
+      <node ref="J3" pin="SH"/>
+      <node ref="C46" pin="1"/>
+    </net>
+    <net code="90" name="Net-(J3-Pad1)">
+      <node ref="R34" pin="2"/>
+      <node ref="J3" pin="1"/>
+    </net>
+    <net code="91" name="Net-(J3-Pad2)">
+      <node ref="J3" pin="2"/>
+      <node ref="R33" pin="2"/>
+    </net>
+    <net code="92" name="Net-(J5-Pad7)">
+      <node ref="R35" pin="2"/>
+      <node ref="J5" pin="7"/>
+    </net>
+    <net code="93" name="Net-(J5-Pad5)">
+      <node ref="R36" pin="2"/>
+      <node ref="J5" pin="5"/>
+    </net>
+    <net code="94" name="Net-(J5-Pad3)">
+      <node ref="J5" pin="3"/>
+      <node ref="R37" pin="2"/>
+    </net>
+    <net code="95" name="Net-(J5-Pad1)">
+      <node ref="J5" pin="1"/>
+      <node ref="R39" pin="2"/>
+    </net>
+    <net code="96" name="Net-(J3-Pad3)">
+      <node ref="R32" pin="2"/>
+      <node ref="J3" pin="3"/>
+    </net>
+    <net code="97" name="Net-(J3-Pad5)">
+      <node ref="J3" pin="5"/>
+      <node ref="R31" pin="2"/>
+    </net>
+    <net code="98" name="Net-(J3-Pad7)">
+      <node ref="J3" pin="7"/>
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="99" name="/Inputs/ENC_A_raw">
+      <node ref="R40" pin="2"/>
+      <node ref="D25" pin="3"/>
+      <node ref="U5" pin="5"/>
+    </net>
+    <net code="100" name="/Inputs/ENC_N_raw">
+      <node ref="U5" pin="9"/>
+      <node ref="R48" pin="2"/>
+      <node ref="D28" pin="3"/>
+    </net>
+    <net code="101" name="Net-(R41-Pad1)">
+      <node ref="R41" pin="1"/>
+      <node ref="U7" pin="10"/>
+    </net>
+    <net code="102" name="/Inputs/enc_volt">
+      <node ref="C42" pin="1"/>
+      <node ref="J4" pin="3"/>
+      <node ref="D25" pin="2"/>
+      <node ref="D27" pin="2"/>
+      <node ref="D28" pin="2"/>
+      <node ref="JP3" pin="2"/>
+    </net>
+    <net code="103" name="Net-(J6-Pad3)">
+      <node ref="R48" pin="1"/>
+      <node ref="J6" pin="3"/>
+    </net>
+    <net code="104" name="Net-(J6-Pad2)">
+      <node ref="TP3" pin="1"/>
+      <node ref="J6" pin="2"/>
+    </net>
+    <net code="105" name="/Inputs/ENC_B_raw">
+      <node ref="D27" pin="3"/>
+      <node ref="U5" pin="2"/>
+      <node ref="R38" pin="1"/>
+    </net>
+    <net code="106" name="Net-(J4-Pad2)">
+      <node ref="R40" pin="1"/>
+      <node ref="J4" pin="2"/>
+    </net>
+    <net code="107" name="Net-(J4-Pad1)">
+      <node ref="J4" pin="1"/>
+      <node ref="R38" pin="2"/>
+    </net>
+    <net code="108" name="Net-(C47-Pad1)">
+      <node ref="J5" pin="SH"/>
+      <node ref="C47" pin="1"/>
+    </net>
+    <net code="109" name="/Inputs/SCK_raw">
+      <node ref="U7" pin="12"/>
+      <node ref="R35" pin="1"/>
+      <node ref="D20" pin="3"/>
+    </net>
+  </nets>
+</export>

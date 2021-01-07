@@ -1,84 +1,79 @@
-"Source:","E:\GitHub\TMC5160 on a 3Dprinter Board\TMC5160-on-a-3Dprinter-Board\TMC51604Axis\TMC51604Axis.sch"
-"Date:","06/01/20 14:39:34"
-"Tool:","Eeschema (5.1.6)-1"
-"Generator:","C:\Program Files\KiCad\bin\scripting\plugins/bom_csv_grouped_by_value_with_fp.py"
-"Component Count:","162"
-"Ref","Qnty","Value","Cmp name","Footprint","Description","Vendor"
-"C1, ","1","330n","C_Small","peters:C_0805_peter","Unpolarized capacitor, small symbol",""
-"C2, ","1","10p","C_Small","peters:C_0805_peter","Unpolarized capacitor, small symbol",""
-"C3, ","1","10uF/100v","CP","Capacitor_SMD:CP_Elec_8x6.2","Polarized capacitor",""
-"C4, ","1","22uF/100v","C","Capacitor_SMD:CP_Elec_8x6.2","Unpolarized capacitor",""
-"C5, ","1","47nF","C","peters:C_0805_peter","Unpolarized capacitor",""
-"C6, ","1","2.2uF","C","peters:C_0805_peter","Unpolarized capacitor",""
-"C7, ","1","47u/25V","CP","Capacitor_THT:CP_Radial_D10.0mm_P5.00mm","Polarized capacitor",""
-"C8, ","1","47u/25","C","Capacitor_SMD:C_2010_5025Metric_Pad1.52x2.65mm_HandSolder","Unpolarized capacitor",""
-"C9, C27, C33, C34, C41, ","5","100n","C_Small","Capacitor_SMD:C_0603_1608Metric","Unpolarized capacitor, small symbol",""
-"C10, ","1","10u","C","Capacitor_SMD:C_0603_1608Metric","Unpolarized capacitor",""
-"C11, ","1","1uF","C","peters:C_0805_peter","Unpolarized capacitor",""
-"C12, ","1","100p","C","peters:C_0805_peter","Unpolarized capacitor",""
-"C13, ","1","220p","C","peters:C_0805_peter","Unpolarized capacitor",""
-"C14, ","1","22nF","C_Small","peters:C_0805_peter","Unpolarized capacitor, small symbol",""
-"C15, ","1","100n/100v","C_Small","Capacitor_SMD:C_1210_3225Metric_Pad1.42x2.65mm_HandSolder","Unpolarized capacitor, small symbol",""
-"C16, ","1","4,7uF/100v","C_Small","Capacitor_SMD:C_1210_3225Metric_Pad1.42x2.65mm_HandSolder","Unpolarized capacitor, small symbol",""
-"C17, ","1","22n/100v","C_Small","Capacitor_SMD:C_0603_1608Metric","Unpolarized capacitor, small symbol",""
-"C18, ","1","100n/100V","C_Small","peters:C_0805_peter","Unpolarized capacitor, small symbol",""
-"C19, ","1","220n/100v","C_Small","Capacitor_SMD:C_0603_1608Metric","Unpolarized capacitor, small symbol",""
-"C20, C38, ","2","470n/100V","C","Capacitor_SMD:C_1206_3216Metric","Unpolarized capacitor",""
-"C21, C39, ","2","220uF/100V","CP","Capacitor_SMD:CP_Elec_10x14.3","Polarized capacitor",""
-"C22, C24, C26, C35, C36, ","5","470n","C_Small","Capacitor_SMD:C_0603_1608Metric","Unpolarized capacitor, small symbol",""
-"C23, ","1","2.2uF","C_Small","Capacitor_SMD:C_0603_1608Metric","Unpolarized capacitor, small symbol",""
-"C25, ","1","2.2u","C_Small","Capacitor_SMD:C_0603_1608Metric","Unpolarized capacitor, small symbol",""
-"C28, C29, C30, C31, ","4","1n/100V","C","Capacitor_SMD:C_0603_1608Metric","Unpolarized capacitor",""
-"C32, C40, ","2","2n2","C_Small","Capacitor_SMD:C_0603_1608Metric","Unpolarized capacitor, small symbol",""
-"C37, ","1","15pF","C","peters:D_0805_peter","Unpolarized capacitor",""
-"C42, ","1","10u","C","peters:C_0805_peter","Unpolarized capacitor",""
-"C43, C44, C45, C46, C47, ","5","100n","C","peters:C_0805_peter","Unpolarized capacitor",""
-"D1, ","1","1N4148W","1N4148W","Diode_SMD:D_SOD-123","75V 0.15A Fast Switching Diode, SOD-123",""
-"D2, ","1","7V","D_Zener","Diode_SMD:D_1206_3216Metric","Zener diode",""
-"D3, ","1","10V","D_Zener","Diode_SMD:D_1206_3216Metric","Zener diode",""
-"D4, ","1","LED","LED","Diode_SMD:D_0805_2012Metric","Light emitting diode",""
-"D5, ","1","LT1766","LT1766","Package_SO:TSSOP-16-1EP_4.4x5mm_P0.65mm","5.5V to 60V 1.5A, 200kHz Step-Down Switching Regulator",""
-"D6, ","1","D_Schottky","D_Schottky","Diode_SMD:D_SOD-123F","Schottky diode",""
-"D7, D8, D9, D10, ","4","ZHCS1006TA","ZHCS1006TA","Package_TO_SOT_SMD:SOT-23","",""
-"D11, D12, D13, D14, D15, D16, D17, D18, D19, ","9","LED","LED","peters:D_0805__HandSolder_peter","Light emitting diode",""
-"D20, D21, D22, D23, D24, D25, D26, D27, D28, D29, ","10","BAT54S","BAT54S","Package_TO_SOT_SMD:SOT-23","schottky barrier diode",""
-"F1, ","1","Fuse","Fuse","Fuse:Fuse_2512_6332Metric","Fuse",""
-"FB2, ","1","MPZ2012S601A","Ferrite_Bead","Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder","Ferrite bead",""
-"H1, H2, H3, H4, ","4","MountingHole","MountingHole","MountingHole:MountingHole_3.2mm_M3","Mounting Hole without connection",""
-"J1, ","1","+48Vin","Conn_01x02_Female","Connector_Phoenix_MSTB:PhoenixContact_MSTB_2,5_2-GF_1x02_P5.00mm_Horizontal_ThreadedFlange_MountHole","Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)",""
-"J2, ","1","Stepper_conn","Screw_Terminal_01x04","TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-4-3.5-H_1x04_P3.50mm_Horizontal","Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)",""
-"J3, J5, ","2","RJ45_Shielded","RJ45_Shielded","peters:360s-1812-11001(RJ45)","RJ connector, 8P8C (8 positions 8 connected), Shielded",""
-"J4, ","1","EncCon1","Screw_Terminal_01x03","TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-3-3.5-H_1x03_P3.50mm_Horizontal","Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)",""
-"J6, ","1","EncCon2","Screw_Terminal_01x03","TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-3-3.5-H_1x03_P3.50mm_Horizontal","Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)",""
-"JP1, ","1","SPI_MODE","Jumper_NC_Dual","Jumper:SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm","Dual jumper, normally closed",""
-"JP2, ","1","SD_MODE","Jumper_NC_Dual","Jumper:SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm","Dual jumper, normally closed",""
-"JP3, ","1","Encoder_Voltage_Sel","Jumper_3_Bridged12","Jumper:SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm","Jumper, 3-pole, pins 1+2 closed/bridged",""
-"L1, ","1","33uH","L","Inductor_SMD:L_7.3x7.3_H3.5","Inductor",""
-"Q1, ","1","SUD08P06-155L","SUD08P06-155L","Package_TO_SOT_SMD:TO-252-2","8.4A Id, 60V Vds, TrenchFET P-Channel Power MOSFET, 155mOhm Ron, 19nC Qg, -55 to 150 °C, TO-252-2",""
-"Q2, Q3, ","2","DMHT6016LFJ","DMHT6016LFJ","Libs:V-DFN5045-12","60V N-CHANNEL ENHANCEMENT MODE MOSFET H-BRIDGE",""
-"Q4, ","1","BSS138","BSS138","Package_TO_SOT_SMD:SOT-23","50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23",""
-"R1, ","1","0R01","R","Resistor_SMD:R_2512_6332Metric","Resistor",""
-"R2, ","1","36K5","R_Small","peters:R_0805_peter","Resistor, small symbol",""
-"R3, R18, ","2","100k","R","peters:R_0805_peter","Resistor",""
-"R4, ","1","10K","R","peters:R_0805_peter","Resistor",""
-"R5, ","1","4K12","R_Small","peters:R_0805_peter","Resistor, small symbol",""
-"R6, R31, R32, R41, R42, R43, R44, R45, R46, R47, ","10","2k2","R","peters:R_0805_peter","Resistor",""
-"R7, ","1","1R","R_Small","peters:R_0805_peter","Resistor, small symbol",""
-"R8, ","1","2R2","R_Small","Resistor_SMD:R_0603_1608Metric","Resistor, small symbol",""
-"R9, R12, R20, R21, ","4","0R","R_Small","Resistor_SMD:R_0603_1608Metric","Resistor, small symbol",""
-"R10, R11, R13, R14, R22, R23, R24, R25, ","8","12R","R_Small","Resistor_SMD:R_0603_1608Metric","Resistor, small symbol",""
-"R15, R17, R26, R28, ","4","47R","R","Resistor_SMD:R_0603_1608Metric","Resistor",""
-"R16, R27, R51, R52, ","4","0R1","R","Resistor_SMD:R_1206_3216Metric","Resistor",""
-"R19, ","1","NC","R","peters:R_0805_peter","Resistor",""
-"R29, R30, ","2","100K","R_Small","Resistor_SMD:R_0603_1608Metric","Resistor, small symbol",""
-"R33, R34, R35, R36, R37, R38, R39, R40, R48, R49, ","10","100R","R","peters:R_0805_peter","Resistor",""
-"R50, ","1","20R","R","peters:R_0805_peter","Resistor",""
-"TP1, TP2, ","2","TestPoint","TestPoint","TestPoint:TestPoint_Pad_D1.5mm","test point",""
-"TP3, ","1","spare","TestPoint","TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm","test point",""
-"TP4, TP5, TP6, ","3","TestPoint","TestPoint","TestPoint:TestPoint_Pad_1.5x1.5mm","test point",""
-"TP7, ","1","TestPoint","TestPoint","TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm","test point",""
-"U1, ","1","AP2210-3.3V","AP2210-3.3V","Package_TO_SOT_SMD:SOT-23-5_HandSoldering","AP2210 Series 3.3 V 300 mA Surface Mount RF ULDO Regulator - SOT-23-5",""
-"U2, ","1","LM2937","LM2937","Package_TO_SOT_SMD:SOT-223-3_TabPin2","LM2937 500-mA Low Dropout Regulator",""
-"U3, ","1","TMC5160A-TA","TMC5160A-TA","peters:LQFP-48-1EP_7x7mm_P0.5mm_EP3.6x3.6mm_peter","The TMC5160 is a high power stepper motor controller and driver IC with serial communication interfaces",""
-"U4, ","1","ASDMB-12.0MHz","ASDMB-xxxMHz","Oscillator:Oscillator_SMD_Abracon_ASDMB-4Pin_2.5x2.0mm","1.8-3.3V SMD Ultra Miniature Crystal Clock Oscillator, Abracon",""
-"U5, U6, U7, ","3","74LVC125","74LVC125","Package_SO:SO-14_5.3x10.2mm_P1.27mm","Quad buffer 3-State outputs",""
+Id,Designator,Package,Quantity,Designation,Supplier and ref
+,,,,,
+2,Q5,PowerPAK SO-8L SINGLE,1,SQJ481EP,
+3,C37,D_0805_peter,1,15pF,
+4,"R46,R45",R_0603_1608Metric,2,10K,
+5,JP1,SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm,1,SPI_MODE,
+6,"C5,C2,C41,C34,C33,C27,C9",C_0603_1608Metric,7,100n,
+7,JP2,SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm,1,SD_MODE,
+8,"C53,C54,C55,C52",CP_Radial_D12.5mm_P5.00mm,4,330uF/100V,
+9,"R44,R43,R42,R30,R29",R_0603_1608Metric,5,100K,
+10,"Q1,Q4",SOT-23,2,BSS138,
+11,"C23,C25",C_0603_1608Metric,2,2.2uFto10uF,
+12,C4,CP_Elec_8x10,1,22uF/100v,
+13,C3,CP_Elec_8x10,1,10uF/100v,
+14,J3,360s-1812-11001(RJ45),1,RJ45_STEP_DIR,
+15,J5,360s-1812-11001(RJ45),1,RJ45_SPI,
+16,J6,"TerminalBlock_Phoenix_PT-1,5-3-3.5-H_1x03_P3.50mm_Horizontal",1,EncCon2,
+17,"R31,R1,R36,R37,R34,R39,R35,R33,R32,R48,R40,R38",R_0805_peter,12,100R,
+18,J4,"TerminalBlock_Phoenix_PT-1,5-3-3.5-H_1x03_P3.50mm_Horizontal",1,EncCon1,
+19,U7,TSSOP-20_W4.4mm,1,TXB0108PWR,
+20,R41,C_0805_peter,1,R,
+21,"D19,D18,D17,D16,D14,D13,D12,D11,D28,D27,D25,D20",SOT-23,12,BAT54S,
+22,R19,R_0603_1608Metric,1,NC,
+23,"TP6,TP5,TP4",TestPoint_THTPad_D1.0mm_Drill0.5mm,3,TestPoint,
+24,"C51,C50",C_1206_3216Metric,2,470n/100V,
+25,"Q3,Q2",V-DFN5045-12 (Type B),2,DMHT6016LFJ-Peters,
+26,"R23,R22,R25,R24,R14,R13,R11,R10",R_0603_1608Metric,8,12R,
+27,J7,"PhoenixContact_MSTBA_2,5_4-G-5,08_1x04_P5.08mm_Horizontal",1,Stepper_conn,
+28,U5,SO-14_5.3x10.2mm_P1.27mm,1,74LVC125,
+29,U4,Oscillator_SMD_Abracon_ASDMB-4Pin_2.5x2.0mm,1,ASDMB-12.0MHz,
+30,U3,LQFP-48-1EP_7x7mm_P0.5mm_EP3.6x3.6mm_peter,1,TMC5160A-TA,
+31,U2,SOT-223-3_TabPin2,1,LM2937,
+32,U1,SOT-23-5_HandSoldering,1,AP2210-3.3V,
+33,TP7,TestPoint_THTPad_1.5x1.5mm_Drill0.7mm,1,TestPoint,
+34,TP3,TestPoint_THTPad_1.0x1.0mm_Drill0.5mm,1,spare,
+35,"R54,R53",R_0603_1608Metric,2,47K,
+36,"R28,R26,R17,R15",R_0603_1608Metric,4,47R,
+37,"R27,R16",R_2512_6332Metric_Pad1.40x3.35mm_HandSolder,2,0R05,
+38,"R21,R20,R12,R9",R_0603_1608Metric,4,0R,
+39,"R18,R3",R_0805_peter,2,100k,
+40,R8,R_0603_1608Metric,1,2R2,
+41,R7,R_0805_peter,1,1R,
+42,R6,R_0805_peter,1,2k2,
+43,R5,R_0805_peter,1,4K12,
+44,R4,R_0805_peter,1,10K,
+45,R2,R_0805_peter,1,36K5,
+46,L1,L_7.3x7.3_H3.5,1,33uH,
+47,JP3,SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm,1,Encoder_Voltage_Sel,
+48,J2,"TerminalBlock_Phoenix_PT-1,5-4-3.5-H_1x04_P3.50mm_Horizontal",1,Stepper_conn,
+49,J1,"PhoenixContact_MSTB_2,5_2-GF_1x02_P5.00mm_Horizontal_ThreadedFlange_MountHole",1,+48Vin,
+50,"H4,H3,H2,H1",MountingHole_3.2mm_M3,4,MountingHole,
+51,FB2,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,1,MPZ2012S601A,
+52,"D10,D9,D8,D7",SOT-23,4,ZHCS1006TA,
+53,D6,D_SOD-123F,1,SS34FA,
+54,D5,TSSOP-16-1EP_4.4x5mm_P0.65mm,1,LT1766,
+55,D4,D_0805_2012Metric,1,LED,
+56,D3,D_1206_3216Metric,1,10V,
+57,D2,D_1206_3216Metric,1,7V,
+58,D1,D_SOD-123,1,1N4148W,
+59,"C47,C46,C43",C_0805_peter,3,100n,
+60,C42,C_0805_peter,1,10u,
+61,"C40,C32",C_0603_1608Metric,2,2n2,
+62,"C38,C20",C_1206_3216Metric,2,470n/100V x2,
+63,"C36,C35,C26,C24,C22",C_0603_1608Metric,5,470n,
+64,"C31,C30,C29,C28",C_0603_1608Metric,4,1n/100V,
+65,C19,C_0603_1608Metric,1,220n/100v,
+66,C18,C_0603_1608Metric,1,100n/100V,
+67,C17,C_0603_1608Metric,1,22n/100v,
+68,C16,C_1210_3225Metric_Pad1.33x2.70mm_HandSolder,1,"4,7uF/100v",
+69,C15,C_1210_3225Metric_Pad1.33x2.70mm_HandSolder,1,100n/100v,
+70,C14,C_0805_peter,1,22nF,
+71,C13,C_0805_peter,1,220p,
+72,C12,C_0805_peter,1,100p,
+73,C11,C_0805_peter,1,1uF,
+74,C10,C_0603_1608Metric,1,10u,
+75,C8,C_1210_3225Metric_Pad1.33x2.70mm_HandSolder,1,47u/25,
+76,C7,CP_Radial_D10.0mm_P5.00mm,1,47u/25V,
+77,C6,C_0805_peter,1,2.2uF,
+78,C1,C_0805_peter,1,330n,

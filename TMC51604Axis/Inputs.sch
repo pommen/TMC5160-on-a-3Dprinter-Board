@@ -13,32 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L TMC51604Axis-rescue:74LVC125-74xx U?
-U 1 1 5ED5E67B
-P 8850 2000
-AR Path="/5ED5E67B" Ref="U?"  Part="2" 
-AR Path="/5ED3D12E/5ED5E67B" Ref="U5"  Part="1" 
-F 0 "U5" H 8800 2000 50  0000 C CNN
-F 1 "74LVC125" H 8850 2226 50  0001 C CNN
-F 2 "Package_SO:SO-14_5.3x10.2mm_P1.27mm" H 8850 2000 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LVC125" H 8850 2000 50  0001 C CNN
-	1    8850 2000
-	1    0    0    -1  
-$EndComp
-$Comp
-L TMC51604Axis-rescue:74LVC125-74xx U?
-U 3 1 5ED5E681
-P 8850 2650
-AR Path="/5ED5E681" Ref="U?"  Part="3" 
-AR Path="/5ED3D12E/5ED5E681" Ref="U5"  Part="3" 
-F 0 "U5" H 8800 2650 50  0000 C CNN
-F 1 "74LVC125" H 8850 2876 50  0001 C CNN
-F 2 "Package_SO:SO-14_5.3x10.2mm_P1.27mm" H 8850 2650 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LVC125" H 8850 2650 50  0001 C CNN
-	3    8850 2650
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	9150 1350 9200 1350
 Wire Wire Line
@@ -469,19 +443,6 @@ Text Label 9900 1800 2    50   ~ 0
 enc_volt
 Text Label 9900 2500 2    50   ~ 0
 enc_volt
-$Comp
-L TMC51604Axis-rescue:74LVC125-74xx U?
-U 2 1 5ED5E675
-P 8850 1350
-AR Path="/5ED5E675" Ref="U?"  Part="1" 
-AR Path="/5ED3D12E/5ED5E675" Ref="U5"  Part="2" 
-F 0 "U5" H 8800 1350 50  0000 C CNN
-F 1 "74LVC125" H 8850 1576 50  0000 C CNN
-F 2 "Package_SO:SO-14_5.3x10.2mm_P1.27mm" H 8850 1350 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LVC125" H 8850 1350 50  0001 C CNN
-	2    8850 1350
-	1    0    0    -1  
-$EndComp
 Wire Notes Line
 	6500 600  11100 600 
 Wire Notes Line
@@ -5071,8 +5032,47 @@ F 3 "" H 5650 1550 50  0001 C CNN
 	1    5650 1550
 	1    0    0    -1  
 $EndComp
-Wire Bus Line
-	2300 1100 2300 7100
+$Comp
+L TMC51604Axis-rescue:74LVC125-74xx U?
+U 3 1 5ED5E681
+P 8850 2650
+AR Path="/5ED5E681" Ref="U?"  Part="3" 
+AR Path="/5ED3D12E/5ED5E681" Ref="U5"  Part="3" 
+F 0 "U5" H 8800 2650 50  0000 C CNN
+F 1 "74LVC125" H 8850 2876 50  0001 C CNN
+F 2 "Package_SO:SO-14_5.3x10.2mm_P1.27mm" H 8850 2650 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LVC125" H 8850 2650 50  0001 C CNN
+	3    8850 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L TMC51604Axis-rescue:74LVC125-74xx U?
+U 1 1 5ED5E67B
+P 8850 2000
+AR Path="/5ED5E67B" Ref="U?"  Part="2" 
+AR Path="/5ED3D12E/5ED5E67B" Ref="U5"  Part="1" 
+F 0 "U5" H 8800 2000 50  0000 C CNN
+F 1 "74LVC125" H 8850 2226 50  0001 C CNN
+F 2 "Package_SO:SO-14_5.3x10.2mm_P1.27mm" H 8850 2000 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LVC125" H 8850 2000 50  0001 C CNN
+	1    8850 2000
+	1    0    0    -1  
+$EndComp
 Wire Bus Line
 	3700 1900 3700 7100
+Wire Bus Line
+	2300 1100 2300 7100
+$Comp
+L TMC51604Axis-rescue:74LVC125-74xx U?
+U 2 1 5ED5E675
+P 8850 1350
+AR Path="/5ED5E675" Ref="U?"  Part="1" 
+AR Path="/5ED3D12E/5ED5E675" Ref="U5"  Part="2" 
+F 0 "U5" V 8800 1350 50  0000 C CNN
+F 1 "74LVC125" H 8850 1576 50  0000 C CNN
+F 2 "Package_SO:SO-14_5.3x10.2mm_P1.27mm" H 8850 1350 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LVC125" H 8850 1350 50  0001 C CNN
+	2    8850 1350
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
