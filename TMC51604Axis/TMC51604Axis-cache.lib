@@ -1,6 +1,28 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# Device_D_Schottky_Small_ALT
+#
+DEF Device_D_Schottky_Small_ALT D 0 10 N N 1 F N
+F0 "D" -50 80 50 H V L CNN
+F1 "Device_D_Schottky_Small_ALT" -280 -80 50 H V L CNN
+F2 "" 0 0 50 V I C CNN
+F3 "" 0 0 50 V I C CNN
+$FPLIST
+ TO-???*
+ *_Diode_*
+ *SingleDiode*
+ D_*
+$ENDFPLIST
+DRAW
+P 2 0 1 0 -30 0 30 0 N
+P 4 0 1 10 30 -40 -30 0 30 40 30 -40 F
+P 6 0 1 10 -50 30 -50 40 -30 40 -30 -40 -10 -40 -10 -30 N
+X K 1 -100 0 70 R 50 50 1 1 P
+X A 2 100 0 70 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Device_R
 #
 DEF Device_R R 0 0 N Y 1 F N
@@ -921,25 +943,6 @@ $ENDFPLIST
 DRAW
 C 0 130 30 0 1 0 N
 X 1 1 0 0 100 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# TMC51604Axis-rescue_ZHCS1006TA-Peters
-#
-DEF TMC51604Axis-rescue_ZHCS1006TA-Peters D 0 -40 Y Y 1 F N
-F0 "D" -100 500 50 H V C CNN
-F1 "TMC51604Axis-rescue_ZHCS1006TA-Peters" -100 500 50 H V C CNN
-F2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" -200 400 50 H I C CNN
-F3 "" -100 500 50 H I C CNN
-DRAW
-P 2 0 1 0 -30 -40 -30 40 N
-P 2 0 1 0 -30 0 30 0 N
-P 3 0 1 0 -30 -40 -20 -40 -20 -30 N
-P 3 0 1 0 -30 40 -40 40 -40 30 N
-P 4 0 1 0 30 -40 -30 0 30 40 30 -40 F
-P 4 0 1 0 30 -40 -30 0 30 40 30 -40 F
-X K 1 -100 0 70 R 50 50 1 1 P
-X A 3 100 0 70 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
